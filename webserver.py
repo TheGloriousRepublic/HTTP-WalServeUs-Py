@@ -1,18 +1,20 @@
-import Tkinter, BaseHTTPServer, socket, os, sys, datetime, atexit
+import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit
 
 settings = {}
+rw = {}
 
 def loadConfig(): #Open configuration files and save their options to settings
     for root, dirs, files in os.walk('config/settings/'): #Open all files in config directory
         for f in files:
             if f.endswith('.cfg'):
-                for x in open('config/'+f).read().split('\n'): #Separate lines in file and iterate
+                for x in open('config/settings/'+f).read().split('\n'): #Separate lines in file and iterate
                     settings[x.split('=')[0]]=x.split('=')[1] #Set the option before the equal sign in the config file line to the value in the settings dict
-    for root, dirs, files in os.walk('config/settings/'): #Open all files in config directory
+                    
+    for root, dirs, files in os.walk('config/rewriter/'):
         for f in files:
             if f.endswith('.cfg'):
-                for x in open('config/'+f).read().split('\n'): #Separate lines in file and iterate
-                    settings[x.split('=')[0]]=x.split('=')[1] #Set the option before the equal sign in the config file line to the value in the settings dict
+                for x in open('config/'+f).read().split('\n'):
+                    rw[x.split('=')[0]]=x.split('=')[1]
 
 def log(dat): #Print to console and save to log
     o='['+str(datetime.datetime.now())+'] '+str(dat)
@@ -59,6 +61,18 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 self.wfile.write(open(settings['erdir']+'/blocked.html').read())
         else:
             self.wfile.write(open(settings['erdir']+'/404.html').read())
+
+    def do_POST(self):
+        ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
+        if ctype == 'multipart/form-data':
+            query=cgi.parse_multipart(self.rfile, pdict)
+        
+        self.send_response(301, '')
+        self.end_headers()
+        self.filecontent=query.get('upfile')
+        print self.filecontent
+        log('File content: '+self.filecontent[0])
+
     def do_KILL(self):
         sys.exit()
 
@@ -80,10 +94,11 @@ def serve():
         s.serve_forever()
     except:
         pass
-loadConfig()
+
+loadConfig() #load configuration files
 
 connected=list(open(settings['lgdir']+'/connected.log').read().split('\n')) #Retrieve list of connected IPs
-visitors=int(open(settings['lgdir']+'/visitorcount.log').read()) #Retrieve number of connectors
+visitors=0#int(open(settings['lgdir']+'/visitorcount.log').read()) #Retrieve number of connectors
 individualvisitors=len(connected) #Get number of unique connectors
 
 atexit.register(gracefulShutdown) #Record logs at shutdown

@@ -50,3 +50,130 @@
 [2015-04-26 21:51:12.790000] Server stops
 [2015-04-26 21:52:15.566000] Server starts
 [2015-04-26 21:52:17.072000] Server stops
+[2015-04-26 22:38:57.497000] Server starts
+[2015-04-26 22:39:00.053000] Server stops
+[2015-04-26 22:39:09.911000] Server starts
+[2015-04-26 22:39:12.181000] 127.0.0.1 on port 56887: 'GET /upload.html'
+[2015-04-26 22:39:42.078000] Server starts
+[2015-04-26 22:39:44.658000] 127.0.0.1 on port 56901: 'GET /upload.html'
+[2015-04-26 22:41:09.757000] Server starts
+[2015-04-26 22:41:12.980000] /
+[2015-04-26 22:41:27.749000] 127.0.0.1 on port 56919: 'GET /index.html'
+[2015-04-26 22:41:28.053000] 127.0.0.1 on port 56920: 'GET /stylesheet.css'
+[2015-04-26 22:41:33.080000] 127.0.0.1 on port 56921: 'GET /upload.html'
+[2015-04-26 22:41:38.507000] /
+[2015-04-26 22:41:38.519000] /
+[2015-04-26 22:52:16.136000] Server starts
+[2015-04-26 22:52:25.763000] 127.0.0.1 on port 56980: 'GET /upload.html'
+[2015-04-26 22:53:06.487000] Server starts
+[2015-04-26 22:53:55.594000] Server starts
+[2015-04-26 22:54:01.008000] File content: import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit
+
+settings = {}
+rw = {}
+
+def loadConfig(): #Open configuration files and save their options to settings
+    for root, dirs, files in os.walk('config/settings/'): #Open all files in config directory
+        for f in files:
+            if f.endswith('.cfg'):
+                for x in open('config/settings/'+f).read().split('\n'): #Separate lines in file and iterate
+                    settings[x.split('=')[0]]=x.split('=')[1] #Set the option before the equal sign in the config file line to the value in the settings dict
+                    
+    for root, dirs, files in os.walk('config/rewriter/'):
+        for f in files:
+            if f.endswith('.cfg'):
+                for x in open('config/'+f).read().split('\n'):
+                    rw[x.split('=')[0]]=x.split('=')[1]
+
+def log(dat): #Print to console and save to log
+    o='['+str(datetime.datetime.now())+'] '+str(dat)
+    b=open(settings['lgdir']+'/server.log').read() #Retrieve current log
+    open(settings['lgdir']+'/server.log', 'w').write(b+o+'\n') #Write a concatenation of old log and new log to log
+    print(o)
+
+class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
+
+    def log_message(*args):
+        pass
+
+    def logCommand(self):
+        log(self.client_address[0]+' on port '+str(self.client_address[1])+': \''+self.command+' '+self.path+'\'')
+
+    def logConnected(self):
+        global connected, visitors, individualvisitors
+        if not self.client_address[0] in connected:
+            connected+=self.client_address[0]
+            individualvisitors+=1
+        visitors+=1
+
+    def do_HEAD(self):
+        self.logCommand()
+        self.logConnected()
+        if self.path.endswith('.html'):
+            self.send_response(200)
+            self.send_header('Content-type','text/html')
+            self.end_headers()
+        elif self.path.endswith('.css'):
+            self.send_response(200)
+            self.send_header('Content-type','text/css')
+            self.end_headers()
+
+    def do_GET(self):
+        if self.path.endswith('/'):
+            self.path=self.path[:-1]
+        if os.path.isfile(settings['pgdir']+'/'+self.path):
+            if self.path.endswith('.html') or self.path.endswith('.css'):
+                self.do_HEAD()
+                self.wfile.write(open(settings['pgdir']+'/'+self.path).read())
+            else:
+                self.do_HEAD()
+                self.wfile.write(open(settings['erdir']+'/blocked.html').read())
+        else:
+            self.wfile.write(open(settings['erdir']+'/404.html').read())
+
+    def do_POST(self):
+        ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
+        if ctype == 'multipart/form-data':
+            query=cgi.parse_multipart(self.rfile, pdict)
+        
+        self.send_response(301, '')
+        self.end_headers()
+        self.filecontent=query.get('upfile')
+        print self.filecontent
+        log('File content: '+self.filecontent[0])
+
+    def do_KILL(self):
+        sys.exit()
+
+def gracefulShutdown():
+    log('Server stops')
+    s.server_close
+    c='\n'.join(connected)
+    f=open(settings['lgdir']+'/connected.log', 'w')
+    f.write(c)
+    f=open(settings['lgdir']+'/visitorcount.log', 'w')
+    f.write(str(individualvisitors))
+    f.close()
+
+def serve():
+    global connected, s
+    s = BaseHTTPServer.HTTPServer(('', 80), webServer)
+    log('Server starts')
+    try:
+        s.serve_forever()
+    except:
+        pass
+
+loadConfig() #load configuration files
+
+connected=list(open(settings['lgdir']+'/connected.log').read().split('\n')) #Retrieve list of connected IPs
+visitors=0#int(open(settings['lgdir']+'/visitorcount.log').read()) #Retrieve number of connectors
+individualvisitors=len(connected) #Get number of unique connectors
+
+atexit.register(gracefulShutdown) #Record logs at shutdown
+if __name__ == '__main__':
+    serve()
+
+[2015-04-26 22:54:31.832000] Server starts
+[2015-04-26 22:54:34.655000] File content: 
+[2015-04-27 15:59:33.922000] Server starts
