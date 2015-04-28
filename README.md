@@ -27,11 +27,11 @@ Technical:
 
  * rewriter #if you desire a URL rewriter
  
-  * rewriter files #These can be divied up however you wish. Must be '.cfg's
+   * rewriter files #These can be divied up however you wish. Must be '.cfg's
   
  * settings
  
-  * settings files #same as for rewriter files
+   * settings files #same as for rewriter files
   
 * errors #Error code html documents. Default location
 
@@ -43,7 +43,7 @@ Technical:
 
  * Files Recieved #All the files recieved via POST (that met the size limits)
 
- * <recieved files>
+   * <recieved files>
 
  * server.log #The log of what you see in the console
 
