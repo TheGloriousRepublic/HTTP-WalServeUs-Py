@@ -12,6 +12,7 @@ WalServeUs is an HTTP Server for the nontechnical. It is **not:**
 * A way to have someone else host your websites (you need your own machine to run it)
 * A way to purchase domain names (those must be purchased separately and have the DNS forwarded (explained in the help file))
 * A program that you can simply run and immediately have your website open to the world. These probably don't even exist.
+
 An HTTP server is a website hosting software. That is, you connect your website files to WalServeUs, point a domain name to your IP, and run the software, and when the domain is entered it show the page.
 
 Informal Introduction
