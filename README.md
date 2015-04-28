@@ -23,37 +23,37 @@ Technical:
 
 **Files:** The files necessary to run this are (arranged by folders) (this is the default arrangement. See config for how to change it.):
 
-*config #Configuration files
+* config #Configuration files
 
- *rewriter #if you desire a URL rewriter
+ * rewriter #if you desire a URL rewriter
  
-  *rewriter files #These can be divied up however you wish. Must be '.cfg's
+  * rewriter files #These can be divied up however you wish. Must be '.cfg's
   
- *settings
+ * settings
  
-  *settings files #same as for rewriter files
+  * settings files #same as for rewriter files
   
-*errors #Error code html documents. Default location
+* errors #Error code html documents. Default location
 
- *404.html #404 documents
+ * 404.html #404 documents
  
- *blocked.html #For when a forbidden URL is entered (e.g. a blocked file extension)
+ * blocked.html #For when a forbidden URL is entered (e.g. a blocked file extension)
  
-*logs
+* logs
 
- *Files Recieved #All the files recieved via POST (that met the size limits)
+ * Files Recieved #All the files recieved via POST (that met the size limits)
 
- *<recieved files>
+ * <recieved files>
 
- *server.log #The log of what you see in the console
+ * server.log #The log of what you see in the console
 
- *connected.log #a log of all the unique IPs that connect. Currently broken and I don't know why.
+ * connected.log #a log of all the unique IPs that connect. Currently broken and I don't know why.
 
- *visitorcount.log #Basically just one number. Describes the total number of connections (ip independent.) Sloppy, I know, but I don't know where else to put it.
+ * visitorcount.log #Basically just one number. Describes the total number of connections (ip independent.) Sloppy, I know, but I don't know where else to put it.
 
-*pages #The html, css, js, etc. documents.
+* pages #The html, css, js, etc. documents.
 
- *<documents>
+ * <documents>
 
 **Credit/acknowledgements:** Jon Berg of turtlemeat.com. Off of his webserver this is based.
 
