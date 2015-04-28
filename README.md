@@ -1,17 +1,33 @@
 WalServeUs for HTTP
 ===================
+
+Formal Description
+------------------
+HTTP-WalServeUs is a professional, lightweight HTTP server designed for nontechnical humans. Its primary purpose is for those hosting small websites from home, whether hobbyist or small business or other. It is entirely free and open-source, and will soon support useful and easy-to-install extensions. It contains well-detailed and easy-to-navigate documentation in HTML format in order to make the server as easy to use as possible regardless of technological experience.
+
+What it can do
+--------------
+WalServeUs is an HTTP Server for the nontechnical. It is **not:**
+* A website builder
+* A way to have someone else host your websites (you need your own machine to run it)
+* A way to purchase domain names (those must be purchased separately and have the DNS forwarded (explained in the help file))
+* A program that you can simply run and immediately have your website open to the world. These probably don't even exist.
+An HTTP server is a website hosting software. That is, you connect your website files to WalServeUs, point a domain name to your IP, and run the software, and when the domain is entered it show the page.
+
+Informal Introduction
+---------------------
 Hello, and welcome to the README!
 
 I think I'm getting good at this...
 
-So. I was browsing the internet when I came across an HTTP server in python. I downloaded it, played with it, and then got bored with it and it's rediculously oversimplified structure. I erased the stuff in the file and rewrote it. And I made it good. Kind of. It now has rewriting, permissions, directories, et cetera. So, yeah.
+So. I was browsing the internet when I came across an HTTP server in python. I downloaded it, played with it, and then got bored with it and it's ridiculously oversimplified structure. I erased the stuff in the file and rewrote it. And I made it good. Kind of. It now has rewriting, permissions, directories, et cetera. So, yeah.
 
 
 Technical:
 ----------
 **Version:** 0.5?
 
-**Description:** An simple, lightweight HTTP server written in Python. Does not solve any problems. Basically you'll be better off with a different software.
+**Description:** An simple, lightweight HTTP server written in Python. ~Does not solve any problems. Basically you'll be better off with a different software.~ Solves the problem of servers like Apache being large, complicated, and being designed for technical people by being much more lightweight and containing simple documentation designed for the non-technical.
 
 **Installing:** Download the file.
 
@@ -55,7 +71,7 @@ Technical:
 
  * [documents]
 
-*WalServeUs.py
+* WalServeUs.py
 
 **Credit/acknowledgements:** Jon Berg of turtlemeat.com. Off of his webserver this is based.
 
