@@ -43,7 +43,7 @@ Technical:
 
  * Files Recieved #All the files recieved via POST (that met the size limits)
 
-   * <recieved files>
+   * [recieved files]
 
  * server.log #The log of what you see in the console
 
@@ -53,7 +53,7 @@ Technical:
 
 * pages #The html, css, js, etc. documents.
 
- * <documents>
+ * [documents]
 
 **Credit/acknowledgements:** Jon Berg of turtlemeat.com. Off of his webserver this is based.
 
