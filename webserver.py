@@ -39,6 +39,9 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
 
     def do_HEAD(self):
         self.logCommand()
+        self.do_HEAD()
+        
+    def sendHeader(self):
         self.logConnected()
         if self.path.endswith('.html'):
             self.send_response(200)
@@ -50,31 +53,36 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             self.end_headers()
 
     def do_GET(self):
+        self.logCommand()
         if self.path.endswith('/'):
             self.path=self.path[:-1]
         if os.path.isfile(settings['pgdir']+'/'+self.path):
             if self.path.endswith('.html') or self.path.endswith('.css'):
-                self.do_HEAD()
+                self.sendHeader()
                 self.wfile.write(open(settings['pgdir']+'/'+self.path).read())
             else:
-                self.do_HEAD()
+                self.sendHeader()
                 self.wfile.write(open(settings['erdir']+'/blocked.html').read())
         else:
             self.wfile.write(open(settings['erdir']+'/404.html').read())
 
     def do_POST(self):
+        self.logCommand()
         ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
         if ctype == 'multipart/form-data':
             query=cgi.parse_multipart(self.rfile, pdict)
         
         self.send_response(301, '')
         self.end_headers()
-        self.filecontent=query.get('upfile')
-        print self.filecontent
-        log('File content: '+self.filecontent[0])
+        self.fileContent=query.get('upfile')[0]
+        if len(self.fileContent)<=8192:
+            open(settings['rcdir']+'/'+str(datetime.datetime.now()).replace(':', '.')+'.txt', 'w+').write(self.fileContent)
+        else:
+            log('File too large to record (>'+int(settings['rcmax'])+'b)')
 
     def do_KILL(self):
         sys.exit()
+
 
 def gracefulShutdown():
     log('Server stops')
