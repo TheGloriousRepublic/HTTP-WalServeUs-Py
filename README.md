@@ -43,7 +43,7 @@ Technical:
 
  * Files Recieved #All the files recieved via POST (that met the size limits)
 
-   * [recieved files]
+   * [recieved files] #Named to the time which they were recieved by default
 
  * server.log #The log of what you see in the console
 
@@ -61,4 +61,22 @@ Technical:
 
 **Contact Information:** To Be Added
 
-**Known Bugs:** No way to add universal file access. No way to add member classes.
+**Known Bugs:**
+* No way to add universal file access.
+* No way to add member classes.
+* Two files recieved at exactly the same time (in milliseconds, I think) will result in the one processed second overwriting the first.
+* Max recieved file size may not work on binaries (resulting in a crash upon recieval.)
+
+Configuration
+-------------
+Configuration is currently divided into two folders. config/settings and config/rewrite. All files in each of those folders are read upon starting the server and saved to their respective settings. **Because of this, you MUST reboot the server upon any changes to config for them to take hold** Config/settings handles the basic settings, such as directories and which filetypes users are permitted to open. The settings are as such (presently, all must be available in a file or else the application will crash upon startup.) (settings should be in `key=value` format.):
+**Settings:**
+* `pgdir`: The directory on your computer under which the pages are stored. Default: /pages.
+* `erdir`: The directory containing the error files. Default: /errors.
+* `lgdir`: The directory to which logs are saved. Default: /logs.
+* `rcdir`: The directory under which files recieved via POST are recorded. Default: /logs/FilesRecieved
+* `rcMax`: A security mechanism ensuring that files recieved are less than a certain length.
+* `pgexr`: Which files the user has permission to access on the server that should be served raw (that is, openned in the default fashion)
+* `pgexb`: Which files the user has permission to access on the server that should be served as-is (that is, openned as a binary.)
+**Rewriter:**
+The rewriter allows URLs to be rewritten. That is, when a path is recieved it will be matched to a file location that may not necessarily mirror the location of the file on the computer. This is done using the same `key=value` format as for settings, but `key` should be a regular expression and `value` should be the path to the file on the local computer. It should be noted that tail slashes are omited by default (that is, there is no need to write a file solely for the purpose of recognizing both `sub.server.dom/page` and `sub.server.dom/page/`.)
