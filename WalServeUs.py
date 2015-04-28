@@ -1,3 +1,4 @@
+#This software is licensed under the Apache License 2.0. Just in case you were wondering.
 import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re
 
 settings = {}
