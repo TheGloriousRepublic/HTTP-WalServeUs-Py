@@ -17,3 +17,8 @@
 [2015-04-27 20:56:16.291000] 127.0.0.1 on port 61615: 'GET /stylesheet.css'; interpreted as 'GET /stylesheet.css'
 [2015-04-27 20:56:16.467000] 127.0.0.1 on port 61616: 'GET /doxiegaming.png'; interpreted as 'GET /doxiegaming.png'
 [2015-04-27 21:26:19.116000] Server starts
+[2015-04-27 22:21:36.956000] Server stops
+[2015-04-27 22:23:01.856000] 127.0.0.1 on port 61853: 'GET /'; interpreted as 'GET home.html'
+[2015-04-27 22:23:02.103000] 127.0.0.1 on port 61854: 'GET /stylesheet.css'; interpreted as 'GET /stylesheet.css'
+[2015-04-27 22:23:02.217000] 127.0.0.1 on port 61855: 'GET /doxiegaming.png'; interpreted as 'GET /doxiegaming.png'
+[2015-04-27 22:27:50.890000] Server stops
