@@ -13,15 +13,20 @@ Technical:
 
 *Description:* An simple, lightweight HTTP server written in Python. Does not solve any problems. Basically you'll be better off with a different software.
 
-*Installing:* Download the file.
+Installing: Download the file.
+-----------
 
-*Uninstalling:* Delete the folder.
+Uninstalling: Delete the folder.
+-------------
 
-*Config:* See below.
+Config: See below.
+-------
 
-*Operating:* Run WalServeUs.py. It will handle things for you.
+Operating: Run WalServeUs.py. It will handle things for you.
+----------
 
-*Files:* The files necessary to run this are (arranged by folders) (this is the default arrangement. See config for how to change it.):
+Files: The files necessary to run this are (arranged by folders) (this is the default arrangement. See config for how to change it.):
+------
 *config #Configuration files
  *rewriter #if you desire a URL rewriter
   *rewriter files #These can be divied up however you wish. Must be '.cfg's
@@ -39,8 +44,11 @@ Technical:
 *pages #The html, css, js, etc. documents.
  *<documents>
 
-*Credit/acknowledgements:* Jon Berg of turtlemeat.com. Off of his webserver this is based.
+Credit/acknowledgements: Jon Berg of turtlemeat.com. Off of his webserver this is based.
+------------------------
 
-*Contact Information:* To Be Added
+Contact Information: To Be Added
+--------------------
 
-*Known Bugs:* No way to add universal file access. No way to add member classes.
+Known Bugs: No way to add universal file access. No way to add member classes.
+-----------
