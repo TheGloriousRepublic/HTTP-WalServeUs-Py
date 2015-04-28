@@ -28,7 +28,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         pass
 
     def logCommand(self):
-        log(self.client_address[0]+' on port '+str(self.client_address[1])+': \''+self.command+' '+self.path+'\'; interpreted as \''+self.command+' '+self.getPath()+'\'') #Log the time and client address/client port of a request, followed by the request submitted and what it was interpreted to.
+        log(self.client_address[0]+' on port '+str(self.client_address[1])+': \''+self.command+' '+self.path+'\', interpreted as \''+self.command+' '+self.getPath()+'\'') #Log the time and client address/client port of a request, followed by the request submitted and what it was interpreted to.
 
     def logConnected(self):
         global connected, visitors, individualvisitors
@@ -43,7 +43,6 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             p=self.path[:-1]
         for x in rw:
             if re.match(x, p):
-                print('Match Found')
                 return(rw[x])
         return(p)
 
@@ -94,9 +93,9 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         else:
             log('File too large to record (>'+int(settings['rcmax'])+'b)')
 
-    def do_KILL(self):
-        sys.exit()
-
+    def do_KILL(self):        
+        #sys.exit()
+        pass
 
 def gracefulShutdown():
     log('Server stops')
