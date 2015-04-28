@@ -1,15 +1,24 @@
 html{
 /*background-color:black;
 color:white;*/
-}
+    }
 .filename {
     background-color:#A0A0A0;
     font-family:Courier New;
     border-radius:5px;
-}
+    }
 .filename:hover {
     background-color:#D3D3D3;
-}
+    }
 .filename a {
     style:block;
-}
+    }
+
+.code {
+    background-color: #000000;
+    color: #32CD32;
+    }
+.box {
+    border:1px solid black;
+    border-radius:15px;
+    }

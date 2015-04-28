@@ -1,7 +1,8 @@
-import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re
+import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mimetypes
 
 settings = {}
 rw = {}
+static = {}
 
 def loadConfig(): #Open configuration files and save their options to settings
     for root, dirs, files in os.walk('config/settings/'): #Open all files in config directory
@@ -53,23 +54,19 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
     def sendHeader(self):
         p=self.getPath()
         self.logConnected()
-        if p.endswith('.html'):
-            self.send_response(200)
-            self.send_header('Content-type','text/html')
-            self.end_headers()
-        elif p.endswith('.css'):
-            self.send_response(200)
-            self.send_header('Content-type','text/css')
-            self.end_headers()
+        self.send_response(200)
+        self.send_header('Content-type',mimetypes.guess_type(p)[0])
+        self.end_headers()
 
     def do_GET(self):
         p=self.getPath()
         self.logCommand()
+        ext=p.split('.')[-1]
         if os.path.isfile(settings['pgdir']+'/'+p):
-            if p.split('.')[-1] in settings['pgexr'].split('|'):
+            if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and ext in static['raw'].split('|')):
                 self.sendHeader()
                 self.wfile.write(open(settings['pgdir']+'/'+p).read())
-            elif p.split('.')[-1] in settings['pgexb'].split('|'):
+            elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and ext in static['bin'].split('|')):
                 self.sendHeader()
                 self.wfile.write(open(settings['pgdir']+'/'+p,'rb').read())
             else:

@@ -3,6 +3,39 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
 </head>
 <body>
-    <p>Sometimes, you'll want to change some of the basic settings for the WalServeUs server. Maybe you want (or have) to keep the website files in another directory, maybe there are some download filetypes that aren't yet supported, or maybe you want to do something else. If this is the case, then this is the page for you!</p>
+    <center>
+        <h1>Configuration</h1>
+    </center>
+    <p>Sometimes, you'll want to change some of the basic settings for the WalServeUs server. Maybe you want (or have) to keep the website files in another directory, maybe there are
+        some download filetypes that aren't supported by default, or maybe you want to do something else. If this is the case, then this is the page for you!</p>
+    <p>Configuration files are arranged into 3 folders: <span class="filename">rewriter</span>, <span class="filename">settings</span>, and <span class="filename">static</span></p>
+
+    <div class="box">
+        <p>Rewriter is the file group tasked with URLs. Have you ever noticed that some sites have a <span class="filename">.html</span> at the end of their URL? That's because of the
+            way their website file works. When you enter a URL on these, it simply directly looks up the files in their local directory. You don't want to have to do that. It's icky. Instead,
+            we will be using a simple system known as <i>Regular Expressions</i> to identify URLs to redesign.</p>
+
+        <p>A regular expression is simple: You have a pattern, and the pattern is matched. I'm not going to go into complex regular expressions here, just the basics.</p>
+
+        <p>A rewritten URL is formatted like so: <span class="code">[rewritten url regex]=[path]</span>. Now, don't worry, it's simple.</p>
+
+        <p>When you write a URL regex (short for Regular Expression), you likely want it to match the beginning and end of path. You could make it so that
+            <a href="www.example.com/folder/page/">www.example.com/folder/page/</a> and <a href="www.example.com/folder/folder/folder/page/">www.example.com/folder/folder/folder/page/</a>
+            both lead to the same URL, but I doubt you want that. So to prevent that from happening, put a ^ at the front of the regex and $ at the end. This will tell the server that you want
+            the path to match the URL start and end.</p>
+
+        <p>So for writing your regex, you'll want to start with a /. This tells the regex to start at your base pages folder. Next, type the url you want (after the domain name). For example,
+            if your URL is in <a href="www.example.com/subpages">www.example.com/subpages</a>, your path would be <span class="filename">/subpages</span> making your regex <span class="filename">^/subpages/$</span>.
+            You now have a regex for matching your URLs! Oh, you'll want to add an equals sign after it to tell the server that which part is the path and which part is the URL.
+        </p>
+        <p>All that's left is to match the path. Simply start from the top folder (<span class="filename">pages</span> by default) and find the path down. For example, if the file you
+            want is <span class="filename">example.html</span> in the <span class="filename">examples</span> folder, your path would be <span class="filename">examples/example.html</span>.
+            If the files is not in a subfolder of <span class="filename">pages</span>, simply type the filename. Repeat this process on a new line for each url match. When you save the document and restart the server, typing the URL you want
+        <i>should</i>, if everything was done correctly, lead you to the file you desire.</p>
+        <p>One more thing on the topic of regexes that you can use for URLs: There are special symbols regexes use to match things. These operators are <span class="code">*, +, ?</span>.
+            When you use one, it will match a certain pattern of the part before it or, if it is put after a closing parenthesis, the entirety of that to that parenthesis' partner. The *
+            will match 0-infinity of the preceding block, the + will match one to infinity, and the ? will match 0-1. These could be useful for things like matching both the British and
+            American spellings of words (e.g. color vs. colour) in a URL.</p>
+    </div>
 </body>
 </html>
