@@ -78,5 +78,6 @@ Configuration is currently divided into two folders. config/settings and config/
 * `rcMax`: A security mechanism ensuring that files recieved are less than a certain length.
 * `pgexr`: Which files the user has permission to access on the server that should be served raw (that is, openned in the default fashion)
 * `pgexb`: Which files the user has permission to access on the server that should be served as-is (that is, openned as a binary.)
+
 **Rewriter:**
 The rewriter allows URLs to be rewritten. That is, when a path is recieved it will be matched to a file location that may not necessarily mirror the location of the file on the computer. This is done using the same `key=value` format as for settings, but `key` should be a regular expression and `value` should be the path to the file on the local computer. It should be noted that tail slashes are omited by default (that is, there is no need to write a file solely for the purpose of recognizing both `sub.server.dom/page` and `sub.server.dom/page/`.)
