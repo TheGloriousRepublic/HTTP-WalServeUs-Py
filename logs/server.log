@@ -240,3 +240,7 @@
 [2015-04-28 18:14:30.210000] 206.174.2.135 on port 64661: 'GET /Start%20Here.html', interpreted as 'GET /Start%20Here.html'
 [2015-04-28 18:16:50.314000] 206.174.2.135 on port 64668: 'GET /Start-Here.html', interpreted as 'GET /Start-Here.html'
 [2015-04-28 18:17:03.007000] 206.174.2.135 on port 64669: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+[2015-04-28 18:41:46.149000] Server starts
+[2015-04-28 18:41:47.674000] Server stops
+[2015-04-28 18:41:53.956000] Server starts
+[2015-04-28 18:42:01.602000] 127.0.0.1 on port 64905: 'GET /faojf', interpreted as 'GET /faojf'
