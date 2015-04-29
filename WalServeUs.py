@@ -4,6 +4,7 @@ import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mime
 settings = {}
 rw = {}
 static = {}
+serveAsPlaintext = ['text','application']
 
 def loadConfig(): #Open configuration files and save their options to settings
     for root, dirs, files in os.walk('config/settings/'): #Open all files in config directory
@@ -63,16 +64,16 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         p=self.getPath()
         self.logCommand()
         ext=p.split('.')[-1]
+        self.sendHeader()
         if os.path.isfile(settings['pgdir']+'/'+p):
-            if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and ext in static['raw'].split('|')):
-                self.sendHeader()
+            #print mimetypes.guess_type(p)[0].split('/')[0]
+            if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
                 self.wfile.write(open(settings['pgdir']+'/'+p).read())
-            elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and ext in static['bin'].split('|')):
+            elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and not mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
                 self.sendHeader()
                 self.wfile.write(open(settings['pgdir']+'/'+p,'rb').read())
             else:
-                self.sendHeader()
-                self.wfile.write(open(settings['erdir']+'/blocked.html').read())
+                self.wfile.write(open(settings['erdir']+'/403.html').read())
         else:
             self.wfile.write(open(settings['erdir']+'/404.html').read())
 
