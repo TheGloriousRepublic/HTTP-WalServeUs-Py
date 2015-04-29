@@ -1,3 +1,7 @@
+#Files I want to ignore
+pages/*.*
+logs/*.log
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

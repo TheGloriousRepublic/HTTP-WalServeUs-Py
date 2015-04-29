@@ -1,5 +1,5 @@
 #This software is licensed under the Glorious Republic's Glorious Free Software License 1.0. Just in case you were wondering.
-import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mimetypes
+import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mimetypes, socket
 
 settings = {}
 rw = {}
@@ -28,7 +28,9 @@ def log(dat): #Print to console and save to log
     print(o)
 
 class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
-
+    self.server_version='BaseHTTP/1.0'
+    self.sys_version='Python/2.7.9'
+    
     def log_message(*args):
         pass
 
@@ -61,6 +63,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         self.send_response(200)
         self.send_header('Content-type',mimetypes.guess_type(p)[0])
         self.end_headers()
+
 
     def do_GET(self):
         p=self.getPath()
@@ -100,6 +103,10 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         #sys.exit()
         pass
 
+    def run(self):
+        while True:
+            handle_request()
+
 def gracefulShutdown():
     log('Server stops')
     s.server_close
@@ -118,6 +125,9 @@ def serve():
         s.serve_forever()
     except:
         pass
+
+def interface(tkinter.Tk):
+    pass
 
 loadConfig() #load configuration files
 
