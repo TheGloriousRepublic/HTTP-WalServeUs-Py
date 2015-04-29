@@ -1,6 +1,6 @@
 #Files I want to ignore
-pages/*.*
-logs/*.log
+pages/*
+*.log
 
 # Windows image file caches
 Thumbs.db
