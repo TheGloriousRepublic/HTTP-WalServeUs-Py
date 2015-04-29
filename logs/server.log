@@ -29,3 +29,222 @@
 [2015-04-28 21:32:05.651000] 127.0.0.1 on port 49998: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
 [2015-04-28 21:32:39.752000] 127.0.0.1 on port 50002: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
 [2015-04-28 21:32:40.011000] 127.0.0.1 on port 50003: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+[2015-04-29 11:34:00.312000] 127.0.0.1 on port 50721: 'GET /', interpreted as 'GET home.html'
+[2015-04-29 11:34:20.851000] Server stops
+[2015-04-29 11:36:00.898000] Server starts
+[2015-04-29 11:36:02.730000] 127.0.0.1 on port 50728: 'GET /', interpreted as 'GET home.html'
+[2015-04-29 11:36:03.519000] 127.0.0.1 on port 50729: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+[2015-04-29 11:36:03.548000] 127.0.0.1 on port 50730: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+[2015-04-29 11:36:37.061000] 127.0.0.1 on port 50733: 'GET /', interpreted as 'GET home.html'
+[2015-04-29 11:36:37.494000] 127.0.0.1 on port 50734: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+[2015-04-29 11:36:37.511000] 127.0.0.1 on port 50735: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+[2015-04-29 11:36:39.801000] 127.0.0.1 on port 50736: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+[2015-04-29 11:38:16.162000] 127.0.0.1 on port 50741: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+[2015-04-29 11:39:06.666000] Server stops
+[2015-04-29 11:39:11.967000] Server starts
+
+
+[2015-04-29 11:39:13.731000] 127.0.0.1 on port 50765: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 11:42:25.681000] 127.0.0.1 on port 50777: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:42:26.121000] 127.0.0.1 on port 50778: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:42:26.135000] 127.0.0.1 on port 50779: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 11:42:32.187000] Server stops
+
+
+[2015-04-29 11:42:37.120000] Server starts
+
+
+[2015-04-29 11:42:38.753000] 127.0.0.1 on port 50781: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:42:39.403000] 127.0.0.1 on port 50782: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:42:39.416000] 127.0.0.1 on port 50783: 'GET /doxiegaming.png', interpreted as 'GET doxiegaming.png'
+
+
+[2015-04-29 11:42:41.707000] 127.0.0.1 on port 50784: 'GET /doxiegaming.png', interpreted as 'GET doxiegaming.png'
+
+
+[2015-04-29 11:43:12.251000] Server stops
+
+
+[2015-04-29 11:43:15.400000] Server starts
+
+
+[2015-04-29 11:43:18.650000] 127.0.0.1 on port 50788: 'GET /doxiegaming.png', interpreted as 'GET doxiegaming.png'
+
+
+[2015-04-29 11:43:33.078000] 127.0.0.1 on port 50790: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:43:33.502000] path=/stylesheet.css
+
+
+[2015-04-29 11:43:33.511000] path=/stylesheet.css
+
+
+[2015-04-29 11:43:33.516000] 127.0.0.1 on port 50791: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:43:33.519000] path=/stylesheet.css
+
+
+[2015-04-29 11:43:33.524000] 127.0.0.1 on port 50792: 'GET /doxiegaming.png', interpreted as 'GET doxiegaming.png'
+
+
+[2015-04-29 11:54:23.042000] Server stops
+
+
+[2015-04-29 11:54:26.296000] Server starts
+
+
+[2015-04-29 11:54:30.741000] 127.0.0.1 on port 50885: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:54:31.451000] 127.0.0.1 on port 50886: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:54:31.474000] 127.0.0.1 on port 50887: 'GET /doxiegaming.png', interpreted as 'GET doxiegaming.png'
+
+
+[2015-04-29 11:54:51.002000] Server starts
+
+
+[2015-04-29 11:54:52.624000] 127.0.0.1 on port 50889: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:54:53.439000] 127.0.0.1 on port 50890: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:54:53.461000] 127.0.0.1 on port 50891: 'GET /doxiegaming.png', interpreted as 'GET doxiegaming.png'
+
+
+[2015-04-29 11:55:40.124000] Server stops
+
+
+[2015-04-29 11:55:59.738000] Server starts
+
+
+[2015-04-29 11:56:01.805000] 127.0.0.1 on port 50899: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:56:02.333000] 127.0.0.1 on port 50900: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:56:02.430000] 127.0.0.1 on port 50901: 'GET /doxiegaming.png', interpreted as 'GET doxiegaming.png'
+
+
+[2015-04-29 11:56:38.445000] Server stops
+
+
+[2015-04-29 11:56:44.485000] Server starts
+
+
+[2015-04-29 11:56:46.167000] 127.0.0.1 on port 50903: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:56:46.834000] 127.0.0.1 on port 50904: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:56:46.907000] 127.0.0.1 on port 50905: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 11:57:13.454000] Server starts
+
+
+[2015-04-29 11:57:16.251000] 127.0.0.1 on port 50909: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:57:16.633000] 127.0.0.1 on port 50910: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:57:16.640000] 127.0.0.1 on port 50911: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 11:57:23.251000] Server stops
+
+
+[2015-04-29 11:57:26.700000] 127.0.0.1 on port 50913: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:57:27.310000] 127.0.0.1 on port 50914: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:57:27.330000] 127.0.0.1 on port 50915: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 11:58:12.698000] Server stops
+
+
+[2015-04-29 11:58:15.510000] Server starts
+
+
+[2015-04-29 11:58:18.150000] 127.0.0.1 on port 50919: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:58:18.897000] 127.0.0.1 on port 50920: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:58:19.006000] 127.0.0.1 on port 50921: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 11:58:53.301000] 127.0.0.1 on port 50923: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:58:53.570000] 127.0.0.1 on port 50924: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:58:53.592000] 127.0.0.1 on port 50925: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 11:58:59.796000] Server stops
+
+
+[2015-04-29 11:59:02.268000] Server starts
+
+
+[2015-04-29 11:59:04.050000] 127.0.0.1 on port 50928: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:59:04.676000] 127.0.0.1 on port 50929: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:59:04.690000] 127.0.0.1 on port 50930: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 11:59:42.544000] Server stops
+
+
+[2015-04-29 11:59:45.070000] Server starts
+
+
+[2015-04-29 11:59:46.975000] 127.0.0.1 on port 50933: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 11:59:47.744000] 127.0.0.1 on port 50934: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 11:59:47.766000] 127.0.0.1 on port 50935: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 12:03:11.551000] 127.0.0.1 on port 50959: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-04-29 12:03:11.878000] 127.0.0.1 on port 50960: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-04-29 12:03:11.953000] 127.0.0.1 on port 50961: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-04-29 12:03:21.073000] Server stops
+
+
