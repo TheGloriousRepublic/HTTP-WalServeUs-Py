@@ -19,6 +19,11 @@ color:white;*/
     color: #32CD32;
     }
 .box {
-    border:1px solid black;
+    border:2px solid black;
     border-radius:15px;
     }
+
+.box .title {
+background-color:#FF0000;
+border: 0px 0px 1px 0px;
+}
