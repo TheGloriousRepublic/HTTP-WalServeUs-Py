@@ -23,8 +23,8 @@ def loadConfig(): #Open configuration files and save their options to settings
 
 def log(dat): #Print to console and save to log
     o='['+str(datetime.datetime.now())+'] '+str(dat)+'\n'
-    b=open(settings['lgdir']+'/server.log').read() #Retrieve current log
-    open(settings['lgdir']+'/server.log', 'w').write(b+o+'\n\n') #Write a concatenation of old log and new log to log
+    b=open(settings['lgdir']+'/server.log', 'r+').read() #Retrieve current log
+    open(settings['lgdir']+'/server.log', 'w+').write(b+o+'\n\n') #Write a concatenation of old log and new log to log
     print(o)
 
 class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
@@ -75,11 +75,11 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             elif os.path.isfile(settings['erdir']+'/403.html'):
                 self.wfile.write(open(settings['erdir']+'/403.html').read())
             else:
-                self.wfile.write('<h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory')
+                self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
         elif os.path.isfile(settings['erdir']+'/404.html'):
             self.wfile.write(open(settings['erdir']+'/404.html').read())
         else:
-            self.wfile.write('<h1>Error 404</h1><h2>File not found</h2>Furthermore, no 404.html file was found in the local server\'s error directory')
+            self.wfile.write('<center><h1>Error 404</h1><h2>File not found</h2>Furthermore, no 404.html file was found in the local server\'s error directory</center>')
 
     def do_POST(self):
         p=self.getPath()
@@ -104,9 +104,9 @@ def gracefulShutdown():
     log('Server stops')
     s.server_close
     c='\n'.join(connected)
-    f=open(settings['lgdir']+'/connected.log', 'w')
+    f=open(settings['lgdir']+'/connected.log', 'w+')
     f.write(c)
-    f=open(settings['lgdir']+'/visitorcount.log', 'w')
+    f=open(settings['lgdir']+'/visitorcount.log', 'w+')
     f.write(str(individualvisitors))
     f.close()
 
@@ -121,7 +121,7 @@ def serve():
 
 loadConfig() #load configuration files
 
-connected=list(open(settings['lgdir']+'/connected.log').read().split('\n')) #Retrieve list of connected IPs
+connected=list(open(settings['lgdir']+'/connected.log', 'w+').read().split('\n')) #Retrieve list of connected IPs
 visitors=0#int(open(settings['lgdir']+'/visitorcount.log').read()) #Retrieve number of connectors
 individualvisitors=len(connected) #Get number of unique connectors
 
