@@ -8,14 +8,30 @@
     </center>
     <p>Sometimes, you'll want to change some of the basic settings for the WalServeUs server. Maybe you want (or have) to keep the website files in another directory, maybe there are
         some download filetypes that aren't supported by default, or maybe you want to do something else. If this is the case, then this is the page for you!</p>
-    <p>Configuration files are arranged into 3 folders: <span class="filename">rewriter</span>, <span class="filename">settings</span>, and <span class="filename">static</span></p>
+    <p>Configuration files are arranged into 2 folders: <span class="filename">rewriter</span> and <span class="filename">settings</span>. All the files in each of these folders are essentially combined within their folders then read upon startup (meaning you can divide them however you want, even in subfolders, provided you keep them in the correct parent folder.)</p>
 
     <div class="box">
-        <div class="title">
-            <center>
-                <h2>Rewriter</h2>
-            </center>
-        </div>
+        <center>
+            <h2>Settings</h2>
+        </center>
+        <p>WalServeUs has various configurable settings that can be used to control the way it behaves. These setting control directories, what the user is allowed to access, etc.
+        These settings are determined by creating a key/value pair (<span class="code">key=value</span> on a line in a .cfg file in the config/settings folder. The settings are as such:
+            <ul>
+                <li>pgdir: the path to the directory where your html, css, js, etc. documents (that make up your website) to be stored</li>
+                <li>erdir: the path to the directory where your error documents are stored.</li>
+                <li>lgdir: the path to the directory containing your logs.</li>
+                <li>rcdir: the path to the directory where files uploaded should be stored</li>
+                <li>rcMax: A security setting dictating the maximum size of uploaded files</li>
+                <li>pgexr: A list of file extensions separated by verticle bars (|) that should be read as raw text when sent. * will apply to any text file.</li>
+                <li>pgexb: A list of file extensions separated by verticle bars (|) that should be read as binary when sent. * will apply to any binary file.</li>
+            </ul>
+        </p>
+        <p>These should be left alone unless dictated to you by a professional.</p>
+    </div>
+    <div class="box">
+        <center>
+            <h2>Rewriter</h2>
+        </center>
         <p>Rewriter is the file group tasked with URLs. Have you ever noticed that some sites have a <span class="filename">.html</span> at the end of their URL? That's because of the
             way their website file works. When you enter a URL on these, it simply directly looks up the files in their local directory. You don't want to have to do that. It's icky. Instead,
             we will be using a simple system known as <i>Regular Expressions</i> to identify URLs to redesign.</p>

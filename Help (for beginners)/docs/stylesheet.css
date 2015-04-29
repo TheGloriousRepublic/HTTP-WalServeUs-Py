@@ -17,6 +17,8 @@ color:white;*/
 .code {
     background-color: #000000;
     color: #32CD32;
+    border-radius:5px;
+    padding:0px 3px 0px 3px;
     }
 .box {
     border:2px solid black;
