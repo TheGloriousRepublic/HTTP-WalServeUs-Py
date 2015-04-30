@@ -689,3 +689,42 @@
 [2015-04-29 19:50:45.506000] 127.0.0.1 on port 49469: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
 
 
+[2015-04-30 14:41:21.812000] Server starts
+
+
+[2015-04-30 14:41:23.613000] 127.0.0.1 on port 52170: 'GET /WalServeUs.py', interpreted as 'GET /WalServeUs.py'
+
+
+[2015-04-30 14:41:59.831000] Server starts
+
+
+[2015-04-30 14:42:01.128000] 127.0.0.1 on port 52172: 'GET /WalServeUs.py', interpreted as 'GET /WalServeUs.py'
+
+
+[2015-04-30 14:42:15.085000] 127.0.0.1 on port 52176: 'GET /WalServeUs.py', interpreted as 'GET /WalServeUs.py'
+
+
+[2015-04-30 14:42:21.891000] 127.0.0.1 on port 52180: 'GET /WalServeUs.py', interpreted as 'GET /WalServeUs.py'
+
+
+[2015-04-30 14:43:02.267000] 127.0.0.1 on port 52184: 'GET /WalServeUs.py', interpreted as 'GET /WalServeUs.py'
+
+
+[2015-04-30 14:43:28.243000] Server starts
+
+
+[2015-04-30 14:43:34.333000] 127.0.0.1 on port 52186: 'GET /WalServeUs.py', interpreted as 'GET /WalServeUs.py'
+
+
+[2015-04-30 14:44:32.774000] Server starts
+
+
+[2015-04-30 14:45:14.646000] Server stops
+
+
+[2015-04-30 14:45:28.667000] Server starts
+
+
+[2015-04-30 14:45:31.174000] Server stops
+
+
