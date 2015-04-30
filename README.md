@@ -3,7 +3,7 @@ WalServeUs for HTTP
 
 Formal Description
 ------------------
-HTTP-WalServeUs is a professional, lightweight HTTP server designed for nontechnical humans. Its primary purpose is for those hosting small websites from home, whether hobbyist or small business or other. It is entirely free and open-source, and will soon support useful and easy-to-install extensions. It contains well-detailed and easy-to-navigate documentation in HTML format in order to make the server as easy to use as possible regardless of technological experience.
+HTTP-WalServeUs is a professional, lightweight HTTP server designed for nontechnical humans. Its primary purpose is for those hosting small websites from home, whether hobbyist or small business or other. It is entirely free and open source, and will soon support useful and easy-to-install extensions. It contains well-detailed and easy-to-navigate documentation in HTML format in order to make the server as easy to use as possible regardless of technological experience.
 
 What it can do
 --------------
@@ -13,7 +13,7 @@ WalServeUs is an HTTP Server for the nontechnical. It is **not:**
 * A way to purchase domain names (those must be purchased separately and have the DNS forwarded (explained in the help file))
 * A program that you can simply run and immediately have your website open to the world. These probably don't even exist.
 
-An HTTP server is a website hosting software. That is, you connect your website files to WalServeUs, point a domain name to your IP, and run the software, and when the domain is entered it show the page.
+An HTTP server is a website hosting software. That is to say you connect your website files to WalServeUs, point a domain name to your IP, and run the software, and when the domain is entered it show the page.
 
 Informal Introduction
 ---------------------
@@ -30,7 +30,7 @@ Technical:
 
 **Description:** An simple, lightweight HTTP server written in Python. ~Does not solve any problems. Basically you'll be better off with a different software.~ Solves the problem of servers like Apache being large, complicated, and being designed for technical people by being much more lightweight and containing simple documentation designed for the non-technical.
 
-**Installing:** Download the file.
+**Installing:** Download and unzip the file.
 
 **Uninstalling:** Delete the folder.
 
