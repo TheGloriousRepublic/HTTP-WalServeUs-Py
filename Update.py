@@ -1,6 +1,4 @@
-import requests
-def main():
-    open('WalServeUs.py', 'w').write(requests.get('https://raw.githubusercontent.com/hppavilion1/HTTP-WalServeUs/master/WalServeUs.py').text)
+import urllib
 
-if __name__=='__main__':
-    main()
+open('WalServeUs.py', 'w').write(urllib.urlopen('https://github.com/hppavilion1/HTTP-WalServeUs/blob/master/WalServeUs.py').read())
+open('update.py', 'w').write(urllib.urlopen('https://github.com/hppavilion1/HTTP-WalServeUs/blob/master/update.py').read())
