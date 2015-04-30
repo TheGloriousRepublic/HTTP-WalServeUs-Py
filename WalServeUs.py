@@ -28,9 +28,6 @@ def log(dat): #Print to console and save to log
     print(o)
 
 class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
-    self.server_version='BaseHTTP/1.0'
-    self.sys_version='Python/2.7.9'
-    
     def log_message(*args):
         pass
 
@@ -126,8 +123,8 @@ def serve():
     except:
         pass
 
-def interface(tkinter.Tk):
-    pass
+#class interface(Tkinter.Tk):
+    #pass
 
 loadConfig() #load configuration files
 

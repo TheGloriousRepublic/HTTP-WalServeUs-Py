@@ -518,3 +518,174 @@
 [2015-04-29 14:19:50.023000] 127.0.0.1 on port 51604: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
 
 
+[2015-04-29 16:16:52.197000] Server starts
+
+
+[2015-04-29 16:19:08.129000] Server starts
+
+
+[2015-04-29 16:22:43.957000] Server starts
+
+
+[2015-04-29 16:23:14.709000] Server starts
+
+
+[2015-04-29 16:26:05.849000] Server stops
+
+
+[2015-04-29 16:26:10.348000] Server starts
+
+
+[2015-04-29 16:27:08.384000] Server starts
+
+
+[2015-04-29 16:27:11.044000] 206.174.2.135 on port 50240: 'GET /Start-Here.html', interpreted as 'GET /Start-Here.html'
+
+
+[2015-04-29 16:27:15.951000] 206.174.2.135 on port 50241: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 16:27:16.303000] 206.174.2.135 on port 50242: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-04-29 16:27:16.319000] 206.174.2.135 on port 50243: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-04-29 16:27:41.406000] 98.124.83.104 on port 2107: 'GET /Start-Here.html', interpreted as 'GET /Start-Here.html'
+
+
+[2015-04-29 16:27:41.777000] 98.124.83.104 on port 2108: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 16:27:42.760000] 98.124.83.104 on port 2110: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-04-29 16:28:04.277000] 98.124.83.104 on port 2134: 'GET /docs/machine.html', interpreted as 'GET /docs/machine.html'
+
+
+[2015-04-29 16:28:04.661000] 98.124.83.104 on port 2135: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 16:28:05.022000] 98.124.83.104 on port 2136: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-04-29 16:28:08.136000] 98.124.83.104 on port 2140: 'GET /docs/setup.html', interpreted as 'GET /docs/setup.html'
+
+
+[2015-04-29 16:28:08.653000] 98.124.83.104 on port 2143: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 16:28:09.204000] 98.124.83.104 on port 2145: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-04-29 16:28:12.696000] 98.124.83.104 on port 2150: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 16:28:13.005000] 98.124.83.104 on port 2151: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 16:28:13.544000] 98.124.83.104 on port 2153: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-04-29 16:28:17.683000] 98.124.83.104 on port 2157: 'GET /docs/www.example.com/subpages', interpreted as 'GET /docs/www.example.com/subpages'
+
+
+[2015-04-29 16:28:18.216000] 98.124.83.104 on port 2159: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-04-29 16:29:28.181000] 98.124.83.104 on port 2239: 'GET /Start-Here.html', interpreted as 'GET /Start-Here.html'
+
+
+[2015-04-29 16:29:28.608000] 98.124.83.104 on port 2241: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 16:29:29.760000] 98.124.83.104 on port 2243: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-04-29 16:44:06.568000] 206.174.2.135 on port 50440: 'GET /docs/machine.html', interpreted as 'GET /docs/machine.html'
+
+
+[2015-04-29 16:44:07.013000] 206.174.2.135 on port 50441: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 16:44:55.578000] 206.174.2.135 on port 50443: 'GET /docs/setup.html', interpreted as 'GET /docs/setup.html'
+
+
+[2015-04-29 16:44:55.920000] 206.174.2.135 on port 50444: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 16:46:49.575000] Server stops
+
+
+[2015-04-29 16:50:43.251000] Server starts
+
+
+[2015-04-29 16:51:25.249000] 206.174.2.135 on port 50490: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 16:51:26.086000] 206.174.2.135 on port 50491: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 17:37:24.292000] 206.174.2.135 on port 51247: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 17:37:24.578000] 206.174.2.135 on port 51248: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 17:37:26.544000] 206.174.2.135 on port 51249: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 17:37:26.768000] 206.174.2.135 on port 51250: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 17:37:47.582000] 206.174.2.135 on port 51252: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 17:37:47.838000] 206.174.2.135 on port 51253: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 17:38:20.861000] 206.174.2.135 on port 51256: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 17:38:21.116000] 206.174.2.135 on port 51257: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 19:07:42.665000] Server stops
+
+
+[2015-04-29 19:08:09.990000] Server starts
+
+
+[2015-04-29 19:08:20.294000] 127.0.0.1 on port 52098: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 19:08:27.137000] 127.0.0.1 on port 52102: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 19:09:14.560000] 127.0.0.1 on port 52108: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 19:09:14.826000] 127.0.0.1 on port 52109: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 19:10:29.237000] 127.0.0.1 on port 52123: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 19:10:29.494000] 127.0.0.1 on port 52124: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 19:11:31.362000] 127.0.0.1 on port 52135: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 19:11:31.621000] 127.0.0.1 on port 52136: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-04-29 19:50:39.716000] Server starts
+
+
+[2015-04-29 19:50:42.109000] 127.0.0.1 on port 49466: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-04-29 19:50:45.506000] 127.0.0.1 on port 49469: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
