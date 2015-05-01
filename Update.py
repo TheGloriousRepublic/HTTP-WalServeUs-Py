@@ -1,4 +1,4 @@
-import urllib
+from requests import get
 
-open('WalServeUs.py', 'w').write(urllib.urlopen('https://github.com/hppavilion1/HTTP-WalServeUs/blob/master/WalServeUs.py').read())
-open('update.py', 'w').write(urllib.urlopen('https://github.com/hppavilion1/HTTP-WalServeUs/blob/master/update.py').read())
+open('WalServeUs.py', 'w').write(get('https://raw.githubusercontent.com/hppavilion1/HTTP-WalServeUs/master/WalServeUs.py'))
+open('update.py', 'w').write(get('https://raw.githubusercontent.com/hppavilion1/HTTP-WalServeUs/master/Update.py'))
