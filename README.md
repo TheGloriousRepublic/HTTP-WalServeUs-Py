@@ -28,7 +28,7 @@ Technical:
 ----------
 **Version:** 0.5?
 
-**Description:** An simple, lightweight HTTP server written in Python. ~Does not solve any problems. Basically you'll be better off with a different software.~ Solves the problem of servers like Apache being large, complicated, and being designed for technical people by being much more lightweight and containing simple documentation designed for the non-technical.
+**Description:** An simple, lightweight HTTP server written in Python. ~~Does not solve any problems. Basically you'll be better off with a different software.~~ Solves the problem of servers like Apache being large, complicated, and being designed for technical people by being much more lightweight and containing simple documentation designed for the non-technical.
 
 **Installing:** Download and unzip the file.
 
