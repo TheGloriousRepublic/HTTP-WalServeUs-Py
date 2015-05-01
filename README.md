@@ -44,7 +44,7 @@ Technical:
 
 **Files:** The files necessary to run this are (arranged by folders) (this is the default arrangement. See config for how to change it.):
 
-* config (Configuration files(
+* config (Configuration files)
 
  * rewriter (if you desire a URL rewriter)
  
@@ -52,7 +52,7 @@ Technical:
   
  * settings
  
-   * [settings files] (same as for rewriter files)
+   * {settings files} (same as for rewriter files)
   
 * errors (Error code html documents. Default location) (fallbacks exist, built-in)
 
@@ -64,7 +64,7 @@ Technical:
 
  * Files Recieved (All the files recieved via POST (that met the size limits))
 
-   * [recieved files] (Named to the time which they were recieved by default)
+   * {recieved files} (Named to the time which they were recieved by default)
 
  * server.log (The log of what you see in the console)
 
@@ -74,11 +74,11 @@ Technical:
 
 * pages (The html, css, js, etc. documents.)
 
- * [documents]
+ * {documents}
 
 * Update.py (the file which is run to update both WalServeUs.py and itself (from the current GitHub repo code))
 
-* WalServeUs.py (The Main File)
+* WalServeUs.py (The main file)
 
 **Credit/acknowledgements:** Jon Berg of turtlemeat.com. Off of his webserver this is based.
 
@@ -115,4 +115,4 @@ Configuration is currently divided into two folders. config/settings and config/
 
 **Rewriter:**
 
-The rewriter allows URLs to be rewritten. That is, when a path is recieved it will be matched to a file location that may not necessarily mirror the location of the file on the computer. This is done using the same `key=value` format as for settings, but `key` should be a regular expression and `value` should be the path to the file on the local computer. It should be noted that tail slashes are omited by default (that is, there is no need to write a file solely for the purpose of recognizing both `www.example.com/1` and `www.example.com/1/`.)
+The rewriter allows URLs to be rewritten. That is, when a path is recieved it will be matched to a file location that may not necessarily mirror the location of the file on the computer. This is done using the same `key=value` format as for settings, but `key` should be a regular expression (Remember to use line anchors!) and `value` should be the path to the file on the local computer. It should be noted that tail slashes are omited by default (that is, there is no need to write a file solely for the purpose of recognizing both `www.example.com/1` and `www.example.com/1/`.)
