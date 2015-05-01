@@ -26,13 +26,17 @@ So. I was browsing the internet when I came across an HTTP server in python. I d
 
 Technical:
 ----------
-**Version:** 0.5?
+**Version:** 1.0
 
 **Description:** An simple, lightweight HTTP server written in Python. ~~Does not solve any problems. Basically you'll be better off with a different software.~~ Solves the problem of servers like Apache being large, complicated, and being designed for technical people by being much more lightweight and containing simple documentation designed for the non-technical.
 
-**Installing:** Download and unzip the file.
+**Installing:**
+* Download HTTP-WalServeUs.zip
+* Unzip it
 
-**Uninstalling:** Delete the folder.
+**Uninstalling:** Delete the HTTP-WalServeUs folder
+
+**Updating:** Run update.py. Requires the Requests module
 
 **Config:** See below.
 
@@ -79,10 +83,19 @@ Technical:
 **Contact Information:** To Be Added
 
 **Known Bugs:**
-* No way to add universal file access.
-* No way to add member classes.
+* No way to add member classes (like site admins) or login.
+* No cookies
+* No plugins
+* No control panel
 * Two files recieved at exactly the same time (in milliseconds, I think) will result in the one processed second overwriting the first.
+* A file may be recieved of... questionable content (e.g. Child Pornography) and will be saved if it is in the data limits (No way to fix. Moderation needed.)
 * Max recieved file size may not work on binaries (resulting in a crash upon recieval.)
+* No SSL
+* Support only for GET and POST
+* Some errors can't have custom pages
+* Updates requiring new config keys don't get said new keys
+* Update window doesn't give any indication it worked (may confuse nontechnical users)
+* Update.py requires Requests.
 
 Configuration
 -------------
