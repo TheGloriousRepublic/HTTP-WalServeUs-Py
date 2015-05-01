@@ -1,6 +1,6 @@
 # Logs and databases #
 ######################
-*.log
+logs/*.log
 
 # Windows image file caches
 Thumbs.db
