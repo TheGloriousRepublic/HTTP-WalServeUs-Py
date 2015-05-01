@@ -1,5 +1,5 @@
-#Files I want to ignore
-pages/*
+# Logs and databases #
+######################
 *.log
 
 # Windows image file caches
