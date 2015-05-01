@@ -56,9 +56,9 @@ Technical:
   
 * errors (Error code html documents. Default location) (fallbacks exist, built-in)
 
- * 404.html (404 documents)
- 
  * 403.html (For when a forbidden URL is entered (e.g. a blocked file extension))
+
+ * 404.html (404 documents)
  
 * logs
 
