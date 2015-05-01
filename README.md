@@ -48,7 +48,7 @@ Technical:
 
  * rewriter (if you desire a URL rewriter)
  
-   * [rewriter files] (These can be divied up however you wish. Must be '.cfg's)
+   * {rewriter files} (These can be divied up however you wish. Must be '.cfg's)
   
  * settings
  
