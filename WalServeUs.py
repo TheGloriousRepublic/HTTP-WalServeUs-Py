@@ -3,7 +3,8 @@ import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mime
 
 settings = {}
 rw = {}
-static = {}
+parsers = {}
+
 serveAsPlaintext = ['text','application']
 
 def loadConfig(): #Open configuration files and save their options to settings
@@ -20,6 +21,13 @@ def loadConfig(): #Open configuration files and save their options to settings
                 for x in open('config/rewriter/'+f).read().split('\n'):
                     if not x[0]=='#':
                         rw[x.split('=')[0]]=x.split('=')[1]
+
+    for root, dirs, files in os.walk('config/parsers/'):
+        for f in files:
+            if f.endswith('.cfg'):
+                for x in open('config/parsers/'+f).read().split('\n'):
+                    if not x[0]=='#':
+                        parsers[x.split('=')[0]]=x.split('=')[1]
 
 def log(dat): #Print to console and save to log
     o='['+str(datetime.datetime.now())+'] '+str(dat)+'\n'
