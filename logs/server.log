@@ -4,3 +4,189 @@
 [2015-05-01 14:02:40.083000] Server stops
 
 
+[2015-05-01 17:51:16.592000] Server starts
+
+
+[2015-05-01 17:51:34.642000] Server stops
+
+
+[2015-05-01 17:52:43.654000] Server starts
+
+
+[2015-05-01 17:52:56.218000] Server stops
+
+
+[2015-05-01 17:54:00.064000] Server starts
+
+
+[2015-05-01 17:54:01.126000] Server stops
+
+
+[2015-05-01 17:54:59.305000] Server starts
+
+
+[2015-05-01 17:55:37.893000] Server starts
+
+
+[2015-05-01 17:55:53.399000] Server stops
+
+
+[2015-05-01 17:55:56.911000] Server starts
+
+
+[2015-05-01 17:55:59.446000] Server stops
+
+
+[2015-05-01 17:57:11.123000] Server starts
+
+
+[2015-05-01 17:57:13.157000] Server stops
+
+
+[2015-05-01 17:57:56.751000] Server starts
+
+
+[2015-05-01 17:57:58.289000] Server stops
+
+
+[2015-05-01 17:59:52.553000] Server starts
+
+
+[2015-05-01 17:59:56.560000] Server stops
+
+
+[2015-05-01 18:01:59.155000] Server starts
+
+
+[2015-05-01 18:02:00.696000] Server stops
+
+
+[2015-05-01 18:04:35.180000] Server starts
+
+
+[2015-05-01 18:04:37.233000] Server stops
+
+
+[2015-05-01 18:07:46.222000] Server starts
+
+
+[2015-05-01 18:07:47.284000] Server stops
+
+
+[2015-05-01 18:10:13.474000] Server starts
+
+
+[2015-05-01 18:10:15.036000] Server stops
+
+
+[2015-05-01 18:12:20.558000] Server starts
+
+
+[2015-05-01 18:12:22.590000] Server stops
+
+
+[2015-05-01 18:13:57.001000] Server starts
+
+
+[2015-05-01 18:13:58.560000] Server stops
+
+
+[2015-05-01 18:14:46.513000] Server starts
+
+
+[2015-05-01 18:14:48.073000] Server stops
+
+
+[2015-05-01 18:21:56.362000] Server starts
+
+
+[2015-05-01 18:22:02.380000] 127.0.0.1 on port 50197: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-01 18:22:02.896000] 127.0.0.1 on port 50198: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-01 18:22:02.922000] 127.0.0.1 on port 50199: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-01 18:22:07.717000] 127.0.0.1 on port 50200: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-01 18:22:37.513000] Server stops
+
+
+[2015-05-01 18:23:09.756000] Server starts
+
+
+[2015-05-01 18:23:11.425000] 127.0.0.1 on port 50204: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-01 18:23:17.974000] Server stops
+
+
+[2015-05-01 18:23:26.259000] Server starts
+
+
+[2015-05-01 18:23:30.562000] 127.0.0.1 on port 50206: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-01 18:23:31.108000] 127.0.0.1 on port 50207: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-01 18:23:47.559000] Server stops
+
+
+[2015-05-01 18:23:49.918000] Server starts
+
+
+[2015-05-01 18:23:54.308000] 127.0.0.1 on port 50213: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-01 18:23:54.860000] 127.0.0.1 on port 50214: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-01 18:24:03.578000] Server stops
+
+
+[2015-05-01 18:25:02.303000] Server starts
+
+
+[2015-05-01 18:25:03.869000] 127.0.0.1 on port 50223: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-01 18:25:04.342000] 127.0.0.1 on port 50224: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-01 18:39:14.550000] Server stops
+
+
+[2015-05-01 18:44:46.710000] Server starts
+
+
+[2015-05-01 18:44:47.265000] Server stops
+
+
+[2015-05-01 19:34:30.277000] Server starts
+
+
+[2015-05-01 19:34:38.442000] 127.0.0.1 on port 50716: 'GET /test.tst', interpreted as 'GET /test.tst'
+
+
+[2015-05-01 19:36:06.223000] Server starts
+
+
+[2015-05-01 19:36:07.986000] 127.0.0.1 on port 50733: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-01 19:36:08.429000] 127.0.0.1 on port 50734: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-01 19:36:08.439000] 127.0.0.1 on port 50735: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-01 19:38:39.446000] Server starts
+
+
+[2015-05-01 19:38:40.950000] Server stops
+
+
