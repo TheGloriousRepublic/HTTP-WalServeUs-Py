@@ -202,3 +202,24 @@
 [2015-05-01 19:40:14.399000] Server stops
 
 
+[2015-05-01 20:42:32.123000] Server starts
+
+
+[2015-05-01 23:03:16.527000] 127.0.0.1 on port 54450: 'GET /members/erika/', interpreted as 'GET /members/erika.html'
+
+
+[2015-05-01 23:03:23.928000] 127.0.0.1 on port 54451: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-01 23:03:24.033000] 127.0.0.1 on port 54452: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-02 10:56:03.378000] 127.0.0.1 on port 56306: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-02 10:56:03.576000] 127.0.0.1 on port 56307: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-02 10:56:03.687000] 127.0.0.1 on port 56308: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
