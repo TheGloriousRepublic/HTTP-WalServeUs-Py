@@ -1,6 +1,8 @@
 #This software is licensed under the Glorious Republic's Glorious Free Software License 1.0. Just in case you were wondering.
 import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mimetypes, socket
 
+from plugins import *
+
 settings = {}
 rw = {}
 parsers = {}
@@ -80,16 +82,29 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         self.sendHeader()
         if os.path.isfile(settings['pgdir']+'/'+p):
             if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
-                self.wfile.write(open(settings['pgdir']+'/'+p).read())
+                content=open(settings['pgdir']+'/'+p).read()
+                if ext in parsers:
+                    content=eval(parsers[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\')')
+                self.wfile.write(content)
+
             elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and not (mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext)):
-                self.wfile.write(open(settings['pgdir']+'/'+p,'rb').read())
+                content=open(settings['pgdir']+'/'+p,'rb').read()
+                if ext in parsers:
+                    content=eval(parsers[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\')')
+                self.wfile.write(content)
+                
             elif os.path.isfile(settings['erdir']+'/403.html'):
-                self.wfile.write(open(settings['erdir']+'/403.html').read())
+                content=open(settings['erdir']+'/403.html').read()
+                self.wfile.write(content)
+                
             else:
                 self.send_response(403)
                 self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
+                
         elif os.path.isfile(settings['erdir']+'/404.html'):
-            self.wfile.write(open(settings['erdir']+'/404.html').read())
+            content=open(settings['erdir']+'/404.html').read()
+            self.wfile.write(content)
+            
         else:
             self.send_response(404)
             self.wfile.write('<center><h1>Error 404</h1><h2>File not found</h2>Furthermore, no 404.html file was found in the local server\'s error directory</center>')
@@ -120,6 +135,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             handle_request()
 
 def gracefulShutdown():
+    global s
     log('Server stops')
     s.server_close
     c='\n'.join(connected)
@@ -130,8 +146,6 @@ def gracefulShutdown():
     f.close()
 
 def serve():
-    global connected, s
-    s = BaseHTTPServer.HTTPServer(('', 80), webServer)
     log('Server starts')
     try:
         s.serve_forever()
@@ -148,5 +162,7 @@ visitors=0#int(open(settings['lgdir']+'/visitorcount.log').read()) #Retrieve num
 individualvisitors=len(connected) #Get number of unique connectors
 
 atexit.register(gracefulShutdown) #Record logs at shutdown
+
 if __name__ == '__main__':
+    s = BaseHTTPServer.HTTPServer(('', 80), webServer)
     serve()
