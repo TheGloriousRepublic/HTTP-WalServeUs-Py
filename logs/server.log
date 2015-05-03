@@ -415,3 +415,183 @@
 [2015-05-03 12:56:46.172000] Server stops
 
 
+[2015-05-03 12:58:27.272000] Server starts
+
+
+[2015-05-03 12:58:28.306000] Server stops
+
+
+[2015-05-03 13:12:42.375000] Server stops
+
+
+[2015-05-03 13:15:41.934000] Server starts
+
+
+[2015-05-03 13:15:43.474000] Server stops
+
+
+[2015-05-03 13:15:46.297000] Server starts
+
+
+[2015-05-03 13:17:25.827000] Server stops
+
+
+[2015-05-03 13:17:31.506000] Server starts
+
+
+[2015-05-03 13:18:21.430000] 127.0.0.1 on port 63514: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 13:18:22.035000] 127.0.0.1 on port 63515: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-03 13:18:22.262000] 127.0.0.1 on port 63516: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-03 13:18:31.931000] 127.0.0.1 on port 63518: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 13:18:49.932000] Server stops
+
+
+[2015-05-03 13:18:52.773000] Server starts
+
+
+[2015-05-03 13:19:00.383000] 127.0.0.1 on port 63521: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 13:19:51.384000] Server stops
+
+
+[2015-05-03 13:20:00.298000] Server starts
+
+
+[2015-05-03 13:20:02.007000] 127.0.0.1 on port 63526: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 13:21:38.500000] Server stops
+
+
+[2015-05-03 13:21:41.052000] Server starts
+
+
+[2015-05-03 13:21:45.194000] 127.0.0.1 on port 63540: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 13:22:26.669000] Server stops
+
+
+[2015-05-03 13:22:34.920000] Server starts
+
+
+[2015-05-03 13:22:37.523000] 127.0.0.1 on port 63543: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 13:23:32.391000] Server stops
+
+
+[2015-05-03 13:23:35.220000] Server starts
+
+
+[2015-05-03 13:23:36.692000] 127.0.0.1 on port 63576: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 13:24:02.340000] Server stops
+
+
+[2015-05-03 13:24:04.370000] Server starts
+
+
+[2015-05-03 13:24:07.331000] 127.0.0.1 on port 63580: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 13:26:05.708000] 127.0.0.1 on port 63593: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 13:26:15.215000] Server stops
+
+
+[2015-05-03 13:26:17.776000] Server starts
+
+
+[2015-05-03 13:26:19.246000] 127.0.0.1 on port 63601: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 14:14:47.119000] Server stops
+
+
+[2015-05-03 14:16:39.530000] Server starts
+
+
+[2015-05-03 14:16:40.541000] Server stops
+
+
+[2015-05-03 14:16:43.522000] Server starts
+
+
+[2015-05-03 14:17:02.060000] 127.0.0.1 on port 64277: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 14:18:11.633000] 206.174.2.135 on port 64281: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 14:18:11.889000] 206.174.2.135 on port 64282: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-03 14:18:12.105000] 206.174.2.135 on port 64283: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-03 14:18:20.392000] 206.174.2.135 on port 64285: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 14:19:27.926000] Server starts
+
+
+[2015-05-03 14:19:30.252000] 206.174.2.135 on port 64334: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 14:20:53.628000] 98.124.83.104 on port 2029: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 14:20:56.731000] 98.124.83.104 on port 2048: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-03 14:21:36.069000] 98.124.83.104 on port 2110: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 14:21:38.132000] 98.124.83.104 on port 2157: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-03 15:20:36.586000] 206.174.2.135 on port 65245: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 15:20:36.950000] 206.174.2.135 on port 65246: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-03 15:20:36.969000] 206.174.2.135 on port 65247: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-03 15:21:03.881000] 206.174.2.135 on port 65248: 'GET /dynamic/', interpreted as 'GET /dynamic'
+
+
+[2015-05-03 15:21:04.208000] 206.174.2.135 on port 65249: 'GET /dynamic/404walrus.jpg', interpreted as 'GET /dynamic/404walrus.jpg'
+
+
+[2015-05-03 15:23:39.761000] 206.174.2.135 on port 65259: 'GET /dynamic/', interpreted as 'GET /dynamic'
+
+
+[2015-05-03 15:23:40.146000] 206.174.2.135 on port 65260: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-03 15:25:29.073000] 206.174.2.135 on port 65273: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-03 15:25:36.909000] 206.174.2.135 on port 65274: 'GET /dynamic/test.tst', interpreted as 'GET /dynamic/test.tst'
+
+
+[2015-05-03 15:25:37.313000] 206.174.2.135 on port 65275: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-03 15:25:54.754000] 206.174.2.135 on port 65277: 'GET /tests/blocked.blk', interpreted as 'GET /tests/blocked.blk'
+
+
