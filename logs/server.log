@@ -259,3 +259,159 @@
 [2015-05-03 12:19:10.648000] Server stops
 
 
+[2015-05-03 12:27:56.548000] Server starts
+
+
+[2015-05-03 12:28:02.838000] 127.0.0.1 on port 62566: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-03 12:28:11.045000] 127.0.0.1 on port 62567: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:28:40.105000] Server stops
+
+
+[2015-05-03 12:28:45.599000] Server starts
+
+
+[2015-05-03 12:28:50.159000] 127.0.0.1 on port 62572: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:29:22.760000] Server starts
+
+
+[2015-05-03 12:29:24.560000] 127.0.0.1 on port 62575: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:30:53.276000] Server starts
+
+
+[2015-05-03 12:30:55.265000] 127.0.0.1 on port 62607: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:31:58.771000] Server stops
+
+
+[2015-05-03 12:32:05.888000] Server starts
+
+
+[2015-05-03 12:32:07.691000] 127.0.0.1 on port 62611: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:32:44.245000] Server stops
+
+
+[2015-05-03 12:32:46.786000] Server starts
+
+
+[2015-05-03 12:32:48.708000] 127.0.0.1 on port 62613: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:33:01.208000] Server stops
+
+
+[2015-05-03 12:33:26.435000] Server starts
+
+
+[2015-05-03 12:33:30.984000] Server stops
+
+
+[2015-05-03 12:34:26.947000] Server starts
+
+
+[2015-05-03 12:34:28.307000] 127.0.0.1 on port 62623: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:34:55.292000] Server stops
+
+
+[2015-05-03 12:34:58.107000] Server starts
+
+
+[2015-05-03 12:35:00.132000] 127.0.0.1 on port 62658: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:35:00.631000] 127.0.0.1 on port 62659: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-03 12:35:00.764000] 127.0.0.1 on port 62660: 'GET /doxiegbming.png', interpreted as 'GET /doxiegbming.png'
+
+
+[2015-05-03 12:35:49.251000] 127.0.0.1 on port 62666: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:35:49.439000] 127.0.0.1 on port 62667: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-03 12:35:49.571000] 127.0.0.1 on port 62668: 'GET /doxiegbming.png', interpreted as 'GET /doxiegbming.png'
+
+
+[2015-05-03 12:35:50.505000] 127.0.0.1 on port 62669: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:35:50.661000] 127.0.0.1 on port 62670: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-03 12:35:50.745000] 127.0.0.1 on port 62671: 'GET /doxiegbming.png', interpreted as 'GET /doxiegbming.png'
+
+
+[2015-05-03 12:35:57.270000] Server stops
+
+
+[2015-05-03 12:36:03.085000] Server starts
+
+
+[2015-05-03 12:36:04.855000] 127.0.0.1 on port 62702: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:37:07.187000] Server stops
+
+
+[2015-05-03 12:37:10.226000] Server starts
+
+
+[2015-05-03 12:37:11.667000] 127.0.0.1 on port 62718: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 12:37:12.509000] 127.0.0.1 on port 62719: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-03 12:37:12.556000] 127.0.0.1 on port 62720: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-03 12:54:39.575000] Server starts
+
+
+[2015-05-03 12:54:41.114000] Server stops
+
+
+[2015-05-03 12:54:41.163000] Server stops
+
+
+[2015-05-03 12:55:32.531000] Server starts
+
+
+[2015-05-03 12:55:33.076000] Server stops
+
+
+[2015-05-03 12:55:33.133000] Server stops
+
+
+[2015-05-03 12:56:21.329000] Server starts
+
+
+[2015-05-03 12:56:22.360000] Server stops
+
+
+[2015-05-03 12:56:22.372000] Server stops
+
+
+[2015-05-03 12:56:45.121000] Server starts
+
+
+[2015-05-03 12:56:46.160000] Server stops
+
+
+[2015-05-03 12:56:46.172000] Server stops
+
+
