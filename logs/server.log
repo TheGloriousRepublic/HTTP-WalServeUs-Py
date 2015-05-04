@@ -826,3 +826,39 @@
 [2015-05-04 14:23:06.218000] 127.0.0.1 on port 52783: 'GET /403walrus.jpg', interpreted as 'GET /403walrus.jpg'
 
 
+[2015-05-04 14:27:10.618000] Server stops
+
+
+[2015-05-04 14:27:15.995000] Server starts
+
+
+[2015-05-04 14:27:17.341000] 127.0.0.1 on port 52800: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:27:46.340000] Server stops
+
+
+[2015-05-04 14:27:48.648000] Server starts
+
+
+[2015-05-04 14:27:50.067000] 127.0.0.1 on port 52803: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:28:56.068000] Server stops
+
+
+[2015-05-04 14:28:58.433000] Server starts
+
+
+[2015-05-04 14:28:59.644000] 127.0.0.1 on port 52807: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:30:14.628000] Server stops
+
+
+[2015-05-04 14:30:19.159000] Server starts
+
+
+[2015-05-04 14:30:21.315000] 127.0.0.1 on port 52838: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+

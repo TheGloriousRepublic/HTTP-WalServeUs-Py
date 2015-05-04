@@ -46,9 +46,9 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         return {'command':self.command,
                 'path':self.path,
                 'interpretedpath':self.getPath(),
-                'clientip':self.clientaddress[0],
-                'clientport':self.clientaddress[1],
-                'connected':connected,
+                'clientip':self.client_address[0],
+                'clientport':self.client_address[1],
+                #'connected':connected,
                 'visitors':visitors,
                 'individualvisitors':individualvisitors
             }
@@ -93,27 +93,18 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         ext=p.split('.')[-1]
         self.sendHeader()
         if os.path.isfile(settings['pgdir']+'/'+p):
-            if mimetypes.guess_type(p)[0] != None:
-                
-                if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
-                    content=open(settings['pgdir']+'/'+p).read()
-                    if ext in processors:
-                        content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', \''+str(self.gendat())+'\')')
-                    self.wfile.write(content)
+            
+            if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
+                content=open(settings['pgdir']+'/'+p).read()
+                if ext in processors:
+                    content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', \''+str(self.gendat()).replace('\'','"')+'\')')
+                self.wfile.write(content)
 
-                elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and not (mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext)):
-                    content=open(settings['pgdir']+'/'+p,'rb').read()
-                    if ext in processors:
-                        content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\')')
-                    self.wfile.write(content)
-
-                elif os.path.isfile(settings['erdir']+'/403.html'):
-                    content=open(settings['erdir']+'/403.html').read()
-                    self.wfile.write(content)
-                
-                else:
-                    self.send_response(403)
-                    self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
+            elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and not (mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext)):
+                content=open(settings['pgdir']+'/'+p,'rb').read()
+                if ext in processors:
+                    content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', \''+str(self.gendat()).replace('\'','"')+'\')')
+                self.wfile.write(content)
 
             elif os.path.isfile(settings['erdir']+'/403.html'):
                 content=open(settings['erdir']+'/403.html').read()

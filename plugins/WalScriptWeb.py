@@ -3,6 +3,7 @@
 runtime={}
 
 def main(toparse, dat):
+    runtime=dat
     return run(toparse)
 
 def evalarg(a):
