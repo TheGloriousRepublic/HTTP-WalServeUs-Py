@@ -703,3 +703,54 @@
 [2015-05-03 16:03:39.497000] 206.174.2.135 on port 49406: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
 
 
+[2015-05-03 16:40:34.893000] 206.174.2.135 on port 50933: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 16:40:37.168000] 206.174.2.135 on port 50935: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-03 16:40:51.768000] 206.174.2.135 on port 50936: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-03 16:40:52.284000] 206.174.2.135 on port 50938: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-03 16:40:54.547000] 206.174.2.135 on port 50939: 'GET /Setting-Up.html', interpreted as 'GET /Setting-Up.html'
+
+
+[2015-05-03 16:40:56.540000] 206.174.2.135 on port 50940: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-03 16:41:01.079000] 206.174.2.135 on port 50941: 'GET /Start-Here.html', interpreted as 'GET /Start-Here.html'
+
+
+[2015-05-03 16:41:01.383000] 206.174.2.135 on port 50942: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-03 16:42:29.590000] 206.174.2.135 on port 50947: 'GET /docs/machine.html', interpreted as 'GET /docs/machine.html'
+
+
+[2015-05-03 16:42:30] 206.174.2.135 on port 50948: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-03 16:42:32.456000] 206.174.2.135 on port 50949: 'GET /docs/setup.html', interpreted as 'GET /docs/setup.html'
+
+
+[2015-05-03 16:42:32.876000] 206.174.2.135 on port 50950: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-03 16:42:34.744000] 206.174.2.135 on port 50951: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-05-03 16:42:35.087000] 206.174.2.135 on port 50952: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-03 16:42:43.103000] 206.174.2.135 on port 50954: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-05-03 16:42:43.486000] 206.174.2.135 on port 50955: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-03 17:35:56.322000] Server stops
+
+
