@@ -754,3 +754,75 @@
 [2015-05-03 17:35:56.322000] Server stops
 
 
+[2015-05-04 14:17:14.551000] Server starts
+
+
+[2015-05-04 14:17:16.073000] Server stops
+
+
+[2015-05-04 14:17:21.592000] Server starts
+
+
+[2015-05-04 14:17:25.738000] 127.0.0.1 on port 52715: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-04 14:18:25.364000] Server stops
+
+
+[2015-05-04 14:18:52.925000] Server starts
+
+
+[2015-05-04 14:18:53.952000] Server stops
+
+
+[2015-05-04 14:18:57.327000] Server starts
+
+
+[2015-05-04 14:19:22.298000] 127.0.0.1 on port 52725: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-04 14:19:28.035000] 127.0.0.1 on port 52726: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 14:19:59.947000] 127.0.0.1 on port 52729: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-04 14:20:00.194000] 127.0.0.1 on port 52730: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 14:20:14.442000] Server stops
+
+
+[2015-05-04 14:20:20.615000] Server starts
+
+
+[2015-05-04 14:20:22.139000] 127.0.0.1 on port 52732: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-04 14:20:55.637000] Server stops
+
+
+[2015-05-04 14:20:58.061000] Server starts
+
+
+[2015-05-04 14:21:00.231000] 127.0.0.1 on port 52737: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-04 14:21:00.635000] 127.0.0.1 on port 52738: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-04 14:21:00.706000] 127.0.0.1 on port 52739: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-04 14:23:03.106000] 127.0.0.1 on port 52780: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:23:03.258000] 127.0.0.1 on port 52781: 'GET /403walrus.jpg', interpreted as 'GET /403walrus.jpg'
+
+
+[2015-05-04 14:23:06.044000] 127.0.0.1 on port 52782: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:23:06.218000] 127.0.0.1 on port 52783: 'GET /403walrus.jpg', interpreted as 'GET /403walrus.jpg'
+
+

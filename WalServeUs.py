@@ -5,7 +5,7 @@ from plugins import *
 
 settings = {}
 rw = {}
-parsers = {}
+processors = {}
 
 serveAsPlaintext = ['text','application']
 
@@ -24,12 +24,12 @@ def loadConfig(): #Open configuration files and save their options to settings
                     if not x[0]=='#':
                         rw[x.split('=')[0]]=x.split('=')[1]
 
-    for root, dirs, files in os.walk('config/parsers/'):
+    for root, dirs, files in os.walk('config/processors/'):
         for f in files:
             if f.endswith('.cfg'):
-                for x in open('config/parsers/'+f).read().split('\n'):
+                for x in open('config/processors/'+f).read().split('\n'):
                     if not x[0]=='#':
-                        parsers[x.split('=')[0]]=x.split('=')[1]
+                        processors[x.split('=')[0]]=x.split('=')[1]
 
 def log(dat): #Print to console and save to log
     o='['+str(datetime.datetime.now())+'] '+str(dat)+'\n'
@@ -40,7 +40,19 @@ def log(dat): #Print to console and save to log
 class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
     def wfileclear(self):
         self.wfile=''
-        
+
+    def gendat(self):
+        global connected, visitors, individualvisitors
+        return {'command':self.command,
+                'path':self.path,
+                'interpretedpath':self.getPath(),
+                'clientip':self.clientaddress[0],
+                'clientport':self.clientaddress[1],
+                'connected':connected,
+                'visitors':visitors,
+                'individualvisitors':individualvisitors
+            }
+    
     def log_message(*args):
         pass
 
@@ -65,13 +77,13 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
 
     def do_HEAD(self):
         self.logCommand()
-        self.do_HEAD()
+        self.sendHeader()
         
     def sendHeader(self):
         p=self.getPath()
         self.logConnected()
         self.send_response(200)
-        self.send_header('Content-type',mimetypes.guess_type(p)[0])
+        self.send_header('Content-type', mimetypes.guess_type(p)[0])
         self.end_headers()
 
 
@@ -85,14 +97,14 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 
                 if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
                     content=open(settings['pgdir']+'/'+p).read()
-                    if ext in parsers:
-                        content=eval(parsers[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\')')
+                    if ext in processors:
+                        content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', \''+str(self.gendat())+'\')')
                     self.wfile.write(content)
 
                 elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and not (mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext)):
                     content=open(settings['pgdir']+'/'+p,'rb').read()
-                    if ext in parsers:
-                        content=eval(parsers[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\')')
+                    if ext in processors:
+                        content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\')')
                     self.wfile.write(content)
 
                 elif os.path.isfile(settings['erdir']+'/403.html'):
