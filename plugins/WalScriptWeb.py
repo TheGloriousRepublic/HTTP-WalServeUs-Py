@@ -3,11 +3,15 @@
 runtime={}
 
 def main(toparse, dat):
-    runtime=dat
+    global runtime
+    runtime=dict(dat)
     return run(toparse)
 
 def evalarg(a):
-    pass
+    global runtime
+    for x in runtime:
+        a=a.replace('$'+x+'$',str(runtime[x]))
+    return a
 
 def getcommand(c):
     c=c.split('}')
@@ -19,31 +23,36 @@ def getargs(c):
     for x in range(len(args)):
         if args[x][0]=='{':
             args[x]=args[x][1:]
-            evalarg(args[x])
+            args[x]=evalarg(args[x])
     return args
 
-def run(script):
+def run(script, mode='main'):
     global runtime
-    content=''
+    head=''
+    body=''
     script=script.split(';')[:-1]
     i=0
     while not getcommand(script[i]) == 'send':
         c=getcommand(script[i])
         a=getargs(script[i])
         if c == 'echo':
-            content+=''.join(a)
+            body+=''.join(a)
         elif c == 'load':
             if a[0].split('.')[-1] == 'wsw':
-                content+=run(open(a[0]).read())
+                head+=run(open(a[0]).read(), mode='recursive')[0]
+                body+=run(open(a[0]).read(), mode='recursive')[1]
             elif a[0].split('.')[-1] == 'css':
-                content+='<style>'+open(a[0]).read()+'</style>'
+                body+='<style>'+open(a[0]).read()+'</style>'
             elif a[0].split('.')[-1] == 'js':
-                content+='<script>'+open(a[0]).read()+'</script>'
+                body+='<script>'+open(a[0]).read()+'</script>'
             else:
-                content+=+open(a[0]).read()
+                body+=+open(a[0]).read()
         elif c == 'var':
             runtime[a[0]]=''.join(a[1:])
         elif c == 'print':
             print(''.join(a))
         i+=1
-    return content
+    if mode == 'main':
+        return '<head>'+head+'</head><body>'+body+'</body>'
+    elif mode == 'recursion':
+        return [head, body]

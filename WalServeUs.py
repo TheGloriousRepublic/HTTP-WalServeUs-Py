@@ -31,6 +31,12 @@ def loadConfig(): #Open configuration files and save their options to settings
                     if not x[0]=='#':
                         processors[x.split('=')[0]]=x.split('=')[1]
 
+def dictMerge(x, y):
+    '''Given two dicts, merge them into a new dict as a shallow copy.'''
+    z = x.copy()
+    z.update(y)
+    return z
+
 def log(dat): #Print to console and save to log
     o='['+str(datetime.datetime.now())+'] '+str(dat)+'\n'
     b=open(settings['lgdir']+'/server.log', 'r+').read() #Retrieve current log
@@ -52,6 +58,24 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 'visitors':visitors,
                 'individualvisitors':individualvisitors
             }
+
+    def extractVars(self):
+        if len(self.path.split('?')) == 2:
+            r={}
+            v=self.path.split('?')[-1] #Get the variables clause
+            v=v.split('&') #Separate them
+
+            for x in range(len(v)):
+                v[x]=v[x].split('=')
+            for x in v:
+                r[x[0]]=x[1]
+
+            self.path=self.path.split('?')[0]
+            print 'extracted'
+            return r
+        else:
+            return {}
+        
     
     def log_message(*args):
         pass
@@ -88,24 +112,26 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
 
 
     def do_GET(self):
+        a=self.extractVars()
         p=self.getPath()
         self.logCommand()
         ext=p.split('.')[-1]
         self.sendHeader()
+        m=dictMerge(self.gendat(), a)
+        print m
         if os.path.isfile(settings['pgdir']+'/'+p):
-            
             if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
                 content=open(settings['pgdir']+'/'+p).read()
                 if ext in processors:
-                    content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', \''+str(self.gendat()).replace('\'','"')+'\')')
+                    content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', '+str(m).replace('\'','"')+')')
                 self.wfile.write(content)
 
             elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and not (mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext)):
                 content=open(settings['pgdir']+'/'+p,'rb').read()
                 if ext in processors:
-                    content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', \''+str(self.gendat()).replace('\'','"')+'\')')
+                    content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', \''+str(dictMerge(self.gendat(),a)).replace('\'','"')+'\')')
                 self.wfile.write(content)
-
+                
             elif os.path.isfile(settings['erdir']+'/403.html'):
                 content=open(settings['erdir']+'/403.html').read()
                 self.wfile.write(content)
@@ -113,7 +139,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             else:
                 self.send_response(403)
                 self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
-
+                
         elif os.path.isfile(settings['erdir']+'/404.html'):
             content=open(settings['erdir']+'/404.html').read()
             self.wfile.write(content)

@@ -862,3 +862,417 @@
 [2015-05-04 14:30:21.315000] 127.0.0.1 on port 52838: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
 
 
+[2015-05-04 14:35:39.279000] Server stops
+
+
+[2015-05-04 14:35:41.808000] Server starts
+
+
+[2015-05-04 14:35:45.283000] 127.0.0.1 on port 52901: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:36:03.285000] Server stops
+
+
+[2015-05-04 14:36:05.668000] Server starts
+
+
+[2015-05-04 14:36:07.342000] 127.0.0.1 on port 52907: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:38:13.844000] Server stops
+
+
+[2015-05-04 14:38:16.735000] Server starts
+
+
+[2015-05-04 14:38:19.161000] 127.0.0.1 on port 52924: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:38:39.254000] 127.0.0.1 on port 52944: 'GET /dynamic/hw.wsw*walrus', interpreted as 'GET /dynamic/hw.wsw*walrus'
+
+
+[2015-05-04 14:38:39.460000] 127.0.0.1 on port 52945: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 14:43:41.589000] Server starts
+
+
+[2015-05-04 14:43:42.610000] Server stops
+
+
+[2015-05-04 14:45:45.589000] Server starts
+
+
+[2015-05-04 14:45:45.603000] Server stops
+
+
+[2015-05-04 14:46:23.359000] Server starts
+
+
+[2015-05-04 14:46:23.371000] Server stops
+
+
+[2015-05-04 14:47:09.485000] Server starts
+
+
+[2015-05-04 14:47:09.550000] Server stops
+
+
+[2015-05-04 14:48:05.353000] Server starts
+
+
+[2015-05-04 14:48:05.382000] Server stops
+
+
+[2015-05-04 14:49:31.917000] Server starts
+
+
+[2015-05-04 14:49:31.938000] Server stops
+
+
+[2015-05-04 14:49:47.146000] Server starts
+
+
+[2015-05-04 14:49:53.496000] 127.0.0.1 on port 53063: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 14:50:01.169000] Server stops
+
+
+[2015-05-04 14:55:01.044000] Server stops
+
+
+[2015-05-04 14:55:05.139000] Server starts
+
+
+[2015-05-04 14:55:36.934000] 127.0.0.1 on port 53124: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 14:55:37.547000] 127.0.0.1 on port 53125: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 14:58:26.941000] Server stops
+
+
+[2015-05-04 14:58:29.911000] Server starts
+
+
+[2015-05-04 14:58:31.799000] 127.0.0.1 on port 53143: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 14:58:32.361000] 127.0.0.1 on port 53144: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 14:59:09.329000] 127.0.0.1 on port 53152: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 14:59:09.703000] 127.0.0.1 on port 53153: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 14:59:18.595000] Server starts
+
+
+[2015-05-04 14:59:20.017000] 127.0.0.1 on port 53155: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 14:59:20.518000] 127.0.0.1 on port 53156: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:00:18.488000] Server stops
+
+
+[2015-05-04 15:00:22.980000] Server starts
+
+
+[2015-05-04 15:00:28.174000] 127.0.0.1 on port 53191: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:00:28.722000] 127.0.0.1 on port 53192: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:01:08.672000] Server stops
+
+
+[2015-05-04 15:01:11.007000] Server starts
+
+
+[2015-05-04 15:01:11.914000] 127.0.0.1 on port 53217: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:01:12.488000] 127.0.0.1 on port 53218: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:01:57.913000] Server stops
+
+
+[2015-05-04 15:02:19.807000] Server starts
+
+
+[2015-05-04 15:02:22.109000] 127.0.0.1 on port 53225: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:02:22.663000] 127.0.0.1 on port 53226: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:04:24.652000] 127.0.0.1 on port 53253: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:04:24.840000] 127.0.0.1 on port 53254: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:06:25.066000] Server starts
+
+
+[2015-05-04 15:06:26.816000] 127.0.0.1 on port 53267: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:06:27.386000] 127.0.0.1 on port 53268: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:08:24.128000] Server starts
+
+
+[2015-05-04 15:08:25.991000] 127.0.0.1 on port 53287: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:08:26.558000] 127.0.0.1 on port 53288: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:08:57.674000] Server starts
+
+
+[2015-05-04 15:09:02.409000] 127.0.0.1 on port 53292: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:09:02.942000] 127.0.0.1 on port 53293: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:09:22.410000] Server stops
+
+
+[2015-05-04 15:09:24.950000] Server starts
+
+
+[2015-05-04 15:09:26.286000] 127.0.0.1 on port 53295: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:09:26.826000] 127.0.0.1 on port 53296: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:09:40.784000] Server stops
+
+
+[2015-05-04 15:09:43.338000] Server starts
+
+
+[2015-05-04 15:09:44.819000] 127.0.0.1 on port 53298: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:09:45.434000] 127.0.0.1 on port 53299: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:11:20.821000] Server stops
+
+
+[2015-05-04 15:11:23.140000] Server starts
+
+
+[2015-05-04 15:11:24.682000] 127.0.0.1 on port 53306: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:11:25.288000] 127.0.0.1 on port 53307: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:12:07.178000] Server starts
+
+
+[2015-05-04 15:12:09.037000] 127.0.0.1 on port 53311: 'GET /dynamic/hw.wsw?var=val', interpreted as 'GET /dynamic/hw.wsw?var=val'
+
+
+[2015-05-04 15:12:09.608000] 127.0.0.1 on port 53312: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:12:51.158000] Server starts
+
+
+[2015-05-04 15:12:52.251000] 127.0.0.1 on port 53317: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 15:13:30.172000] Server stops
+
+
+[2015-05-04 15:13:32.750000] Server starts
+
+
+[2015-05-04 15:13:35.154000] 127.0.0.1 on port 53320: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 15:15:40.669000] Server stops
+
+
+[2015-05-04 15:15:42.895000] Server starts
+
+
+[2015-05-04 15:15:46.095000] 127.0.0.1 on port 53375: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 15:17:11.833000] 127.0.0.1 on port 53393: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 15:18:03.923000] 127.0.0.1 on port 53414: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-04 15:22:10.319000] 127.0.0.1 on port 53435: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:22:54.045000] 127.0.0.1 on port 53438: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:23:13.813000] 127.0.0.1 on port 53440: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:23:24.818000] Server stops
+
+
+[2015-05-04 15:25:40.220000] Server starts
+
+
+[2015-05-04 15:25:44.319000] 127.0.0.1 on port 53454: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:26:21.802000] Server stops
+
+
+[2015-05-04 15:26:25.059000] Server starts
+
+
+[2015-05-04 15:26:26.932000] 127.0.0.1 on port 53457: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:26:57.926000] Server stops
+
+
+[2015-05-04 15:27:01.246000] Server starts
+
+
+[2015-05-04 15:27:03.303000] 127.0.0.1 on port 53460: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:27:43.304000] Server stops
+
+
+[2015-05-04 15:27:45.637000] Server starts
+
+
+[2015-05-04 15:27:47.004000] 127.0.0.1 on port 53462: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:30:06.008000] Server stops
+
+
+[2015-05-04 15:30:09.520000] Server starts
+
+
+[2015-05-04 15:30:11.136000] 127.0.0.1 on port 53483: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:31:48.138000] Server stops
+
+
+[2015-05-04 15:31:50.932000] Server starts
+
+
+[2015-05-04 15:31:52.262000] 127.0.0.1 on port 53493: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:33:01.930000] Server stops
+
+
+[2015-05-04 15:33:04.099000] Server starts
+
+
+[2015-05-04 15:33:06.594000] 127.0.0.1 on port 53502: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:33:40.588000] Server stops
+
+
+[2015-05-04 15:33:43.409000] Server starts
+
+
+[2015-05-04 15:33:45.874000] 127.0.0.1 on port 53506: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:35:00.873000] Server stops
+
+
+[2015-05-04 15:35:03.614000] Server starts
+
+
+[2015-05-04 15:35:05.632000] 127.0.0.1 on port 53519: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:35:42.127000] Server stops
+
+
+[2015-05-04 15:36:02.571000] Server starts
+
+
+[2015-05-04 15:36:04.118000] 127.0.0.1 on port 53522: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:55:26.296000] Server starts
+
+
+[2015-05-04 15:55:29.137000] 127.0.0.1 on port 53607: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:56:29.149000] Server starts
+
+
+[2015-05-04 15:56:31.488000] 127.0.0.1 on port 53634: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 15:57:09.903000] 206.174.2.135 on port 53645: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-04 15:57:10.121000] 206.174.2.135 on port 53646: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-04 15:57:10.166000] 206.174.2.135 on port 53647: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-04 15:57:10.484000] 206.174.2.135 on port 53648: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-04 15:57:10.536000] 206.174.2.135 on port 53649: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-04 15:57:21.812000] 206.174.2.135 on port 53651: 'GET /dynamic/hb', interpreted as 'GET /dynamic/hb'
+
+
+[2015-05-04 15:57:22.071000] 206.174.2.135 on port 53653: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:57:27.228000] Server stops
+
+
+[2015-05-04 15:57:43.048000] Server starts
+
+
+[2015-05-04 15:57:45.918000] 206.174.2.135 on port 53654: 'GET /dynamic/hb', interpreted as 'GET /dynamic/hb'
+
+
+[2015-05-04 15:57:46.472000] 206.174.2.135 on port 53655: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 15:57:53.432000] 206.174.2.135 on port 53656: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 16:01:07.924000] 104.34.39.72 on port 57681: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 16:01:08.244000] 104.34.39.72 on port 57682: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+

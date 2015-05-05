@@ -1,0 +1,8 @@
+echo}Happy birthday to you};
+echo}<br/>};
+echo}Happy birthday to you!};
+echo}<br/>};
+echo}Happy birthday dear }{$name$};
+echo}<br/>};
+echo}Happy birthday to you!};
+send};
