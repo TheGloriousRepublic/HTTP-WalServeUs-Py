@@ -1,0 +1,9 @@
+If you're reading this document, you're likely a beginner in need of help. Well, to read the help is simple!
+Just:
+1) Double click WalServeUs.py (if you have Python installed. If not, visit http://www.python.org and download and install python 2.7.9)
+
+2) Go to the address bar in your favorite web browser
+
+3) Enter "127.0.0.1/Help/" (without quotes)
+
+If you need additional help, visit the forums. (not yet up)

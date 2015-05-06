@@ -11,6 +11,8 @@ def evalarg(a):
     global runtime
     for x in runtime:
         a=a.replace('$'+x+'$',str(runtime[x]))
+
+    a=eval(a, {'__builtins__':None})
     return a
 
 def getcommand(c):
@@ -35,9 +37,11 @@ def run(script, mode='main'):
     while not getcommand(script[i]) == 'send':
         c=getcommand(script[i])
         a=getargs(script[i])
-        if c == 'echo':
+
+        if c == 'echo': #Append to file
             body+=''.join(a)
-        elif c == 'load':
+            
+        elif c == 'load': #Load a file
             if a[0].split('.')[-1] == 'wsw':
                 head+=run(open(a[0]).read(), mode='recursive')[0]
                 body+=run(open(a[0]).read(), mode='recursive')[1]
@@ -47,11 +51,17 @@ def run(script, mode='main'):
                 body+='<script>'+open(a[0]).read()+'</script>'
             else:
                 body+=+open(a[0]).read()
-        elif c == 'var':
+        
+        elif c == 'var': #Save a variable
             runtime[a[0]]=''.join(a[1:])
-        elif c == 'print':
+            
+        elif c == 'print': #Print to console
             print(''.join(a))
         i+=1
+
+        elif c == '':
+            pass
+        
     if mode == 'main':
         return '<head>'+head+'</head><body>'+body+'</body>'
     elif mode == 'recursion':

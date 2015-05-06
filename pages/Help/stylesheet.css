@@ -1,0 +1,29 @@
+html{
+/*background-color:black;
+color:white;*/
+    }
+.filename {
+    background-color:#A0A0A0;
+    font-family:Courier New;
+    border-radius:5px;
+    }
+.filename:hover {
+    background-color:#D3D3D3;
+    }
+.filename a {
+    style:block;
+    }
+
+.code {
+    background-color: #000000;
+    color: #32CD32;
+    border-radius:5px;
+    padding:0px 3px 0px 3px;
+    }
+
+.code:hover {
+    background-color: #32CD32;
+    color: #000000;
+    border-radius:5px;
+    padding:0px 3px 0px 3px;
+    }
