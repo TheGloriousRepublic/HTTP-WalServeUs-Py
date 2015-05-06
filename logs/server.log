@@ -2143,3 +2143,378 @@
 [2015-05-06 10:57:33.558000] 127.0.0.1 on port 60760: 'GET /docs/images/ui-icons_454545_256x240.png', interpreted as 'GET /docs/images/ui-icons_454545_256x240.png'
 
 
+[2015-05-06 10:58:43.832000] 127.0.0.1 on port 60786: 'GET /docs/images/ui-bg_glass_65_ffffff_1x400.png', interpreted as 'GET /docs/images/ui-bg_glass_65_ffffff_1x400.png'
+
+
+[2015-05-06 10:58:43.854000] 127.0.0.1 on port 60787: 'GET /docs/images/ui-icons_454545_256x240.png', interpreted as 'GET /docs/images/ui-icons_454545_256x240.png'
+
+
+[2015-05-06 11:07:11.005000] 127.0.0.1 on port 60840: 'GET /help/', interpreted as 'GET /help'
+
+
+[2015-05-06 11:07:11.230000] 127.0.0.1 on port 60841: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-06 11:07:11.238000] 127.0.0.1 on port 60842: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-06 11:07:18.490000] Server stops
+
+
+[2015-05-06 11:07:23.233000] Server starts
+
+
+[2015-05-06 11:07:24.785000] 127.0.0.1 on port 60851: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-06 11:07:25.338000] 127.0.0.1 on port 60852: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-06 11:07:25.366000] 127.0.0.1 on port 60853: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-06 11:07:25.610000] 127.0.0.1 on port 60854: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-06 11:07:26.529000] 127.0.0.1 on port 60855: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-06 11:07:26.685000] 127.0.0.1 on port 60856: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-06 11:07:26.720000] 127.0.0.1 on port 60857: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-06 11:07:26.951000] 127.0.0.1 on port 60858: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-06 11:07:50.801000] Server stops
+
+
+[2015-05-06 11:07:53.892000] Server starts
+
+
+[2015-05-06 11:07:55.441000] 127.0.0.1 on port 60862: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-06 11:07:55.849000] 127.0.0.1 on port 60863: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:07:57.554000] 127.0.0.1 on port 60864: 'GET /help/machine.html', interpreted as 'GET /help/machine.html'
+
+
+[2015-05-06 11:07:57.663000] 127.0.0.1 on port 60865: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:07:59.071000] 127.0.0.1 on port 60866: 'GET /help/setup.html', interpreted as 'GET /help/setup.html'
+
+
+[2015-05-06 11:07:59.174000] 127.0.0.1 on port 60867: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:08:00.632000] 127.0.0.1 on port 60868: 'GET /help/config.html', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-06 11:08:00.759000] 127.0.0.1 on port 60869: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:08:00.788000] 127.0.0.1 on port 60870: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-06 11:08:01.142000] 127.0.0.1 on port 60872: 'GET /help/images/ui-bg_glass_75_e6e6e6_1x400.png', interpreted as 'GET /help/images/ui-bg_glass_75_e6e6e6_1x400.png'
+
+
+[2015-05-06 11:08:01.153000] 127.0.0.1 on port 60873: 'GET /help/images/ui-bg_flat_75_ffffff_40x100.png', interpreted as 'GET /help/images/ui-bg_flat_75_ffffff_40x100.png'
+
+
+[2015-05-06 11:08:01.178000] 127.0.0.1 on port 60874: 'GET /help/images/ui-icons_888888_256x240.png', interpreted as 'GET /help/images/ui-icons_888888_256x240.png'
+
+
+[2015-05-06 11:08:01.782000] 127.0.0.1 on port 60875: 'GET /help/images/ui-bg_glass_75_dadada_1x400.png', interpreted as 'GET /help/images/ui-bg_glass_75_dadada_1x400.png'
+
+
+[2015-05-06 11:08:01.792000] 127.0.0.1 on port 60876: 'GET /help/images/ui-icons_454545_256x240.png', interpreted as 'GET /help/images/ui-icons_454545_256x240.png'
+
+
+[2015-05-06 11:08:02.674000] 127.0.0.1 on port 60877: 'GET /help/images/ui-bg_glass_65_ffffff_1x400.png', interpreted as 'GET /help/images/ui-bg_glass_65_ffffff_1x400.png'
+
+
+[2015-05-06 11:08:02.687000] 127.0.0.1 on port 60878: 'GET /help/images/ui-icons_454545_256x240.png', interpreted as 'GET /help/images/ui-icons_454545_256x240.png'
+
+
+[2015-05-06 11:09:31.740000] 127.0.0.1 on port 60890: 'GET /help/setup.html', interpreted as 'GET /help/setup.html'
+
+
+[2015-05-06 11:09:31.847000] 127.0.0.1 on port 60891: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:09:33.696000] 127.0.0.1 on port 60892: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-06 11:09:33.844000] 127.0.0.1 on port 60893: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:09:33.870000] 127.0.0.1 on port 60894: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-06 11:09:34.237000] 127.0.0.1 on port 60896: 'GET /help/images/ui-bg_glass_75_e6e6e6_1x400.png', interpreted as 'GET /help/images/ui-bg_glass_75_e6e6e6_1x400.png'
+
+
+[2015-05-06 11:09:34.261000] 127.0.0.1 on port 60897: 'GET /help/images/ui-bg_flat_75_ffffff_40x100.png', interpreted as 'GET /help/images/ui-bg_flat_75_ffffff_40x100.png'
+
+
+[2015-05-06 11:09:34.275000] 127.0.0.1 on port 60898: 'GET /help/images/ui-icons_888888_256x240.png', interpreted as 'GET /help/images/ui-icons_888888_256x240.png'
+
+
+[2015-05-06 11:09:35.019000] 127.0.0.1 on port 60899: 'GET /help/images/ui-bg_glass_75_dadada_1x400.png', interpreted as 'GET /help/images/ui-bg_glass_75_dadada_1x400.png'
+
+
+[2015-05-06 11:09:35.039000] 127.0.0.1 on port 60900: 'GET /help/images/ui-icons_454545_256x240.png', interpreted as 'GET /help/images/ui-icons_454545_256x240.png'
+
+
+[2015-05-06 11:09:39.674000] 127.0.0.1 on port 60901: 'GET /help/machine.html', interpreted as 'GET /help/machine.html'
+
+
+[2015-05-06 11:09:39.855000] 127.0.0.1 on port 60902: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:09:42.357000] 127.0.0.1 on port 60903: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-06 11:09:42.461000] 127.0.0.1 on port 60904: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:09:43.773000] 127.0.0.1 on port 60905: 'GET /help/machine', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-06 11:09:43.912000] 127.0.0.1 on port 60906: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:09:52.699000] 127.0.0.1 on port 60908: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-06 11:09:52.824000] 127.0.0.1 on port 60909: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:09:54.357000] 127.0.0.1 on port 60910: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-06 11:09:54.511000] 127.0.0.1 on port 60911: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 11:09:54.539000] 127.0.0.1 on port 60912: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-06 11:09:54.944000] 127.0.0.1 on port 60913: 'GET /help/images/ui-bg_glass_75_e6e6e6_1x400.png', interpreted as 'GET /help/images/ui-bg_glass_75_e6e6e6_1x400.png'
+
+
+[2015-05-06 11:09:54.958000] 127.0.0.1 on port 60914: 'GET /help/images/ui-bg_flat_75_ffffff_40x100.png', interpreted as 'GET /help/images/ui-bg_flat_75_ffffff_40x100.png'
+
+
+[2015-05-06 11:09:54.996000] 127.0.0.1 on port 60915: 'GET /help/images/ui-icons_888888_256x240.png', interpreted as 'GET /help/images/ui-icons_888888_256x240.png'
+
+
+[2015-05-06 11:09:55.777000] 127.0.0.1 on port 60916: 'GET /help/images/ui-bg_glass_75_dadada_1x400.png', interpreted as 'GET /help/images/ui-bg_glass_75_dadada_1x400.png'
+
+
+[2015-05-06 11:09:55.795000] 127.0.0.1 on port 60917: 'GET /help/images/ui-icons_454545_256x240.png', interpreted as 'GET /help/images/ui-icons_454545_256x240.png'
+
+
+[2015-05-06 11:09:56.102000] 127.0.0.1 on port 60918: 'GET /help/images/ui-bg_glass_65_ffffff_1x400.png', interpreted as 'GET /help/images/ui-bg_glass_65_ffffff_1x400.png'
+
+
+[2015-05-06 11:09:56.114000] 127.0.0.1 on port 60919: 'GET /help/images/ui-icons_454545_256x240.png', interpreted as 'GET /help/images/ui-icons_454545_256x240.png'
+
+
+[2015-05-06 12:18:40.132000] 127.0.0.1 on port 61134: 'GET /dynamic/hb', interpreted as 'GET /dynamic/hb'
+
+
+[2015-05-06 12:18:40.327000] 127.0.0.1 on port 61135: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-06 12:18:40.399000] 127.0.0.1 on port 61136: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-06 12:18:43.350000] 127.0.0.1 on port 61137: 'GET /dynamic/hb', interpreted as 'GET /dynamic/hb'
+
+
+[2015-05-06 12:18:43.448000] 127.0.0.1 on port 61139: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-06 12:18:43.609000] 127.0.0.1 on port 61140: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-06 12:18:54.727000] 127.0.0.1 on port 61143: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-06 12:18:57.729000] 127.0.0.1 on port 61144: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-06 12:19:22.074000] 127.0.0.1 on port 61154: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-06 12:19:55.520000] 127.0.0.1 on port 61156: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-06 12:20:20.243000] 127.0.0.1 on port 61164: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-06 12:20:29.727000] 127.0.0.1 on port 61166: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-06 12:20:35.452000] 127.0.0.1 on port 61168: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-06 12:22:03.536000] 127.0.0.1 on port 61174: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-06 12:22:03.742000] 127.0.0.1 on port 61175: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 12:22:03.772000] 127.0.0.1 on port 61176: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-06 12:25:09.525000] 127.0.0.1 on port 61240: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-06 12:25:09.633000] 127.0.0.1 on port 61241: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-06 12:25:09.775000] 127.0.0.1 on port 61242: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-06 12:25:12.279000] 127.0.0.1 on port 61244: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-06 12:25:12.358000] 127.0.0.1 on port 61245: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:25:12.409000] 127.0.0.1 on port 61246: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:25:14.299000] 127.0.0.1 on port 61247: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-06 12:25:14.417000] 127.0.0.1 on port 61248: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:25:14.541000] 127.0.0.1 on port 61249: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:25:15.452000] 127.0.0.1 on port 61250: 'GET /channels/', interpreted as 'GET channels/channels.html'
+
+
+[2015-05-06 12:25:15.557000] 127.0.0.1 on port 61251: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:25:15.726000] 127.0.0.1 on port 61252: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:25:17.125000] 127.0.0.1 on port 61253: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-06 12:25:17.413000] 127.0.0.1 on port 61254: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:25:17.502000] 127.0.0.1 on port 61255: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:28:14.455000] 127.0.0.1 on port 61300: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-06 12:28:14.608000] 127.0.0.1 on port 61301: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:28:14.685000] 127.0.0.1 on port 61302: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:28:15.654000] 127.0.0.1 on port 61303: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-06 12:28:15.778000] 127.0.0.1 on port 61304: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:28:15.857000] 127.0.0.1 on port 61305: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:42:52.726000] 10.44.73.173 on port 61446: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-06 12:42:52.880000] 10.44.73.173 on port 61447: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:42:52.982000] 10.44.73.173 on port 61448: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:42:53.302000] 10.44.73.173 on port 61449: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-06 12:42:53.369000] 10.44.73.173 on port 61450: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-06 12:44:30.047000] 10.44.73.173 on port 61467: 'GET /channels/', interpreted as 'GET channels/channels.html'
+
+
+[2015-05-06 12:44:30.142000] 10.44.73.173 on port 61468: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:44:30.342000] 10.44.73.173 on port 61469: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:44:31.516000] 10.44.73.173 on port 61470: 'GET /contact/', interpreted as 'GET contact/contact.html'
+
+
+[2015-05-06 12:44:31.651000] 10.44.73.173 on port 61471: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:44:31.737000] 10.44.73.173 on port 61472: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:44:32.497000] 10.44.73.173 on port 61473: 'GET /blog/', interpreted as 'GET blog/index.html'
+
+
+[2015-05-06 12:44:32.641000] 10.44.73.173 on port 61474: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:44:32.727000] 10.44.73.173 on port 61475: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:44:58.564000] 10.44.73.173 on port 61479: 'GET /home.html', interpreted as 'GET /home.html'
+
+
+[2015-05-06 12:44:58.759000] 10.44.73.173 on port 61480: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:44:58.860000] 10.44.73.173 on port 61481: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:56:06.183000] 10.44.73.173 on port 61672: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-06 12:56:06.322000] 10.44.73.173 on port 61673: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:56:06.431000] 10.44.73.173 on port 61674: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:56:09.100000] 10.44.73.173 on port 61675: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-06 12:56:09.203000] 10.44.73.173 on port 61676: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:56:09.351000] 10.44.73.173 on port 61677: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:56:10.607000] 10.44.73.173 on port 61678: 'GET /channels/', interpreted as 'GET channels/channels.html'
+
+
+[2015-05-06 12:56:10.780000] 10.44.73.173 on port 61679: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-06 12:56:10.874000] 10.44.73.173 on port 61680: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-06 12:56:17.028000] 10.44.73.173 on port 61681: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
