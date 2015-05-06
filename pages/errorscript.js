@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $( "p" ).click(function( event ) {
+    $( "h3" ).click(function( event ) {
         alert( "A wild easter egg appears!!" );
     });
 });

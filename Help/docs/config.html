@@ -1,37 +1,24 @@
 <html>
 <head>
-    <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
-	<link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+		<link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+		<script src="script.js"></script>
 </head>
 <body>
-    <center>
-        <h1>Configuration</h1>
-    </center>
-    <p>Sometimes, you'll want to change some of the basic settings for the WalServeUs server. Maybe you want (or have) to keep the website files in another directory, maybe there are
+	<div id="mainContent">
+		<center>
+			<h1>Configuration</h1>
+		</center>
+        <p>Sometimes, you'll want to change some of the basic settings for the WalServeUs server. Maybe you want (or have) to keep the website files in another directory, maybe there are
         some download filetypes that aren't supported by default, or maybe you want to do something else. If this is the case, then this is the page for you!</p>
-    <p>Configuration files are arranged into 3 folders: <span class="filename">processors</span>, <span class="filename">rewriter</span> and <span class="filename">settings</span>. All the files in each of these folders are essentially combined within their folders then read upon startup (meaning you can divide them however you want, even in subfolders, provided you keep them in the correct parent folder.)</p>	
-
-			<div id="menu">
-            <h3>Section 1</h3>
-            <div>
-                <p>I'm the first section!</p>
-            </div>
-            <!--Add two more sections below!-->
-            <h3>Section 2</h3>
-            <div>
-                <p>I'm the second section!</p>
-            </div>
-            <h3>Section 3</h3>
-            <div>
-                <p>I'm the third section!</p>
-            </div>
-			</div>
-        <center>
-            <h2>Settings</h2>
-        </center>
-        <p>WalServeUs has various configurable settings that can be used to control the way it behaves. These setting control directories, what the user is allowed to access, etc.
+    <p>Configuration files are arranged into 3 folders: <span class="filename">processors</span>, <span class="filename">rewriter</span> and <span class="filename">settings</span>. All the files in each of these folders are essentially combined within their folders then read upon startup (meaning you can divide them however you want, even in subfolders, provided you keep them in the correct parent folder.)</p>           
+    </div>
+    <div id="accordion">
+        <h3><a href="#">Settings</a></h3>
+        <div>
+			<p>WalServeUs has various configurable settings that can be used to control the way it behaves. These setting control directories, what the user is allowed to access, etc.
         These settings are determined by creating a key/value pair (<span class="code">key=value</span>) on a line in a .cfg file in the config/settings folder. The settings are as such:
             <ul>
                 <li>pgdir: the path to the directory where your html, css, js, etc. documents (that make up your website) to be stored</li>
@@ -44,12 +31,11 @@
             </ul>
         </p>
         <p>These should be left alone unless dictated to you by a professional.</p>
-    </div>
-    <div class="box">
-        <center>
-            <h2>Rewriter</h2>
-        </center>
-        <p>Rewriter is the file group tasked with URLs. Have you ever noticed that some sites have a <span class="filename">.html</span> at the end of their URL? That's because of the
+        </div>
+		
+        <h3><a href="#">Rewriter</a></h3>            
+        <div>
+			<p>Rewriter is the file group tasked with URLs. Have you ever noticed that some sites have a <span class="filename">.html</span> at the end of their URL? That's because of the
             way their website file works. When you enter a URL on these, it simply directly looks up the files in their local directory. You don't want to have to do that. It's icky. Instead,
             we will be using a simple system known as <i>Regular Expressions</i> to identify URLs to redesign.</p>
 
@@ -74,6 +60,13 @@
             When you use one, it will match a certain pattern of the part before it or, if it is put after a closing parenthesis, the entirety of that to that parenthesis' partner. The *
             will match 0-infinity of the preceding block, the + will match one to infinity, and the ? will match 0-1. These could be useful for things like matching both the British and
             American spellings of words (e.g. color vs. colour) in a URL.</p>
+        </div>
+		
+        <h3><a href="#">Processors</a></h3>
+        <div>
+			<p>Processors are things that take a page before it's sent to the user and convert it into what you want them to see. They are typically installed as plugins, by dragging and dropping a <span class="filename">.py</span> file into your <span class="filename">plugins</span> folder. The next time you run the file, a new file ending with <span class="filename">.pyc</span> is created.
+			<p>They are quite simple: you just use the <span class="code">key=value</span> format to match file extensions to names. Hopefully, when you download a plugin, it came with a readme file. This should tell you what to do. <b>WARNING: NEVER PUT ANYTHING THAT LOOKS LIKE CODE INTO YOUR PROCESSORS FILE, AS IT COULD SURPRISINGLY EASILY INSTALL A VIRUS</b></p>
+        </div>
     </div>
 </body>
 </html>
