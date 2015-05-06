@@ -132,7 +132,8 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             p=self.path[:-1]
         for x in rw:
             if re.match(x, p):
-                return(rw[x])
+                p=rw[x]
+                break
         return(p)
 
     def psub(self, s):
