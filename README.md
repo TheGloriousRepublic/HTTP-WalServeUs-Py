@@ -87,31 +87,29 @@ Technical:
 **Known Bugs:**
 1. No way to add member classes (like site admins) or login.
 
-2. No cookies
+2. No plugins
 
-3. No plugins
+3. No control panel
 
-4. No control panel
+4. Two files recieved at exactly the same time (in milliseconds, I think) will result in the one processed second overwriting the first.
 
-5. Two files recieved at exactly the same time (in milliseconds, I think) will result in the one processed second overwriting the first.
+5. Max recieved file size may not work on binaries (resulting in a crash upon recieval.)
 
-6. A file may be recieved of... questionable content (e.g. Child Pornography) and will be saved if it is in the data limits (No way to fix. Moderation needed.)
+6. No SSL
 
-7. Max recieved file size may not work on binaries (resulting in a crash upon recieval.)
+7. No Subdomains
 
-8. No SSL
+8. Support only for GET and POST
 
-9. No Subdomains
+9. POST always POSTs to the same directory. No custom handling.
 
-10. Support only for GET and POST
+10. Some errors can't have custom pages (yet)
 
-11. Some errors can't have custom pages
+11. Updates requiring new config keys don't get said new keys
 
-12. Updates requiring new config keys don't get said new keys
+12. Update window doesn't give any indication it worked (may confuse nontechnical users)
 
-13. Update window doesn't give any indication it worked (may confuse nontechnical users)
-
-14. Update.py requires Requests.
+13. Update.py requires Requests.
 
 Configuration
 -------------
