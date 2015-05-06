@@ -1,6 +1,9 @@
 <html>
 <head>
     <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+	<link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <center>
@@ -8,9 +11,23 @@
     </center>
     <p>Sometimes, you'll want to change some of the basic settings for the WalServeUs server. Maybe you want (or have) to keep the website files in another directory, maybe there are
         some download filetypes that aren't supported by default, or maybe you want to do something else. If this is the case, then this is the page for you!</p>
-    <p>Configuration files are arranged into 2 folders: <span class="filename">rewriter</span> and <span class="filename">settings</span>. All the files in each of these folders are essentially combined within their folders then read upon startup (meaning you can divide them however you want, even in subfolders, provided you keep them in the correct parent folder.)</p>
+    <p>Configuration files are arranged into 3 folders: <span class="filename">processors</span>, <span class="filename">rewriter</span> and <span class="filename">settings</span>. All the files in each of these folders are essentially combined within their folders then read upon startup (meaning you can divide them however you want, even in subfolders, provided you keep them in the correct parent folder.)</p>	
 
-    <div class="box">
+			<div id="menu">
+            <h3>Section 1</h3>
+            <div>
+                <p>I'm the first section!</p>
+            </div>
+            <!--Add two more sections below!-->
+            <h3>Section 2</h3>
+            <div>
+                <p>I'm the second section!</p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+                <p>I'm the third section!</p>
+            </div>
+			</div>
         <center>
             <h2>Settings</h2>
         </center>

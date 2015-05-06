@@ -1276,3 +1276,393 @@
 [2015-05-04 16:01:08.244000] 104.34.39.72 on port 57682: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
 
 
+[2015-05-04 16:05:43.832000] Server stops
+
+
+[2015-05-04 16:05:47.059000] Server starts
+
+
+[2015-05-04 16:05:49.677000] 206.174.2.135 on port 53752: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 16:05:51.505000] 206.174.2.135 on port 53753: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 16:19:31.213000] Server stops
+
+
+[2015-05-04 16:19:49.064000] Server starts
+
+
+[2015-05-04 16:19:52.450000] 206.174.2.135 on port 54124: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 16:20:12.315000] Server stops
+
+
+[2015-05-04 16:20:16.302000] Server starts
+
+
+[2015-05-04 16:20:19.543000] 206.174.2.135 on port 54127: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 16:22:44.808000] 206.174.2.135 on port 54193: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 17:12:29.734000] 206.174.2.135 on port 54652: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 17:12:31.066000] 206.174.2.135 on port 54653: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 17:21:49.682000] 206.174.2.135 on port 54723: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 18:36:10.035000] 127.0.0.1 on port 54993: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-04 18:36:10.257000] 127.0.0.1 on port 54994: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-04 18:36:10.283000] 127.0.0.1 on port 54995: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-04 18:36:21.320000] 127.0.0.1 on port 54997: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 18:38:13.301000] 127.0.0.1 on port 55023: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 18:38:16.035000] 127.0.0.1 on port 55024: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-04 18:42:22.368000] 127.0.0.1 on port 55065: 'GET /dynamic/', interpreted as 'GET /dynamic'
+
+
+[2015-05-04 18:42:22.605000] 127.0.0.1 on port 55066: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 18:44:03.514000] 127.0.0.1 on port 55086: 'GET /dynamic/', interpreted as 'GET /dynamic'
+
+
+[2015-05-04 18:44:03.801000] 127.0.0.1 on port 55087: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-04 19:07:14.617000] 127.0.0.1 on port 55234: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 12:10:46.986000] 127.0.0.1 on port 54845: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 12:11:23.982000] 127.0.0.1 on port 54850: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 12:11:38.356000] 127.0.0.1 on port 54853: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 12:11:43.103000] 127.0.0.1 on port 54854: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 12:19:02.491000] 127.0.0.1 on port 54909: 'GET /dynamic/', interpreted as 'GET /dynamic'
+
+
+[2015-05-05 12:19:02.678000] 127.0.0.1 on port 54910: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 12:48:37.739000] 127.0.0.1 on port 55009: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-05 12:48:37.846000] 127.0.0.1 on port 55010: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-05 12:48:37.867000] 127.0.0.1 on port 55011: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-05 12:48:45.499000] 127.0.0.1 on port 55013: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 12:48:46.012000] 127.0.0.1 on port 55014: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:05:46.157000] 127.0.0.1 on port 55969: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-05 14:05:46.304000] 127.0.0.1 on port 55970: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-05 14:05:46.385000] 127.0.0.1 on port 55971: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-05 14:05:50.120000] 127.0.0.1 on port 55972: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:05:50.365000] 127.0.0.1 on port 55973: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:06:36.160000] 127.0.0.1 on port 55976: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:06:36.477000] 127.0.0.1 on port 55977: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:06:37.961000] 127.0.0.1 on port 55978: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:06:38.196000] 127.0.0.1 on port 55979: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:06:51.309000] 127.0.0.1 on port 55982: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:06:51.582000] 127.0.0.1 on port 55983: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:09:48.441000] 127.0.0.1 on port 55997: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:09:48.636000] 127.0.0.1 on port 55998: 'GET /404script.js', interpreted as 'GET /404script.js'
+
+
+[2015-05-05 14:09:49.125000] 127.0.0.1 on port 56001: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:11:57.268000] 127.0.0.1 on port 56047: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:11:57.975000] 127.0.0.1 on port 56048: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:12:31.679000] 127.0.0.1 on port 56054: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:12:32.096000] 127.0.0.1 on port 56055: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:21:03.112000] 127.0.0.1 on port 56197: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:21:03.322000] 127.0.0.1 on port 56198: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 14:21:03.706000] 127.0.0.1 on port 56200: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:22:58.680000] 127.0.0.1 on port 56209: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:22:58.893000] 127.0.0.1 on port 56210: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 14:22:59.098000] 127.0.0.1 on port 56212: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:23:14.730000] 127.0.0.1 on port 56214: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:23:14.982000] 127.0.0.1 on port 56215: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 14:23:15.240000] 127.0.0.1 on port 56216: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:23:58.630000] 127.0.0.1 on port 56230: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:23:58.801000] 127.0.0.1 on port 56231: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 14:23:59.007000] 127.0.0.1 on port 56232: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:24:06.795000] 127.0.0.1 on port 56234: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 14:24:07.010000] 127.0.0.1 on port 56235: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 14:24:07.239000] 127.0.0.1 on port 56236: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 14:29:38.389000] 127.0.0.1 on port 56341: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 17:30:59.843000] Server stops
+
+
+[2015-05-05 17:31:04.972000] Server starts
+
+
+[2015-05-05 18:20:06.008000] Server starts
+
+
+[2015-05-05 19:15:37.096000] 127.0.0.1 on port 49688: 'GET /Start-here', interpreted as 'GET /Start-here'
+
+
+[2015-05-05 19:15:44.099000] 127.0.0.1 on port 49694: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 19:15:44.141000] 127.0.0.1 on port 49695: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 19:15:44.158000] 127.0.0.1 on port 49696: 'GET /Start-Here', interpreted as 'GET /Start-Here'
+
+
+[2015-05-05 19:15:44.581000] 127.0.0.1 on port 49697: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 19:15:44.595000] 127.0.0.1 on port 49698: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 19:15:50.102000] 127.0.0.1 on port 49700: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-05 19:15:50.239000] 127.0.0.1 on port 49701: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-05 19:15:50.353000] 127.0.0.1 on port 49702: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-05 19:15:57.264000] Server stops
+
+
+[2015-05-05 19:16:00.411000] Server starts
+
+
+[2015-05-05 19:16:08.710000] 127.0.0.1 on port 49705: 'GET /Start-Here', interpreted as 'GET /Start-Here'
+
+
+[2015-05-05 19:16:09.578000] 127.0.0.1 on port 49706: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 19:16:09.845000] 127.0.0.1 on port 49707: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 19:16:21.265000] 127.0.0.1 on port 49713: 'GET /Start-Here.html', interpreted as 'GET /Start-Here.html'
+
+
+[2015-05-05 19:16:21.510000] 127.0.0.1 on port 49714: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:16:23.625000] 127.0.0.1 on port 49715: 'GET /docs/machine.html', interpreted as 'GET /docs/machine.html'
+
+
+[2015-05-05 19:16:23.855000] 127.0.0.1 on port 49717: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:16:25.547000] 127.0.0.1 on port 49718: 'GET /docs/setup.html', interpreted as 'GET /docs/setup.html'
+
+
+[2015-05-05 19:16:25.775000] 127.0.0.1 on port 49719: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:16:27.916000] 127.0.0.1 on port 49720: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-05-05 19:16:28.178000] 127.0.0.1 on port 49721: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:16:28.198000] 127.0.0.1 on port 49722: 'GET /docs/script.js', interpreted as 'GET /docs/script.js'
+
+
+[2015-05-05 19:17:35.439000] 127.0.0.1 on port 49727: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-05-05 19:17:35.772000] 127.0.0.1 on port 49728: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:17:35.780000] 127.0.0.1 on port 49729: 'GET /docs/script.js', interpreted as 'GET /docs/script.js'
+
+
+[2015-05-05 19:17:37.382000] 127.0.0.1 on port 49731: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-05-05 19:17:37.735000] 127.0.0.1 on port 49732: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:17:37.757000] 127.0.0.1 on port 49733: 'GET /docs/script.js', interpreted as 'GET /docs/script.js'
+
+
+[2015-05-05 19:18:16.293000] 127.0.0.1 on port 49735: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-05-05 19:18:16.570000] 127.0.0.1 on port 49736: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:18:16.590000] 127.0.0.1 on port 49737: 'GET /docs/script.js', interpreted as 'GET /docs/script.js'
+
+
+[2015-05-05 19:19:04.802000] 127.0.0.1 on port 49778: 'GET /docs/config.html', interpreted as 'GET /docs/config.html'
+
+
+[2015-05-05 19:19:05.142000] 127.0.0.1 on port 49779: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:19:05.172000] 127.0.0.1 on port 49780: 'GET /docs/script.js', interpreted as 'GET /docs/script.js'
+
+
+[2015-05-05 19:22:07.878000] 127.0.0.1 on port 49824: 'GET /docs/test.html', interpreted as 'GET /docs/test.html'
+
+
+[2015-05-05 19:22:08.014000] 127.0.0.1 on port 49825: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:22:08.044000] 127.0.0.1 on port 49826: 'GET /docs/script.js', interpreted as 'GET /docs/script.js'
+
+
+[2015-05-05 19:23:06.204000] 127.0.0.1 on port 49833: 'GET /docs/test.html', interpreted as 'GET /docs/test.html'
+
+
+[2015-05-05 19:23:06.355000] 127.0.0.1 on port 49834: 'GET /docs/stylesheet.css', interpreted as 'GET /docs/stylesheet.css'
+
+
+[2015-05-05 19:23:06.365000] 127.0.0.1 on port 49835: 'GET /docs/script.js', interpreted as 'GET /docs/script.js'
+
+
+[2015-05-05 19:32:05.328000] 127.0.0.1 on port 49960: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-05 19:32:05.483000] 127.0.0.1 on port 49961: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-05 19:32:05.496000] 127.0.0.1 on port 49962: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-05 19:32:06.463000] 127.0.0.1 on port 49964: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 19:32:57.689000] 127.0.0.1 on port 49992: 'GET /docs/test.html', interpreted as 'GET /docs/test.html'
+
+
+[2015-05-05 19:32:57.840000] 127.0.0.1 on port 49993: 'GET /docs/script.js', interpreted as 'GET /docs/script.js'
+
+
+[2015-05-05 19:49:03.107000] Server stops
+
+
+[2015-05-05 19:49:25.590000] Server starts
+
+
+[2015-05-05 19:49:42.761000] 127.0.0.1 on port 50049: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 19:53:20.272000] Server stops
+
+
+[2015-05-05 19:53:24.440000] Server starts
+
+
+[2015-05-05 19:53:26.453000] 127.0.0.1 on port 50057: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 19:53:50.450000] Server stops
+
+
+[2015-05-05 19:53:54.205000] Server starts
+
+
+[2015-05-05 19:53:56.027000] 127.0.0.1 on port 50060: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+
+[2015-05-05 19:54:24.114000] 127.0.0.1 on port 50068: 'GET /dynamic/hb.wsw', interpreted as 'GET /dynamic/hb.wsw'
+
+

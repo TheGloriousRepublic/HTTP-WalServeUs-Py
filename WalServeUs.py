@@ -3,6 +3,43 @@ import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mime
 
 from plugins import *
 
+pcodes = {'0A':'\n',
+                '0D':'\n',
+                '20':' ',
+                '21':'!',
+                '22':'"',
+                '23':'#',
+                '24':'$',
+                '25':'%',
+                '26':'&',
+                '27':'\'',
+                '28':'(',
+                '29':')',
+                '2A':'*',
+                '2B':'+',
+                '2C':',',
+                '2D':'-',
+                '2E':'.',
+                '2F':'/',
+                '3A':':',
+                '3B':';',
+                '3C':'<',
+                '3D':'=',
+                '3E':'>',
+                '4F':'?',
+                '40':'@',
+                '5B':'[',
+                '5C':'\\',
+                '5D':']',
+                '5E':'^',
+                '5F':'_',
+                '60':'`',
+                '7B':'{',
+                '7C':'|',
+                '7D':'}',
+                '7E':'~'
+    }
+
 settings = {}
 rw = {}
 processors = {}
@@ -68,10 +105,9 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             for x in range(len(v)):
                 v[x]=v[x].split('=')
             for x in v:
-                r[x[0]]=x[1]
+                r[x[0]]=self.psub(x[1])
 
             self.path=self.path.split('?')[0]
-            print 'extracted'
             return r
         else:
             return {}
@@ -99,6 +135,11 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 return(rw[x])
         return(p)
 
+    def psub(self, s):
+        for x in pcodes:
+            s=s.replace('%'+x, pcodes[x])
+        return(s)
+            
     def do_HEAD(self):
         self.logCommand()
         self.sendHeader()
@@ -118,7 +159,6 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         ext=p.split('.')[-1]
         self.sendHeader()
         m=dictMerge(self.gendat(), a)
-        print m
         if os.path.isfile(settings['pgdir']+'/'+p):
             if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
                 content=open(settings['pgdir']+'/'+p).read()
