@@ -11,9 +11,11 @@ def evalarg(a):
     global runtime
     for x in runtime:
         a=a.replace('$'+x+'$',str(runtime[x]))
-
-    a=eval(a, {'__builtins__':None})
-    return a
+    try:
+        a=eval(a, {'__builtins__':None})
+        return a
+    except:
+        return a
 
 def getcommand(c):
     c=c.split('}')
@@ -57,10 +59,10 @@ def run(script, mode='main'):
             
         elif c == 'print': #Print to console
             print(''.join(a))
-        i+=1
 
         elif c == '':
             pass
+        i+=1
         
     if mode == 'main':
         return '<head>'+head+'</head><body>'+body+'</body>'
