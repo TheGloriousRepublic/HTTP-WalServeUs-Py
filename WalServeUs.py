@@ -195,6 +195,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         self.logCommand()
         ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
         if ctype == 'multipart/form-data':
+            print self.rfile
             query=cgi.parse_multipart(self.rfile, pdict)
         
         self.send_response(301, '')
