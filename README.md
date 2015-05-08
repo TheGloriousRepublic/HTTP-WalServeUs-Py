@@ -85,31 +85,7 @@ Technical:
 **Contact Information:** To Be Added
 
 **Known Bugs:**
-1. No way to add member classes (like site admins) or login.
-
-2. No plugins
-
-3. No control panel
-
-4. Two files recieved at exactly the same time (in milliseconds, I think) will result in the one processed second overwriting the first.
-
-5. Max recieved file size may not work on binaries (resulting in a crash upon recieval.)
-
-6. No SSL
-
-7. No Subdomains
-
-8. Support only for GET and POST
-
-9. POST always POSTs to the same directory. No custom handling.
-
-10. Some errors can't have custom pages (yet)
-
-11. Updates requiring new config keys don't get said new keys
-
-12. Update window doesn't give any indication it worked (may confuse nontechnical users)
-
-13. Update.py requires Requests.
+See Github Repo.
 
 Configuration
 -------------
