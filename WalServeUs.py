@@ -3,7 +3,7 @@ import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mime
 
 from plugins import *
 
-pcodes = {'0A':'\n',
+pcodes = {      '0A':'\n',
                 '0D':'\n',
                 '20':' ',
                 '21':'!',
