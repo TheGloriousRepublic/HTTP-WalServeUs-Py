@@ -4387,3 +4387,60 @@
 [2015-05-11 10:58:46.582000] 127.0.0.1 on port 51539: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
 
 
+[2015-05-11 11:30:11.912000] Server starts
+
+
+[2015-05-11 11:30:15.620000] 127.0.0.1 on port 51877: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-11 11:30:16.161000] 127.0.0.1 on port 51878: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 11:30:16.187000] 127.0.0.1 on port 51879: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 11:30:18.401000] 127.0.0.1 on port 51880: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-11 11:30:18.484000] 127.0.0.1 on port 51881: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 11:30:18.618000] 127.0.0.1 on port 51882: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 11:31:07.040000] 127.0.0.1 on port 51934: 'GET /channels/', interpreted as 'GET channels/channels.html'
+
+
+[2015-05-11 11:31:07.184000] 127.0.0.1 on port 51935: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 11:31:07.249000] 127.0.0.1 on port 51936: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 11:31:10.167000] 127.0.0.1 on port 51937: 'GET /blog/', interpreted as 'GET blog/index.html'
+
+
+[2015-05-11 11:31:10.280000] 127.0.0.1 on port 51938: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 11:31:10.351000] 127.0.0.1 on port 51939: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 11:31:12.354000] 127.0.0.1 on port 51940: 'GET /contact/', interpreted as 'GET contact/contact.html'
+
+
+[2015-05-11 11:31:12.495000] 127.0.0.1 on port 51941: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 11:31:12.557000] 127.0.0.1 on port 51942: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 11:33:13.353000] 127.0.0.1 on port 52040: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-11 11:33:13.493000] 127.0.0.1 on port 52041: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 11:33:13.563000] 127.0.0.1 on port 52042: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+

@@ -1,9 +1,18 @@
 import pyphp.executer
-import StringIO
+import pyphp.phparray
+import cStringIO
 
-def main(script, args=None):
-    stdout = StringIO.StringIO()
+def main(script, args={}):
+    phpcode=script
 
-    pyphp.executer.execute_php(script, stdout=stdout)
+    stdout=cStringIO.StringIO()
 
-    return repr(stdout.getvalue())
+    a = [(x, args[x]) for x in args]
+    print a
+    phpglobals={
+        "$_GET" : pyphp.phparray.PHPArray(*a)
+    }
+    
+    pyphp.executer.execute_php(phpcode, phpglobals, stdout=stdout)
+
+    return stdout.getvalue()
