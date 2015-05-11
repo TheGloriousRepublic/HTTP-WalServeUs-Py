@@ -234,7 +234,7 @@ def serve():
         pass
 
 #class interface(Tkinter.Tk):
-    #pass 
+    #pass
 
 loadConfig() #load configuration files
 

@@ -4444,3 +4444,66 @@
 [2015-05-11 11:33:13.563000] 127.0.0.1 on port 52042: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
 
 
+[2015-05-11 13:34:53.069000] Server starts
+
+
+[2015-05-11 13:34:54.585000] Server stops
+
+
+[2015-05-11 13:35:06.902000] 10.10.10.165 on port 53407: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-11 13:35:06.991000] 10.10.10.165 on port 53408: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 13:35:07.069000] 10.10.10.165 on port 53409: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 13:57:52.872000] 10.10.10.165 on port 53684: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-11 13:57:53.109000] 10.10.10.165 on port 53685: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 13:57:53.169000] 10.10.10.165 on port 53686: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 14:47:31.428000] 10.10.10.165 on port 54050: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-11 14:47:31.589000] 10.10.10.165 on port 54051: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 14:47:31.671000] 10.10.10.165 on port 54052: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 14:47:32.686000] 10.10.10.165 on port 54053: 'GET /members/erika/', interpreted as 'GET /members/erika.html'
+
+
+[2015-05-11 14:47:32.798000] 10.10.10.165 on port 54054: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 14:47:32.873000] 10.10.10.165 on port 54055: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 14:47:34.495000] 10.10.10.165 on port 54056: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-11 14:47:34.599000] 10.10.10.165 on port 54057: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 14:47:34.664000] 10.10.10.165 on port 54058: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 15:42:23.280000] Server starts
+
+
+[2015-05-11 15:42:27.558000] 127.0.0.1 on port 54605: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-11 15:42:27.640000] 127.0.0.1 on port 54606: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 15:42:27.718000] 127.0.0.1 on port 54607: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
