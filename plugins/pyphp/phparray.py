@@ -22,6 +22,12 @@ class PHPArray:
 		for k, v in args:
 			self[k] = v
 			
+	def values(self):
+		return [self.dict[k] for k in self.keys]
+		
+	def keys(self):
+		return self.keys[:]
+	
 	@staticmethod
 	def _is_numerable(k):
 		if type(k) in (float, int):
@@ -64,6 +70,10 @@ class PHPArray:
 	
 	def __iter__(self):
 		return iter(self.keys)
+	
+	def __add__(self, other):
+		return PHPArray(*[(k, arr.dict[k]) for itsme, arr in [(1, self), (0, other)] for k in arr.keys if itsme or k not in self.dict])
+	
 	
 	def push(self, *items):
 		for item in items:

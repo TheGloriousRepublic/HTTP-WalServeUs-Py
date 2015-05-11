@@ -1,6 +1,6 @@
 import errors
 import executer
-from phpbuiltins import PHP_CONSTANTS
+from phpbuiltins import constants
 from scope import scope
 
 
@@ -32,13 +32,14 @@ class PHPFunction():
 		call_context = scope({
 			'%func_args' : args,
 			'__FUNCTION__' : self.name
-		}, self.context)
+		}, self.context, name='fncall')
 		
 		
 		executer = call_context['%executer']
 		
 		arglen = len(args)
 		for i, par in enumerate(self.params):
+			# print '\n\n==\n', par, '\n==\n'
 			if i < arglen:
 				val = args[i]
 			elif len(par) > 2:
@@ -46,7 +47,7 @@ class PHPFunction():
 			else:
 				val = None
 				executer.report_error(
-					PHP_CONSTANTS['E_WARNING'],
+					constants.E_WARNING,
 					"Missing argument %d for %s()%s defined in %s on line %d"%(i+1, self.name,
 						', called in %s on line %d and'%(caller_filename, caller_line_num) if caller_filename is not None and caller_line_num is not None else '',
 						self.filename, self.line_num)
@@ -56,11 +57,18 @@ class PHPFunction():
 			
 			call_context[par[1]] = val
 			
+		if self.name == 'library':
+			print ('='*20 +'\n')*5
+			print self.body.prepr()
+			print ('='*20 +'\n')*5
 		# print executer
 		# print self.body
 		# print call_context
 		
-		executer.visit(self.body, call_context)
+		try:
+			return executer.visit(self.body, call_context)
+		except errors.ReturnError, rerr:
+			return rerr.retval
 		
 		# raise errors.ExecuteError("Can't execute yet.")
 	

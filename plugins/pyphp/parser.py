@@ -3,15 +3,16 @@ import re
 # Verbosity levels for this module
 VERBOSITY_NONE = 0
 VERBOSITY_LINENUMS = 1
-VERBOSITY_UNPARSEABLE_CHARS = 0
+VERBOSITY_UNPARSEABLE_CHARS = 2
 # current verbosity level
 VERBOSE = VERBOSITY_NONE
 
 # Regular expressions for the parsed tokens
 RE_line_comment  = re.compile(r'(#|//)[^\n]*($|\n)')
-RE_cpp_comment   = re.compile(r'/\*([^*]|\*+[^/])*\*/')
+#RE_cpp_comment   = re.compile(r'/\*([^*]|\*+[^/])*\*/')
+RE_cpp_comment   = re.compile(r'/\*([^*]|\*)*?\*/')
 RE_whitespace    = re.compile(r'[\s\n]*')
-RE_until_php_tag = re.compile(r'(([^<]|<[^?]|<\?[^p]|<\?p[^h]|<\?ph[^p])*)<\?php')
+RE_until_php_tag = re.compile(r'(([^<]|<[^?]|<\?[^p]|<\?p[^h]|<\?ph[^p])*)<\?php|(([^<]|<)*)')
 RE_php_end_tag   = re.compile(r'\?>')
 RE_float         = re.compile(r'(\d*\.\d+|\d+\.)([eE][+-]?\d+)?')
 RE_hexnumber     = re.compile(r'0x[a-fA-F\d]+')
@@ -78,7 +79,7 @@ class ParseError(StandardError):
 			codelen = len(code)
 			line_starts = [(pos, x) for pos, x in enumerate(code) if x == '\n' and pos < i]
 			line    = len(line_starts) + 1
-			linestart_idx = 0 if line == 0 else line_starts[-1][0]+1
+			linestart_idx = 0 if line == 1 else line_starts[-1][0]+1
 			lineend_idx   = i
 			while code[lineend_idx] != '\n' and lineend_idx < codelen:
 				lineend_idx += 1
@@ -119,17 +120,19 @@ class Parser:
 			if self.in_code:
 				self.parse_all()
 				self.parse_phpendtag()
-				if self.i < len(self.code):
-					c=php_code[self.i]
-					print ParseError("", self)
+				if VERBOSE >= VERBOSITY_UNPARSEABLE_CHARS:
+					if self.i < len(self.code):
+						c=php_code[self.i]
+						print ParseError("", self)
 			else:
 				self.read_outcode()
-			self.i += 1
+			# self.i += 1
 		return self.tokens
 	
 	def parse_phpendtag(self):
 		if RE_php_end_tag.match(self.code, self.i):
 			self.i += 2
+			# print ParseError()
 			self.in_code = False
 	
 	def parse_all(self):
@@ -181,6 +184,7 @@ class Parser:
 	def parse_misc(self, tokens = None):
 		m_m = RE_misc.match(self.code, self.i)
 		if not m_m:
+			print ParseError("cant parse misc")
 			return
 		m_text = m_m.group(0)
 		if len(m_text) > 0:
@@ -190,12 +194,27 @@ class Parser:
 			self.i += len(m_text)
 			
 	def parse_string(self):
-		s_m = RE_sq_string.match(self.code, self.i)
-		if not s_m:
-			return
-		s_text = s_m.group(1)
+		code = self.code
+		if code[self.i] != "'":
+			raise ParseError("Non-Interpolated string must start with a '", self)
+		clen = len(code)
+		self.i += 1
+		start = self.i
+		while self.i < clen:
+			c = code[self.i]
+			if c == '\\' and self.i + 1 < clen and code[self.i+1] == "'":
+				self.i+=2
+			elif c == "'":
+				break
+			else:
+				self.i+=1
+		else:
+			raise ParseError("Expected en of string, not end of file.", self)
+		print ParseError('', self)
+		print [start, self.i], code[start-1:self.i+1]
+		s_text = code[start:self.i]
 		self.tokens.append(Token([TOKEN_STRING, s_text], self.filename, self.line_num))
-		self.i += len(s_m.group(0))
+		self.i += 1
 			
 	def parse_interp_string(self, tokens = None):
 		code = self.code
@@ -379,19 +398,21 @@ class Parser:
 	def read_outcode(self):
 		outcode_m = RE_until_php_tag.match(self.code, self.i)
 		if outcode_m :
-			outcode_text = outcode_m.group(1)
+			outcode_text = outcode_m.group(1) or outcode_m.group(3)
 			if len(outcode_text) > 0:
 				self.tokens.append(Token([TOKEN_DIRECT_OUTPUT, outcode_text], self.filename, self.line_num))
-			self.i += len(outcode_text) + 4
+			self.i += len(outcode_text) + 5
+			# print ParseError("", self)
 			self.line_num += len([x for x in outcode_m.group(0) if x == '\n'])
 		self.in_code = True
 
 def parse_file(php_file, state=None):
 	code=None
 	from os.path import abspath
-	with file(abspath(php_file)) as finp:
+	abs_php_file = abspath(php_file)
+	with file(abs_php_file) as finp:
 		code = finp.read()
-	P = Parser(code, php_file)
+	P = Parser(code, abs_php_file)
 	return P.parse()
 
 def parse_php(php_code, state=None):

@@ -4381,3 +4381,9 @@
 [2015-05-11 10:31:32.107000] 10.10.10.165 on port 51182: 'GET /help/script.js', interpreted as 'GET /help/script.js'
 
 
+[2015-05-11 10:57:05.474000] 127.0.0.1 on port 51515: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
+[2015-05-11 10:58:46.582000] 127.0.0.1 on port 51539: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
