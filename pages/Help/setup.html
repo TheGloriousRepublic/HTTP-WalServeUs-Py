@@ -1,23 +1,27 @@
 <html>
 <head>
-    <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+	<link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+	<link href="/help/stylesheet.css" rel="stylesheet" type="text/css">
+	<script src="/help/jquery.min.js"></script>
+    <script src="/help/jquery-ui.min.js"></script>
+	<script src="/help/script.js"></script>
 </head>
 <body>
     <center>
         <h1>Setting Up</h1>
     </center>
 
-    <p>Hopefully, you also now have the website on a computer which you can keep running 24/7. Now, what to do, what to do? First, you'll need to set up the environment. This page tells exactly how to do that.</p>
+    <p>Hopefully, you also now have the website on a computer which you can keep running 24/7. Now, what to do, what to do? First, you'll need to set up the <span class="ref"><span class="refnum">environment</span><span class="refbody">Arrangement of your computer and available files such that your server will be able to run properly</span></span>. This page tells exactly how to do that.</p>
 
     <p> For starters, navigate to where you installed WalServeUs. To avoid confusion, I would advise that you first delete the files <span class="filename">.gitattributes</span> and <span class="filename">.gitignore</span>, as these
-        are simply files required for the website GitHub, which was used in the development of this server, to track the changes made over time. They are no longer of use and
+        are simply files required for <span class="ref"><span class="refnum">GitHub</span><span class="refbody">The website used throughout the development of the server, for tracking the changes made over time</span></span>. They are no longer of use and
         you are free to do what you please to them.</p>
 
     <p>Next, you will need to add your document files to the server. If you designed your website in an builder, it will have outputted some files. These will have silly
-        phrases after their names like  <span class="filename">.html</span> and <span class="filename">.css</span> and maybe even <span class="filename">.js</span> <b>WARNING: IF ONE OF THE FILES IS A <span class="filename">.php</span>, THE WalServeUs HOSTING SOFTWARE WILL NOT WORK. SORRY :/.</b> If you
+        phrases after their names like  <span class="filename">.html</span> and <span class="filename">.css</span> and maybe even <span class="filename">.js</span> <strong>WARNING: IF ONE OF THE FILES IS A <span class="filename">.php</span>, THE WalServeUs HOSTING SOFTWARE WILL NOT WORK. SORRY :/.<sup><span class="ref"><span class="refnum">[note]</span><span class="refbody">Depending on the popularity of the HTTP-WalServeUs software when you are using this, there may be a plugin you can use.</span></span></sup></strong> If you
         had a Web Designer make these for you (which is generally a good idea, but not necessary), he will have sent you these files. You may instead have a <span class="filename">.zip</span> file or
         (if you're particularly unlucky) a <span class="filename">.tar</span> or <span class="filename">.tar.gz</span>. If it's a zip you should be able to right click (control click
-        on Mac) and extract it. On Windows the option will be "Extract All," while on Mac I'm not sure. If it's a tar or tar.gz, it'll be a bit of a hassle to retrieve. You'll
+        on Mac) and extract it. On Windows the option will be "Extract All," while on Mac I'm not sure. If it's a <span class="filename">.tar</span> or <span class="filename">.tar.gz</span>, it'll be a bit of a hassle to retrieve. You'll
         need to go to the internet, install a program capable of extracting these compatible with your operating system (on Windows I recommend WinRAR), and <i>then</i> right
         click the file and extract it.</p>
 

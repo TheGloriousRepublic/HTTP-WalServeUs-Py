@@ -3544,3 +3544,840 @@
 [2015-05-10 18:08:48.606000] 206.174.2.135 on port 61383: 'GET /help/script.js', interpreted as 'GET /help/script.js'
 
 
+[2015-05-10 22:06:41.168000] 78.129.148.77 on port 65533: 'GET /cgi-bin/rtpd.cgi', interpreted as 'GET /cgi-bin/rtpd.cgi'
+
+
+[2015-05-10 22:43:25.891000] 206.174.2.135 on port 65248: 'GET /help', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-10 22:43:26.247000] 206.174.2.135 on port 65249: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-10 22:43:29.575000] 206.174.2.135 on port 65251: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-10 22:43:29.800000] 206.174.2.135 on port 65252: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-10 22:43:33.201000] 206.174.2.135 on port 65253: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-10 22:43:33.370000] 206.174.2.135 on port 65254: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-10 22:43:35.151000] 206.174.2.135 on port 65255: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-10 22:43:35.421000] 206.174.2.135 on port 65257: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-10 22:43:35.443000] 206.174.2.135 on port 65258: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-10 22:43:35.663000] 206.174.2.135 on port 65259: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-10 22:43:41.190000] 206.174.2.135 on port 65262: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 09:24:41.622000] 127.0.0.1 on port 49986: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-11 09:24:41.789000] 127.0.0.1 on port 49987: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:24:41.848000] 127.0.0.1 on port 49988: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:24:52.778000] 127.0.0.1 on port 50001: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-11 09:24:52.909000] 127.0.0.1 on port 50002: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:24:52.978000] 127.0.0.1 on port 50004: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:24:54.773000] 127.0.0.1 on port 50006: 'GET /members/erika/', interpreted as 'GET /members/erika.html'
+
+
+[2015-05-11 09:24:54.863000] 127.0.0.1 on port 50008: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:24:54.924000] 127.0.0.1 on port 50009: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:24:56.155000] 127.0.0.1 on port 50011: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-11 09:24:56.250000] 127.0.0.1 on port 50015: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:24:56.313000] 127.0.0.1 on port 50016: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:24:57.107000] 127.0.0.1 on port 50017: 'GET /members/nathan/', interpreted as 'GET /members/nathan.html'
+
+
+[2015-05-11 09:24:57.191000] 127.0.0.1 on port 50018: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:24:57.305000] 127.0.0.1 on port 50019: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:25:27.092000] 127.0.0.1 on port 50038: 'GET /channels/', interpreted as 'GET channels/channels.html'
+
+
+[2015-05-11 09:25:27.240000] 127.0.0.1 on port 50039: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:25:27.324000] 127.0.0.1 on port 50040: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:25:28.732000] 127.0.0.1 on port 50041: 'GET /blog/', interpreted as 'GET blog/index.html'
+
+
+[2015-05-11 09:25:28.857000] 127.0.0.1 on port 50042: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:25:28.924000] 127.0.0.1 on port 50043: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:25:44.890000] Server stops
+
+
+[2015-05-11 09:29:23.916000] Server starts
+
+
+[2015-05-11 09:29:26.516000] 127.0.0.1 on port 50240: 'GET /blog/', interpreted as 'GET blog/index.html'
+
+
+[2015-05-11 09:29:26.996000] 127.0.0.1 on port 50241: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:29:27.126000] 127.0.0.1 on port 50242: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:29:34.006000] 127.0.0.1 on port 50244: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-11 09:29:34.166000] 127.0.0.1 on port 50245: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:29:34.246000] 127.0.0.1 on port 50246: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:29:35.926000] 127.0.0.1 on port 50247: 'GET /channels/', interpreted as 'GET channels/channels.html'
+
+
+[2015-05-11 09:29:36.006000] 127.0.0.1 on port 50249: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:29:36.086000] 127.0.0.1 on port 50252: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:29:37.376000] 127.0.0.1 on port 50253: 'GET /blog/', interpreted as 'GET blog/index.html'
+
+
+[2015-05-11 09:29:37.476000] 127.0.0.1 on port 50254: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:29:37.546000] 127.0.0.1 on port 50255: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:34:35.657000] 127.0.0.1 on port 50388: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-11 09:34:35.808000] 127.0.0.1 on port 50389: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 09:34:35.888000] 127.0.0.1 on port 50390: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 09:46:42.710000] 127.0.0.1 on port 50523: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 09:46:42.860000] 127.0.0.1 on port 50524: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 09:46:45.101000] 127.0.0.1 on port 50525: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 09:46:45.221000] 127.0.0.1 on port 50526: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 09:52:05.911000] 127.0.0.1 on port 50584: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 09:52:06.071000] 127.0.0.1 on port 50585: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 09:52:06.091000] 127.0.0.1 on port 50586: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 09:52:06.101000] 127.0.0.1 on port 50587: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 09:52:06.121000] 127.0.0.1 on port 50589: 'GET /help/machine/script.js', interpreted as 'GET /help/machine/script.js'
+
+
+[2015-05-11 09:52:31.861000] 127.0.0.1 on port 50595: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 09:52:32.023000] 127.0.0.1 on port 50597: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 09:52:32.033000] 127.0.0.1 on port 50598: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 09:52:32.053000] 127.0.0.1 on port 50599: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 09:52:32.063000] 127.0.0.1 on port 50600: 'GET /help/machine/script.js', interpreted as 'GET /help/machine/script.js'
+
+
+[2015-05-11 09:52:45.740000] 127.0.0.1 on port 50603: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 09:52:45.900000] 127.0.0.1 on port 50605: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 09:52:45.920000] 127.0.0.1 on port 50606: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 09:52:45.930000] 127.0.0.1 on port 50607: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 09:52:45.940000] 127.0.0.1 on port 50608: 'GET /help/machine/script.js', interpreted as 'GET /help/machine/script.js'
+
+
+[2015-05-11 09:52:47.911000] 127.0.0.1 on port 50609: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 09:52:48.041000] 127.0.0.1 on port 50611: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 09:52:49.223000] 127.0.0.1 on port 50612: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-11 09:52:49.403000] 127.0.0.1 on port 50613: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 09:52:49.413000] 127.0.0.1 on port 50614: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 09:52:49.433000] 127.0.0.1 on port 50615: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 09:52:49.443000] 127.0.0.1 on port 50616: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 09:53:28.471000] 127.0.0.1 on port 50622: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-11 09:53:28.621000] 127.0.0.1 on port 50624: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 09:53:28.641000] 127.0.0.1 on port 50625: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 09:53:28.651000] 127.0.0.1 on port 50626: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 09:53:28.671000] 127.0.0.1 on port 50627: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 09:53:57.671000] 127.0.0.1 on port 50631: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-11 09:53:57.831000] 127.0.0.1 on port 50633: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 09:53:57.851000] 127.0.0.1 on port 50634: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 09:53:57.871000] 127.0.0.1 on port 50635: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 09:53:57.881000] 127.0.0.1 on port 50636: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 09:57:44.038000] 127.0.0.1 on port 50704: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 09:57:44.244000] 127.0.0.1 on port 50705: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 09:57:44.255000] 127.0.0.1 on port 50706: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 09:57:44.282000] 127.0.0.1 on port 50707: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 09:57:44.300000] 127.0.0.1 on port 50708: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:00:35.677000] 127.0.0.1 on port 50722: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 10:00:35.837000] 127.0.0.1 on port 50723: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:00:35.857000] 127.0.0.1 on port 50724: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:00:35.867000] 127.0.0.1 on port 50725: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:00:35.887000] 127.0.0.1 on port 50726: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:00:37.853000] 127.0.0.1 on port 50727: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:00:37.963000] 127.0.0.1 on port 50728: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 10:00:37.983000] 127.0.0.1 on port 50730: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 10:00:37.993000] 127.0.0.1 on port 50731: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 10:00:38.013000] 127.0.0.1 on port 50732: 'GET /help/machine/script.js', interpreted as 'GET /help/machine/script.js'
+
+
+[2015-05-11 10:01:01.633000] 127.0.0.1 on port 50736: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:01:01.793000] 127.0.0.1 on port 50737: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 10:01:01.813000] 127.0.0.1 on port 50738: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 10:01:01.823000] 127.0.0.1 on port 50739: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 10:01:01.843000] 127.0.0.1 on port 50740: 'GET /help/machine/script.js', interpreted as 'GET /help/machine/script.js'
+
+
+[2015-05-11 10:01:08.151000] 127.0.0.1 on port 50743: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:01:08.331000] 127.0.0.1 on port 50744: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:01:09.962000] 127.0.0.1 on port 50745: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-11 10:01:10.102000] 127.0.0.1 on port 50746: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:01:10.122000] 127.0.0.1 on port 50747: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:01:10.142000] 127.0.0.1 on port 50748: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:01:10.162000] 127.0.0.1 on port 50749: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:01:18.057000] 127.0.0.1 on port 50755: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:01:18.227000] 127.0.0.1 on port 50756: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 10:01:18.247000] 127.0.0.1 on port 50757: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 10:01:18.257000] 127.0.0.1 on port 50758: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 10:01:18.277000] 127.0.0.1 on port 50759: 'GET /help/machine/script.js', interpreted as 'GET /help/machine/script.js'
+
+
+[2015-05-11 10:03:10.507000] 127.0.0.1 on port 50768: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:03:10.587000] 127.0.0.1 on port 50769: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:03:14.030000] 127.0.0.1 on port 50770: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 10:03:14.170000] 127.0.0.1 on port 50772: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:03:14.190000] 127.0.0.1 on port 50773: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:03:14.210000] 127.0.0.1 on port 50774: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:03:14.220000] 127.0.0.1 on port 50775: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:03:17.882000] 127.0.0.1 on port 50776: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:03:18.042000] 127.0.0.1 on port 50777: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 10:03:18.062000] 127.0.0.1 on port 50778: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 10:03:18.082000] 127.0.0.1 on port 50779: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 10:03:18.102000] 127.0.0.1 on port 50780: 'GET /help/machine/script.js', interpreted as 'GET /help/machine/script.js'
+
+
+[2015-05-11 10:03:23.731000] 127.0.0.1 on port 50782: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:03:23.891000] 127.0.0.1 on port 50783: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 10:03:23.911000] 127.0.0.1 on port 50784: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 10:03:23.921000] 127.0.0.1 on port 50785: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 10:03:23.931000] 127.0.0.1 on port 50786: 'GET /help/machine/script.js', interpreted as 'GET /help/machine/script.js'
+
+
+[2015-05-11 10:03:50.179000] 127.0.0.1 on port 50793: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:03:50.339000] 127.0.0.1 on port 50794: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 10:03:50.359000] 127.0.0.1 on port 50795: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 10:03:50.379000] 127.0.0.1 on port 50796: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 10:03:50.389000] 127.0.0.1 on port 50797: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:03:55.242000] 127.0.0.1 on port 50798: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 10:03:55.382000] 127.0.0.1 on port 50800: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:03:55.392000] 127.0.0.1 on port 50801: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:03:55.422000] 127.0.0.1 on port 50802: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:03:55.432000] 127.0.0.1 on port 50803: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:03:58.961000] 127.0.0.1 on port 50804: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:03:59.111000] 127.0.0.1 on port 50805: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 10:03:59.131000] 127.0.0.1 on port 50806: 'GET /help/machine/jquery.min.js', interpreted as 'GET /help/machine/jquery.min.js'
+
+
+[2015-05-11 10:03:59.161000] 127.0.0.1 on port 50807: 'GET /help/machine/jquery-ui.min.js', interpreted as 'GET /help/machine/jquery-ui.min.js'
+
+
+[2015-05-11 10:03:59.171000] 127.0.0.1 on port 50808: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:05:09.098000] 127.0.0.1 on port 50825: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:05:09.270000] 127.0.0.1 on port 50826: 'GET /help/machine/stylesheet.css', interpreted as 'GET /help/machine/stylesheet.css'
+
+
+[2015-05-11 10:05:09.286000] 127.0.0.1 on port 50827: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:05:09.306000] 127.0.0.1 on port 50828: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:05:09.323000] 127.0.0.1 on port 50829: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:05:26.078000] 127.0.0.1 on port 50832: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:05:26.255000] 127.0.0.1 on port 50833: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:05:26.270000] 127.0.0.1 on port 50834: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:05:26.288000] 127.0.0.1 on port 50835: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:05:26.307000] 127.0.0.1 on port 50836: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:07:47.846000] 127.0.0.1 on port 50851: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:07:48.016000] 127.0.0.1 on port 50852: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:07:48.036000] 127.0.0.1 on port 50853: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:07:48.046000] 127.0.0.1 on port 50854: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:07:48.066000] 127.0.0.1 on port 50855: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:08:00.827000] 127.0.0.1 on port 50857: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:08:00.977000] 127.0.0.1 on port 50858: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:08:01.007000] 127.0.0.1 on port 50859: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:08:01.017000] 127.0.0.1 on port 50860: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:08:01.037000] 127.0.0.1 on port 50861: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:08:45.049000] 127.0.0.1 on port 50866: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:08:45.199000] 127.0.0.1 on port 50867: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:08:45.219000] 127.0.0.1 on port 50868: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:08:45.239000] 127.0.0.1 on port 50869: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:08:45.249000] 127.0.0.1 on port 50870: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:11:02.225000] 127.0.0.1 on port 50880: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:11:02.385000] 127.0.0.1 on port 50881: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:11:02.415000] 127.0.0.1 on port 50882: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:11:02.425000] 127.0.0.1 on port 50883: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:11:02.445000] 127.0.0.1 on port 50884: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:13:24.022000] 127.0.0.1 on port 50921: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:13:24.172000] 127.0.0.1 on port 50922: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:13:24.203000] 127.0.0.1 on port 50923: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:13:24.233000] 127.0.0.1 on port 50924: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:13:24.254000] 127.0.0.1 on port 50925: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:13:57.092000] 127.0.0.1 on port 50928: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:13:57.242000] 127.0.0.1 on port 50929: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:16:27.355000] 127.0.0.1 on port 50939: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:16:27.565000] 127.0.0.1 on port 50940: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:17:04.743000] 127.0.0.1 on port 50943: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:17:04.916000] 127.0.0.1 on port 50944: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:17:04.936000] 127.0.0.1 on port 50945: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:17:04.946000] 127.0.0.1 on port 50946: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:17:04.966000] 127.0.0.1 on port 50947: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:17:37.797000] 127.0.0.1 on port 50956: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:17:37.947000] 127.0.0.1 on port 50957: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:17:37.967000] 127.0.0.1 on port 50958: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:17:37.977000] 127.0.0.1 on port 50959: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:17:37.997000] 127.0.0.1 on port 50960: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:18:04.240000] 127.0.0.1 on port 50962: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:18:04.420000] 127.0.0.1 on port 50963: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:18:04.440000] 127.0.0.1 on port 50964: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:18:04.460000] 127.0.0.1 on port 50965: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:18:04.480000] 127.0.0.1 on port 50966: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:21:39.449000] 127.0.0.1 on port 50994: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-11 10:21:39.612000] 127.0.0.1 on port 50995: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:21:39.631000] 127.0.0.1 on port 50996: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:21:39.691000] 127.0.0.1 on port 50997: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:21:39.707000] 127.0.0.1 on port 50998: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:24:12.120000] 127.0.0.1 on port 51071: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-11 10:24:12.310000] 127.0.0.1 on port 51072: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:24:12.320000] 127.0.0.1 on port 51073: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:24:12.340000] 127.0.0.1 on port 51074: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:24:12.350000] 127.0.0.1 on port 51075: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:24:20.006000] 127.0.0.1 on port 51078: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:24:20.176000] 127.0.0.1 on port 51079: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:24:20.196000] 127.0.0.1 on port 51080: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:24:20.216000] 127.0.0.1 on port 51081: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:24:20.236000] 127.0.0.1 on port 51082: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:25:30.051000] 127.0.0.1 on port 51087: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-11 10:25:30.241000] 127.0.0.1 on port 51088: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:25:30.261000] 127.0.0.1 on port 51089: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:25:30.291000] 127.0.0.1 on port 51090: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:25:30.311000] 127.0.0.1 on port 51091: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:26:02.664000] 127.0.0.1 on port 51095: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 10:26:02.834000] 127.0.0.1 on port 51097: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:26:02.854000] 127.0.0.1 on port 51098: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:26:02.864000] 127.0.0.1 on port 51099: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:26:02.884000] 127.0.0.1 on port 51100: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:26:06.464000] 127.0.0.1 on port 51101: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:26:06.644000] 127.0.0.1 on port 51102: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:26:06.664000] 127.0.0.1 on port 51105: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:26:06.674000] 127.0.0.1 on port 51106: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:26:06.694000] 127.0.0.1 on port 51107: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:26:11.756000] 127.0.0.1 on port 51109: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:26:11.946000] 127.0.0.1 on port 51111: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:26:11.956000] 127.0.0.1 on port 51112: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:26:11.976000] 127.0.0.1 on port 51113: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:26:11.996000] 127.0.0.1 on port 51114: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:28:28.477000] 127.0.0.1 on port 51124: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:28:28.658000] 127.0.0.1 on port 51125: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:28:28.688000] 127.0.0.1 on port 51126: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:28:28.698000] 127.0.0.1 on port 51127: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:28:28.718000] 127.0.0.1 on port 51128: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:30:39.223000] 10.10.10.165 on port 51142: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-11 10:30:39.336000] 10.10.10.165 on port 51143: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 10:30:39.366000] 10.10.10.165 on port 51144: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-11 10:30:39.623000] 10.10.10.165 on port 51145: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-11 10:30:39.650000] 10.10.10.165 on port 51146: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-11 10:30:43.973000] 10.10.10.165 on port 51147: 'GET /help', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 10:30:44.130000] 10.10.10.165 on port 51148: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-11 10:30:44.144000] 10.10.10.165 on port 51149: 'GET /jquery.min.js', interpreted as 'GET /jquery.min.js'
+
+
+[2015-05-11 10:30:44.161000] 10.10.10.165 on port 51150: 'GET /jquery-ui.min.js', interpreted as 'GET /jquery-ui.min.js'
+
+
+[2015-05-11 10:30:44.188000] 10.10.10.165 on port 51151: 'GET /script.js', interpreted as 'GET /script.js'
+
+
+[2015-05-11 10:31:03.281000] 10.10.10.165 on port 51153: 'GET /help', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 10:31:03.477000] 10.10.10.165 on port 51154: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:31:03.501000] 10.10.10.165 on port 51155: 'GET /jquery.min.js', interpreted as 'GET /jquery.min.js'
+
+
+[2015-05-11 10:31:03.520000] 10.10.10.165 on port 51156: 'GET /jquery-ui.min.js', interpreted as 'GET /jquery-ui.min.js'
+
+
+[2015-05-11 10:31:03.534000] 10.10.10.165 on port 51157: 'GET /script.js', interpreted as 'GET /script.js'
+
+
+[2015-05-11 10:31:23.286000] 10.10.10.165 on port 51160: 'GET /help', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-11 10:31:23.486000] 10.10.10.165 on port 51161: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:31:23.506000] 10.10.10.165 on port 51162: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:31:23.524000] 10.10.10.165 on port 51163: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:31:23.547000] 10.10.10.165 on port 51164: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:31:28.198000] 10.10.10.165 on port 51168: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-11 10:31:28.383000] 10.10.10.165 on port 51169: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:31:28.402000] 10.10.10.165 on port 51170: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:31:28.416000] 10.10.10.165 on port 51171: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:31:28.437000] 10.10.10.165 on port 51172: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:31:30.383000] 10.10.10.165 on port 51173: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-11 10:31:30.532000] 10.10.10.165 on port 51174: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:31:30.548000] 10.10.10.165 on port 51175: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:31:30.563000] 10.10.10.165 on port 51176: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:31:30.585000] 10.10.10.165 on port 51177: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-11 10:31:31.929000] 10.10.10.165 on port 51178: 'GET /help/config', interpreted as 'GET /Help/config.html'
+
+
+[2015-05-11 10:31:32.054000] 10.10.10.165 on port 51179: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-11 10:31:32.073000] 10.10.10.165 on port 51180: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-11 10:31:32.091000] 10.10.10.165 on port 51181: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-11 10:31:32.107000] 10.10.10.165 on port 51182: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
