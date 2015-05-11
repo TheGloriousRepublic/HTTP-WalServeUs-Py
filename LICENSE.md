@@ -1,7 +1,7 @@
+Free
 The Glorious Republic's Glorious Free Software License
 Version 1.1, April 2015
 No website yet
-
 PREAMBLE
 Sometimes, you write software and want to license it. But sometimes, it turns out that there's no license that matches your specifications. Sometimes you want total control over it. Or in this case, you just get bored and want your own license. Thus begins the license.
 
@@ -28,9 +28,9 @@ The user of this software has the rights to:
 
 * Distribute said modifications, extensions, and the original software
 
-* Access to the unaltered source code of the software, which should be able to be converted into the binaries of the software with standard tools available from the internet with a simple search, without need for alteration to the default settings of theses tools excluding that described in a file entitled "BUILDING".
+* Access the unaltered source code of the software, which should be able to be converted into the binaries of the software with standard tools. Any special requirements should be in a file entitled "BUILDING"
 
-* Simple, nontechnical documentation on use of the unmodified software on choice systems, which should come with the software in a folder named "Help."
+* Have access to simple, nontechnical documentation on use of the unmodified software on choice systems, which should come with the software in a folder named "Help."
 
 * Technical documentation on use of the software, which should be in the software's included "REAME" file.
 
@@ -38,6 +38,8 @@ The user of this software has the rights to:
 
 These rights are only valid provided said redistributions fall under the same or a later version of the Glorious Republic's Glorious Free Software License
 
+Extensions to the software must fall under a version of the Glorious Republic's Glorious Free Software Licese, the Apache License, the MIT License, or the GPL.
 LICENSE LICENSE
 
 The Glorious Republic's Glorious Free Software License by The Glorious Republic is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
