@@ -2,8 +2,8 @@
 <head>
 		<link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
         <link href="stylesheet.css" rel="stylesheet" type="text/css">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+		<script src="jquery.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
 		<script src="script.js"></script>
 </head>
 <body>
@@ -44,12 +44,12 @@
         <p>A rewritten URL is formatted like so: <span class="code">[rewritten url regex]=[path]</span>. Now, don't worry, it's simple.</p>
 
         <p>When you write a URL regex (short for Regular Expression), you likely want it to match the beginning and end of path. You could make it so that
-            <a href="www.example.com/folder/page/">www.example.com/folder/page/</a> and <a href="www.example.com/folder/folder/folder/page/">www.example.com/folder/folder/folder/page/</a>
+            <a href="http://www.example.com/folder/page/">www.example.com/folder/page/</a> and <a href="http://www.example.com/folder/folder/folder/page/">www.example.com/folder/folder/folder/page/</a>
             both lead to the same URL, but I doubt you want that. So to prevent that from happening, put a ^ at the front of the regex and $ at the end. This will tell the server that you want
             the path to match the URL start and end.</p>
 
         <p>So for writing your regex, you'll want to start with a /. This tells the regex to start at your base pages folder. Next, type the url you want (after the domain name). For example,
-            if your URL is in <a href="www.example.com/subpages">www.example.com/subpages</a>, your path would be <span class="filename">/subpages</span> making your regex <span class="filename">^/subpages/$</span>.
+            if your URL is in <a href="http://www.example.com/subpages">www.example.com/subpages</a>, your path would be <span class="filename">/subpages</span> making your regex <span class="filename">^/subpages$</span>.
             You now have a regex for matching your URLs! Oh, you'll want to add an equals sign after it to tell the server that which part is the path and which part is the URL.
         </p>
         <p>All that's left is to match the path. Simply start from the top folder (<span class="filename">pages</span> by default) and find the path down. For example, if the file you
