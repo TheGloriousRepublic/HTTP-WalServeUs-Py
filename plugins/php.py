@@ -8,7 +8,6 @@ def main(script, args={}):
     stdout=cStringIO.StringIO()
 
     a = [(x, args[x]) for x in args]
-    print a
     phpglobals={
         "$_GET" : pyphp.phparray.PHPArray(*a)
     }
