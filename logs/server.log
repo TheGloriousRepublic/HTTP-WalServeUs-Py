@@ -4993,3 +4993,24 @@
 [2015-05-14 09:18:41.719000] 127.0.0.1 on port 51594: 'GET /dynamic/cat.php', interpreted as 'GET /dynamic/cat.php'
 
 
+[2015-05-14 09:21:38.520000] 127.0.0.1 on port 51665: 'GET /dynamic/', interpreted as 'GET /dynamic'
+
+
+[2015-05-14 09:21:38.735000] 127.0.0.1 on port 51666: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-14 09:21:38.743000] 127.0.0.1 on port 51667: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-14 09:22:43.062000] 127.0.0.1 on port 51718: 'GET /dynamic/hw.wsw', interpreted as 'GET /dynamic/hw.wsw'
+
+
+[2015-05-14 09:22:46.370000] 127.0.0.1 on port 51719: 'GET /dynamic/', interpreted as 'GET /dynamic'
+
+
+[2015-05-14 09:22:46.564000] 127.0.0.1 on port 51720: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-14 09:22:46.727000] 127.0.0.1 on port 51721: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
