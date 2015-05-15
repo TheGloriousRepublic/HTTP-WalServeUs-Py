@@ -1,11 +1,15 @@
-Free
+```
 The Glorious Republic's Glorious Free Software License
+
 Version 1.1, April 2015
 No website yet
-PREAMBLE
+```
+**PREAMBLE**
+
 Sometimes, you write software and want to license it. But sometimes, it turns out that there's no license that matches your specifications. Sometimes you want total control over it. Or in this case, you just get bored and want your own license. Thus begins the license.
 
-TERMS
+**TERMS**
+
 This license hereby grants permission to the user obtaining a copy of this software to use, copy, modify, and distribute this software. This software may be used for commercial purposes, but users may not sell the software or any modifications of the software. These terms are only valid provided:
 
 * All distributions are free of charge.
@@ -18,7 +22,8 @@ This license hereby grants permission to the user obtaining a copy of this softw
 
 This software is provided without warranty. The owners of this software are not liable to any claim related to use of this software.
 
-USER RIGHTS
+**USER RIGHTS**
+
 The user of this software has the rights to:
 * Use the software
 
