@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('#accordion').accordion({collapsible: true, active: false, autoHeight: false});
 	$('.refbody').hide();
-    $('.refnum').click(function(event) {
+    $('.refnum').hover(function(event) {
 			$(this.nextSibling).toggle();
 			event.stopPropagation();
         });

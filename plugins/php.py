@@ -15,3 +15,7 @@ def main(script, args={}):
     pyphp.executer.execute_php(phpcode, phpglobals, stdout=stdout)
 
     return stdout.getvalue()
+
+if __name__=='__main__':
+    print(main(open(raw_input().split()[0]).read()))
+    raw_input()

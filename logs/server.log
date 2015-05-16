@@ -5110,3 +5110,621 @@
 [2015-05-14 11:24:45.505000] 127.0.0.1 on port 53699: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
 
 
+[2015-05-14 16:39:52.979000] Server starts
+
+
+[2015-05-14 16:40:09.436000] 127.0.0.1 on port 64992: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-14 16:40:10.049000] 127.0.0.1 on port 64993: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-14 16:40:10.106000] 127.0.0.1 on port 64994: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-14 19:25:12.667000] 66.58.213.237 on port 43458: 'GET /Ringing.at.your.dorbell!', interpreted as 'GET /Ringing.at.your.dorbell!'
+
+
+[2015-05-14 19:25:12.764000] 66.58.213.237 on port 43467: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-14 19:25:12.827000] 66.58.213.237 on port 43468: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-14 19:25:12.888000] 66.58.213.237 on port 43471: 'GET /Diagnostics.asp', interpreted as 'GET /Diagnostics.asp'
+
+
+[2015-05-14 19:25:12.955000] 66.58.213.237 on port 43473: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-14 19:25:14.384000] 66.58.213.237 on port 43475: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-14 19:25:14.439000] 66.58.213.237 on port 43476: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-15 12:40:14.102000] 127.0.0.1 on port 61444: 'GET /home.html', interpreted as 'GET /home.html'
+
+
+[2015-05-15 12:40:14.321000] 127.0.0.1 on port 61445: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-15 12:40:14.352000] 127.0.0.1 on port 61446: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-15 12:40:34.554000] 127.0.0.1 on port 61450: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-15 12:40:34.735000] 127.0.0.1 on port 61451: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-15 12:40:34.802000] 127.0.0.1 on port 61452: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-15 12:46:30.111000] 127.0.0.1 on port 61521: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:46:30.351000] 127.0.0.1 on port 61522: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:46:30.391000] 127.0.0.1 on port 61523: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:46:30.451000] 127.0.0.1 on port 61524: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:46:30.551000] 127.0.0.1 on port 61525: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:47:59.969000] 127.0.0.1 on port 61538: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:48:00.149000] 127.0.0.1 on port 61539: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:48:00.169000] 127.0.0.1 on port 61540: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:48:00.199000] 127.0.0.1 on port 61541: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:48:00.232000] 127.0.0.1 on port 61542: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:48:51.167000] 127.0.0.1 on port 61548: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:48:51.357000] 127.0.0.1 on port 61549: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:48:51.377000] 127.0.0.1 on port 61550: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:48:51.407000] 127.0.0.1 on port 61551: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:48:51.427000] 127.0.0.1 on port 61552: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:49:21.406000] 127.0.0.1 on port 61555: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:49:21.576000] 127.0.0.1 on port 61556: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:49:21.596000] 127.0.0.1 on port 61557: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:49:21.616000] 127.0.0.1 on port 61558: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:49:21.646000] 127.0.0.1 on port 61559: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:49:51.989000] 127.0.0.1 on port 61563: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:49:52.209000] 127.0.0.1 on port 61564: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:49:52.229000] 127.0.0.1 on port 61565: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:49:52.259000] 127.0.0.1 on port 61566: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:49:52.289000] 127.0.0.1 on port 61567: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:50:17.109000] 127.0.0.1 on port 61569: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:50:17.299000] 127.0.0.1 on port 61570: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:50:17.319000] 127.0.0.1 on port 61571: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:50:17.349000] 127.0.0.1 on port 61572: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:50:17.369000] 127.0.0.1 on port 61573: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:50:35.013000] 127.0.0.1 on port 61577: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:50:35.194000] 127.0.0.1 on port 61578: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:50:35.214000] 127.0.0.1 on port 61579: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:50:35.244000] 127.0.0.1 on port 61580: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:50:35.274000] 127.0.0.1 on port 61581: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:50:42.446000] 127.0.0.1 on port 61583: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:50:42.646000] 127.0.0.1 on port 61584: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:50:42.676000] 127.0.0.1 on port 61585: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:50:42.696000] 127.0.0.1 on port 61586: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:50:42.716000] 127.0.0.1 on port 61587: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:50:47.879000] 127.0.0.1 on port 61590: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 12:50:48.099000] 127.0.0.1 on port 61591: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:50:48.119000] 127.0.0.1 on port 61592: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:50:48.149000] 127.0.0.1 on port 61593: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:50:48.179000] 127.0.0.1 on port 61594: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:52:31.586000] 127.0.0.1 on port 61600: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 12:52:31.806000] 127.0.0.1 on port 61601: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:52:31.826000] 127.0.0.1 on port 61602: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:52:31.846000] 127.0.0.1 on port 61603: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:52:31.876000] 127.0.0.1 on port 61604: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:53:07.517000] 127.0.0.1 on port 61607: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 12:53:07.697000] 127.0.0.1 on port 61608: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:53:07.717000] 127.0.0.1 on port 61609: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:53:07.737000] 127.0.0.1 on port 61610: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:53:07.767000] 127.0.0.1 on port 61611: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:53:29.398000] 127.0.0.1 on port 61615: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 12:53:29.568000] 127.0.0.1 on port 61616: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:53:29.598000] 127.0.0.1 on port 61617: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:53:29.618000] 127.0.0.1 on port 61618: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:53:29.638000] 127.0.0.1 on port 61619: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:54:17.142000] 127.0.0.1 on port 61635: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 12:54:17.352000] 127.0.0.1 on port 61637: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:54:17.372000] 127.0.0.1 on port 61638: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:54:17.392000] 127.0.0.1 on port 61639: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:54:17.412000] 127.0.0.1 on port 61640: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:54:39.214000] 127.0.0.1 on port 61646: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 12:54:39.425000] 127.0.0.1 on port 61647: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:54:39.435000] 127.0.0.1 on port 61648: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:54:39.455000] 127.0.0.1 on port 61649: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:54:39.486000] 127.0.0.1 on port 61650: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:56:30.654000] 127.0.0.1 on port 61657: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 12:56:30.874000] 127.0.0.1 on port 61658: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:56:30.884000] 127.0.0.1 on port 61659: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:56:30.904000] 127.0.0.1 on port 61660: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:56:30.924000] 127.0.0.1 on port 61661: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:56:47.779000] 127.0.0.1 on port 61664: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-15 12:56:47.969000] 127.0.0.1 on port 61665: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:56:47.989000] 127.0.0.1 on port 61666: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:56:48.009000] 127.0.0.1 on port 61667: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:56:48.029000] 127.0.0.1 on port 61668: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:58:05.626000] 127.0.0.1 on port 61695: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-15 12:58:05.816000] 127.0.0.1 on port 61696: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:58:05.826000] 127.0.0.1 on port 61697: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:58:05.846000] 127.0.0.1 on port 61698: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:58:05.866000] 127.0.0.1 on port 61699: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:58:57.905000] 10.44.69.6 on port 61703: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-15 12:58:58.075000] 10.44.69.6 on port 61704: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-15 12:58:58.105000] 10.44.69.6 on port 61705: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-15 12:58:58.315000] 10.44.69.6 on port 61706: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-15 12:58:58.345000] 10.44.69.6 on port 61707: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-15 12:59:05.979000] 10.44.69.6 on port 61708: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 12:59:06.129000] 10.44.69.6 on port 61709: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:59:06.149000] 10.44.69.6 on port 61710: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:59:06.169000] 10.44.69.6 on port 61711: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:59:06.197000] 10.44.69.6 on port 61712: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:59:24.927000] 10.44.69.6 on port 61719: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 12:59:25.107000] 10.44.69.6 on port 61720: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:59:25.127000] 10.44.69.6 on port 61721: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:59:25.147000] 10.44.69.6 on port 61722: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:59:25.167000] 10.44.69.6 on port 61723: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 12:59:27.407000] 10.44.69.6 on port 61725: 'GET /help/setup', interpreted as 'GET /Help/setup.html'
+
+
+[2015-05-15 12:59:27.537000] 10.44.69.6 on port 61726: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 12:59:27.557000] 10.44.69.6 on port 61727: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 12:59:27.577000] 10.44.69.6 on port 61728: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 12:59:27.597000] 10.44.69.6 on port 61729: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 13:25:06.904000] 10.44.69.6 on port 61897: 'GET /pages/tests/advphptests/argv.php', interpreted as 'GET /pages/tests/advphptests/argv.php'
+
+
+[2015-05-15 13:25:07.114000] 10.44.69.6 on port 61898: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-15 13:25:07.134000] 10.44.69.6 on port 61900: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-15 13:25:17.984000] 10.44.69.6 on port 61902: 'GET /pages/tests/advphptests/argv.php', interpreted as 'GET /pages/tests/advphptests/argv.php'
+
+
+[2015-05-15 13:25:18.134000] 10.44.69.6 on port 61903: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-15 13:25:18.284000] 10.44.69.6 on port 61904: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-15 13:25:20.257000] 10.44.69.6 on port 61905: 'GET /pages/tests/advphptests/argv.php', interpreted as 'GET /pages/tests/advphptests/argv.php'
+
+
+[2015-05-15 13:25:20.367000] 10.44.69.6 on port 61906: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-15 13:25:20.507000] 10.44.69.6 on port 61907: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-15 13:25:28.334000] 10.44.69.6 on port 61908: 'GET /tests/advphptests/argv.php', interpreted as 'GET /tests/advphptests/argv.php'
+
+
+[2015-05-15 13:25:35.651000] 10.44.69.6 on port 61911: 'GET /tests/advphptests/argv.php', interpreted as 'GET /tests/advphptests/argv.php'
+
+
+[2015-05-15 13:27:59.773000] 10.44.69.6 on port 62007: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 13:54:42.750000] 127.0.0.1 on port 62103: 'GET /DACHIKNATE/', interpreted as 'GET /DACHIKNATE'
+
+
+[2015-05-15 13:54:42.940000] 127.0.0.1 on port 62104: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-15 13:54:42.963000] 127.0.0.1 on port 62105: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-15 13:59:08.505000] 127.0.0.1 on port 62172: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-15 13:59:08.672000] 127.0.0.1 on port 62173: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-15 13:59:08.692000] 127.0.0.1 on port 62174: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-15 13:59:17.929000] 127.0.0.1 on port 62177: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 14:00:48.964000] 127.0.0.1 on port 62184: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 14:01:50.092000] 127.0.0.1 on port 62188: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
+[2015-05-15 14:01:55.582000] 127.0.0.1 on port 62190: 'GET /tests/advphptests/', interpreted as 'GET /tests/advphptests'
+
+
+[2015-05-15 14:01:55.732000] 127.0.0.1 on port 62191: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-15 14:01:55.752000] 127.0.0.1 on port 62192: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-15 14:01:58.367000] 127.0.0.1 on port 62194: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 14:04:15.418000] Server stops
+
+
+[2015-05-15 14:41:54.684000] Server starts
+
+
+[2015-05-15 14:41:56.364000] 10.44.69.6 on port 62326: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 14:42:06.694000] Server stops
+
+
+[2015-05-15 14:42:08.974000] Server starts
+
+
+[2015-05-15 14:42:10.224000] 10.44.69.6 on port 62327: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 14:56:28.317000] 127.0.0.1 on port 62751: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 14:57:15.459000] 127.0.0.1 on port 62753: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 14:59:55.278000] Server starts
+
+
+[2015-05-15 15:00:05.531000] Server starts
+
+
+[2015-05-15 15:00:07.750000] 127.0.0.1 on port 62768: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 15:00:29.193000] 127.0.0.1 on port 62773: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 15:01:13.990000] 127.0.0.1 on port 62776: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 15:01:20.498000] Server stops
+
+
+[2015-05-15 15:01:23.198000] Server starts
+
+
+[2015-05-15 15:01:24.650000] 127.0.0.1 on port 62784: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 15:01:26.080000] 127.0.0.1 on port 62785: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 15:01:44.062000] Server stops
+
+
+[2015-05-15 15:01:47.893000] Server starts
+
+
+[2015-05-15 15:01:49.144000] 127.0.0.1 on port 62787: 'GET /tests/advphptests/index.php', interpreted as 'GET /tests/advphptests/index.php'
+
+
+[2015-05-15 15:02:33.850000] 127.0.0.1 on port 62792: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
+[2015-05-15 15:08:10.604000] 127.0.0.1 on port 62814: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
+[2015-05-15 15:09:09.676000] Server stops
+
+
+[2015-05-15 15:09:17.450000] Server starts
+
+
+[2015-05-15 15:09:19.321000] 127.0.0.1 on port 62819: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
+[2015-05-15 15:10:06.031000] 127.0.0.1 on port 62824: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
+[2015-05-15 15:10:34.750000] 127.0.0.1 on port 62843: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
+[2015-05-15 15:14:01.535000] 127.0.0.1 on port 62863: 'GET /tests/hw.php', interpreted as 'GET /tests/hw.php'
+
+
+[2015-05-15 16:25:38.303000] 127.0.0.1 on port 63510: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-15 16:25:38.454000] 127.0.0.1 on port 63511: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-15 16:25:38.475000] 127.0.0.1 on port 63512: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-15 18:18:30.564000] Server starts
+
+
+[2015-05-15 18:18:36.833000] 127.0.0.1 on port 55777: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-15 18:18:38.428000] 127.0.0.1 on port 55778: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-15 18:18:38.478000] 127.0.0.1 on port 55779: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-15 18:18:40.937000] 127.0.0.1 on port 55780: 'GET /help/', interpreted as 'GET /Help/Start-Here.html'
+
+
+[2015-05-15 18:18:41.394000] 127.0.0.1 on port 55781: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 18:18:41.496000] 127.0.0.1 on port 55782: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 18:18:41.562000] 127.0.0.1 on port 55783: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 18:18:41.721000] 127.0.0.1 on port 55784: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 18:18:46.657000] 127.0.0.1 on port 55786: 'GET /help/machine/', interpreted as 'GET /Help/machine.html'
+
+
+[2015-05-15 18:18:46.814000] 127.0.0.1 on port 55787: 'GET /help/stylesheet.css', interpreted as 'GET /help/stylesheet.css'
+
+
+[2015-05-15 18:18:46.827000] 127.0.0.1 on port 55788: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-15 18:18:46.855000] 127.0.0.1 on port 55789: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-15 18:18:46.872000] 127.0.0.1 on port 55790: 'GET /help/script.js', interpreted as 'GET /help/script.js'
+
+
+[2015-05-15 18:22:42.735000] Server stops
+
+
+[2015-05-15 18:22:54.396000] Server stops
+
+
+[2015-05-15 18:23:11.596000] Server stops
+
+
+[2015-05-15 18:25:03.810000] Server starts
+
+
+[2015-05-15 18:25:55.598000] Server starts
+
+
+[2015-05-15 18:25:57.118000] Server stops
+
+
+[2015-05-15 18:35:56.052000] Server starts
+
+
+[2015-05-15 18:36:00.704000] 127.0.0.1 on port 55968: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-15 18:36:01.174000] 127.0.0.1 on port 55969: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-15 18:36:01.214000] 127.0.0.1 on port 55970: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-15 18:36:06.027000] 127.0.0.1 on port 55971: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-15 18:36:06.222000] 127.0.0.1 on port 55972: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-15 18:36:06.273000] 127.0.0.1 on port 55973: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-15 18:40:21.270000] Server stops
+
+
