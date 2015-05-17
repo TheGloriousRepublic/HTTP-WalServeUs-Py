@@ -196,7 +196,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
                 
         elif os.path.isfile(settings['erdir']+'/404.html'):
-            self.send_response(404)
+            #self.send_response(404)
             content=open(settings['erdir']+'/404.html').read()
             self.wfile.write(content)
             
