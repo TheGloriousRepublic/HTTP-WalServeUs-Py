@@ -43,6 +43,7 @@ pcodes = {      '0A':'\n',
 settings = {}
 rw = {}
 processors = {}
+sub = {}
 
 serveAsPlaintext = ['text','application']
 
@@ -68,6 +69,13 @@ def loadConfig(): #Open configuration files and save their options to settings
                     if not x[0]=='#':
                         processors[x.split('=')[0]]=x.split('=')[1]
 
+    for root, dirs, files in os.walk('config/subdomains/'):
+        for f in files:
+            if f.endswith('.cfg'):
+                for x in open('config/subdomains/'+f).read().split('\n'):
+                    if not x[0]=='#':
+                        sub[x.split('=')[0]]=x.split('=')[1]
+
 def dictMerge(x, y):
     '''Given two dicts, merge them into a new dict as a shallow copy.'''
     z = x.copy()
@@ -84,6 +92,12 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
     def wfileclear(self):
         self.wfile=''
 
+    def send_error(self, code, message=None):
+        self.send_response(code)#, message)
+        self.send_header("Content-Type", self.error_content_type)
+        
+        self.end_headers()
+            
     def gendat(self):
         global connected, visitors, individualvisitors
         return {'command':self.command,
@@ -97,13 +111,13 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             }
 
     def extractVars(self):
-        if len(self.path.split('?')) == 2:
+        if len(self.path.split('?')) >= 2:
             r={}
-            v=self.path.split('?')[-1] #Get the variables clause
+            v=self.path.split('?')[-1] #Get the query
             v=v.split('&') #Separate them
 
             for x in range(len(v)):
-                v[x]=v[x].split('=')
+                v[x]=v[x].split('=') #Separate the ~~Boys from the Men~~ variable names from the values
             for x in v:
                 r[x[0]]=self.psub(x[1])
 
@@ -111,18 +125,18 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             return r
         else:
             return {}
-        
-    
+
     def log_message(*args):
         pass
 
     def logCommand(self):
-        log(self.client_address[0]+' on port '+str(self.client_address[1])+': \''+self.command+' '+self.path+'\', interpreted as \''+self.command+' '+self.getPath()+'\'') #Log the time and client address/client port of a request, followed by the request submitted and what it was interpreted to.
+        log(self.client_address[0]+' on port '+str(self.client_address[1])+' to '+self.headers['host']+': \''+self.command+' '+self.path+'\', interpreted as \''+self.command+' '+self.getPath()+'\'') #Log the time and client address/client port of a request, followed by the request submitted and what it was interpreted to.
 
     def logConnected(self):
         global connected, visitors, individualvisitors
         if not self.client_address[0] in connected:
-            connected+=self.client_address[0]
+            if not self.headers.get('DNT') or self.headers.get('DNT')==None: #Respect Do Not Track requests
+                connected+=self.client_address[0]
             individualvisitors+=1
         visitors+=1
 
@@ -182,20 +196,20 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
                 
         elif os.path.isfile(settings['erdir']+'/404.html'):
+            self.send_response(404)
             content=open(settings['erdir']+'/404.html').read()
             self.wfile.write(content)
             
         else:
             self.send_response(404)
             self.wfile.write('<center><h1>Error 404</h1><h2>File not found</h2>Furthermore, no 404.html file was found in the local server\'s error directory</center>')
-    
 
     def do_POST(self):
         p=self.getPath()
         self.logCommand()
         ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
         if ctype == 'multipart/form-data':
-            print self.rfile
+            print(self.rfile)
             query=cgi.parse_multipart(self.rfile, pdict)
         
         self.send_response(301, '')
@@ -206,6 +220,13 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         else:
             log('File too large to record (>'+int(settings['rcmax'])+'b)')
 
+    def do_OPTIONS(self):
+        self.sendHeaders()
+        op=dir(self)
+        o=[]
+        for method in dir:
+            if method[:2]=='do_':
+                self.wfile.write(method[2:]+' ')
     def do_KILL(self):        
         #gracefulShutdown()
         pass
@@ -245,5 +266,6 @@ individualvisitors=len(connected) #Get number of unique connectors
 atexit.register(gracefulShutdown) #Record logs at shutdown
 
 if __name__ == '__main__':
-    s = BaseHTTPServer.HTTPServer(('', 80), webServer)
+    s = BaseHTTPServer.HTTPServer(('', int(settings['port'])), webServer)
+    #print(s)
     serve()
