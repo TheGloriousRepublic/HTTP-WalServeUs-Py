@@ -192,19 +192,25 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 self.send_error(403)
                 content=open(settings['erdir']+'/403.html').read()
                 self.wfile.write(content)
+                log('Sent 403')
                 
             else:
                 self.send_response(403)
                 self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
+                log('Sent 403')
+                log('WARNING! NO 403.html AVAILABLE!')
                 
         elif os.path.isfile(settings['erdir']+'/404.html'):
             self.send_error(404)
             content=open(settings['erdir']+'/404.html').read()
             self.wfile.write(content)
+            log('Sent 404')
             
         else:
             self.send_response(404)
             self.wfile.write('<center><h1>Error 404</h1><h2>File not found</h2>Furthermore, no 404.html file was found in the local server\'s error directory</center>')
+            log('Sent 404')
+            log('WARNING! NO 404.html AVAILABLE!')
 
     def do_POST(self):
         p=self.getPath()
