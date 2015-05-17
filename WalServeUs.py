@@ -130,7 +130,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         pass
 
     def logCommand(self):
-        log(self.client_address[0]+' on port '+str(self.client_address[1])+' to '+self.headers['host']+': \''+self.command+' '+self.path+'\', interpreted as \''+self.command+' '+self.getPath()+'\'') #Log the time and client address/client port of a request, followed by the request submitted and what it was interpreted to.
+        log(self.client_address[0]+' on port '+str(self.client_address[1])+' to '+self.headers.get('host')+': \''+self.command+' '+self.path+'\', interpreted as \''+self.command+' '+self.getPath()+'\'') #Log the time and client address/client port of a request, followed by the request submitted and what it was interpreted to.
 
     def logConnected(self):
         global connected, visitors, individualvisitors
@@ -172,22 +172,24 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         p=self.getPath()
         self.logCommand()
         ext=p.split('.')[-1]
-        self.sendHeader()
         m=dictMerge(self.gendat(), a)
         if os.path.isfile(settings['pgdir']+'/'+p):
             if ext in settings['pgexr'].split('|') or ('*' in settings['pgexr'].split('|') and mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext):
+                self.sendHeader()
                 content=open(settings['pgdir']+'/'+p).read()
                 if ext in processors:
                     content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', '+str(m).replace('\'','"')+')')
                 self.wfile.write(content)
 
             elif ext in settings['pgexb'].split('|') or ('*' in settings['pgexb'].split('|') and not (mimetypes.guess_type(p)[0].split('/')[0] in serveAsPlaintext)):
+                self.sendHeader()
                 content=open(settings['pgdir']+'/'+p,'rb').read()
                 if ext in processors:
                     content=eval(processors[ext]+'.main(\''+content.replace('\n','').replace('\t','')+'\', \''+str(dictMerge(self.gendat(),a)).replace('\'','"')+'\')')
                 self.wfile.write(content)
                 
             elif os.path.isfile(settings['erdir']+'/403.html'):
+                self.send_error(403)
                 content=open(settings['erdir']+'/403.html').read()
                 self.wfile.write(content)
                 
@@ -196,7 +198,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
                 
         elif os.path.isfile(settings['erdir']+'/404.html'):
-            #self.send_response(404)
+            self.send_error(404)
             content=open(settings['erdir']+'/404.html').read()
             self.wfile.write(content)
             
