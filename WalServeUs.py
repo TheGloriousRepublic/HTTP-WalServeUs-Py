@@ -48,20 +48,25 @@ sub = {}
 serveAsPlaintext = ['text','application']
 
 def loadConfig(): #Open configuration files and save their options to settings
+    print('Loading configuration files')
+    print('\tLoading settings...')                
+    
     for root, dirs, files in os.walk('config/settings/'): #Open all files in config directory
         for f in files:
             if f.endswith('.cfg'):
                 for x in open('config/settings/'+f).read().split('\n'): #Separate lines in file and iterate
                     if not x[0]=='#':
                         settings[x.split('=')[0]]=x.split('=')[1] #Set the option before the equal sign in the config file line to the value in the settings dict
-                    
+
+    print('\tLoading rewrite...')    
     for root, dirs, files in os.walk('config/rewriter/'):
         for f in files:
             if f.endswith('.cfg'):
                 for x in open('config/rewriter/'+f).read().split('\n'):
                     if not x[0]=='#':
                         rw[x.split('=')[0]]=x.split('=')[1]
-
+                        
+    print('\tLoading processors...')
     for root, dirs, files in os.walk('config/processors/'):
         for f in files:
             if f.endswith('.cfg'):
@@ -69,12 +74,15 @@ def loadConfig(): #Open configuration files and save their options to settings
                     if not x[0]=='#':
                         processors[x.split('=')[0]]=x.split('=')[1]
 
+    print('\tLoading subdomains...')
     for root, dirs, files in os.walk('config/subdomains/'):
         for f in files:
             if f.endswith('.cfg'):
                 for x in open('config/subdomains/'+f).read().split('\n'):
                     if not x[0]=='#':
                         sub[x.split('=')[0]]=x.split('=')[1]
+
+    print('\tConfiguration loaded\n\n')
 
 def dictMerge(x, y):
     '''Given two dicts, merge them into a new dict as a shallow copy.'''
@@ -83,7 +91,7 @@ def dictMerge(x, y):
     return z
 
 def log(dat): #Print to console and save to log
-    o='['+str(datetime.datetime.now())+'] '+str(dat)+'\n'
+    o='['+str(datetime.datetime.now())+'] '+str(dat)+'\n'    
     b=open(settings['lgdir']+'/server.log', 'r+').read() #Retrieve current log
     open(settings['lgdir']+'/server.log', 'w+').write(b+o+'\n\n') #Write a concatenation of old log and new log to log
     print(o)
@@ -235,6 +243,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         for method in dir:
             if method[:2]=='do_':
                 self.wfile.write(method[2:]+' ')
+                
     def do_KILL(self):        
         #gracefulShutdown()
         pass
@@ -267,7 +276,7 @@ def serve():
 
 loadConfig() #load configuration files
 
-connected=list(open(settings['lgdir']+'/connected.log', 'w+').read().split('\n')) #Retrieve list of connected IPs
+connected=list(open(settings['lgdir']+'/connected.log', 'w+').read().split('\n')) #Retrieve list of connected 
 visitors=0#int(open(settings['lgdir']+'/visitorcount.log').read()) #Retrieve number of connectors
 individualvisitors=len(connected) #Get number of unique connectors
 
