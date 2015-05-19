@@ -8878,3 +8878,12 @@
 [2015-05-18 20:07:09.699000] 127.0.0.1 on port 50646 to 127.0.0.1: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
 
 
+[2015-05-18 20:14:50.674000] 127.0.0.1 on port 50753 to sub.localhost: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-18 20:14:50.799000] 127.0.0.1 on port 50754 to sub.localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-18 20:14:50.852000] 127.0.0.1 on port 50755 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
