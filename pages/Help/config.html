@@ -13,7 +13,7 @@
 		</center>
         <p>Sometimes, you'll want to change some of the basic settings for the WalServeUs server. Maybe you want (or need) to keep the website files in another directory, maybe there are
         some download filetypes that aren't supported by default, or maybe you want to do something else. If this is the case, then this is the page for you!</p>
-    <p>Configuration files are arranged into 3 folders: <span class="filename">processors</span>, <span class="filename">rewriter</span> and <span class="filename">settings</span>. All the files in each of these folders are essentially combined within their folders then read upon startup (meaning you can divide them however you want, even in subfolders, provided you keep them in the correct parent folder.)</p>           
+    <p>Configuration files are arranged into 6 folders: <span class="filename">settings</span>, <span class="filename">rewriter</span>, <span class="filename">processors</span>, <span class="filename">post</span>, <span class="filename">stat</span>, and<span class="filename">subdomains</span>. All the files in each of these folders are essentially combined within their folders then read upon startup (meaning you can divide them however you want, even in subfolders, provided you keep them in the correct parent folder.)</p>           
     </div>
     <div id="accordion">
         <h3><a href="#">Settings</a></h3>
@@ -28,6 +28,7 @@
                 <li>rcMax: A security setting dictating the maximum size of uploaded files</li>
                 <li>pgexr: A list of file extensions separated by verticle bars (|) that should be read as raw text when sent. * will apply to any text file.</li>
                 <li>pgexb: A list of file extensions separated by verticle bars (|) that should be read as binary when sent. * will apply to any binary file.</li>
+				<li>port: Which internal port the server runs on (this is complicated and you'll need to research yourself to understand.)</li>
             </ul>
         </p>
         <p>These should be left alone unless dictated to you by a professional.</p>
@@ -66,6 +67,18 @@
         <div>
 			<p>Processors are things that take a page before it's sent to the user and convert it into what you want them to see. They are typically installed as plugins, by dragging and dropping a <span class="filename">.py</span> file into your <span class="filename">plugins</span> folder. The next time you run the file, a new file ending with <span class="filename">.pyc</span> is created.
 			<p>They are quite simple: you just use the <span class="code">key=value</span> format to match file extensions to names. Hopefully, when you download a plugin, it came with a readme file. This should tell you what to do. <b>WARNING: NEVER PUT ANYTHING THAT LOOKS LIKE CODE INTO YOUR PROCESSORS FILE, AS IT COULD SURPRISINGLY EASILY INSTALL A VIRUS</b></p>
+        </div>
+		<h3><a href="#">post</a></h3>
+        <div>
+			<p>To be implemented</p>
+        </div>
+		<h3><a href="#">stat</a></h3>
+        <div>
+			<p>Contains static files that should not be messed with.</p>
+        </div>
+		<h3><a href="#">Subdomains</a></h3>
+        <div>
+			<p>Not yet implemented. Rearrangement needed. Will implement subdomains (e.g. <a href="http://sub.example.com/">sub.example.com</a>).</p>
         </div>
     </div>
 </body>
