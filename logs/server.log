@@ -8830,3 +8830,51 @@
 [2015-05-18 19:59:53.966000] 127.0.0.1 on port 50573 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
 
 
+[2015-05-18 20:06:41.082000] Server starts
+
+
+[2015-05-18 20:06:55.168000] 127.0.0.1 on port 50628 to sub.localhost: 'GET /contact/', interpreted as 'GET contact/contact.html'
+
+
+[2015-05-18 20:06:55.254000] 127.0.0.1 on port 50630 to sub.localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-18 20:06:55.336000] 127.0.0.1 on port 50631 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-18 20:06:56.932000] 127.0.0.1 on port 50632 to sub.localhost: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-18 20:06:57.051000] 127.0.0.1 on port 50633 to sub.localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-18 20:06:57.079000] 127.0.0.1 on port 50634 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-18 20:06:58.444000] 127.0.0.1 on port 50635 to sub.localhost: 'GET /channels/', interpreted as 'GET channels/channels.html'
+
+
+[2015-05-18 20:06:58.581000] 127.0.0.1 on port 50636 to sub.localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-18 20:06:58.605000] 127.0.0.1 on port 50637 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-18 20:07:03.632000] 127.0.0.1 on port 50639 to localhost: 'GET /channels/', interpreted as 'GET channels/channels.html'
+
+
+[2015-05-18 20:07:03.703000] 127.0.0.1 on port 50640 to localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-18 20:07:03.756000] 127.0.0.1 on port 50641 to localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-18 20:07:09.632000] 127.0.0.1 on port 50644 to 127.0.0.1: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-18 20:07:09.691000] 127.0.0.1 on port 50645 to 127.0.0.1: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-18 20:07:09.699000] 127.0.0.1 on port 50646 to 127.0.0.1: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
