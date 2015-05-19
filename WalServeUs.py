@@ -108,36 +108,36 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 self.wfile.write(content)
                 log('Sent 400')
             else:
-                self.wfile.write('<center><h1>Error 400</h1><h2>Bad request</h2>Furthermore, no 400.html file was found in the local server\'s error directory</center>')
+                self.wfile.write('<center><h1>Error 400</h1><h2>Bad request</h2>Furthermore, no 400 file was found in the local server\'s error directory</center>')
                 log('Sent 400')
-                log('WARNING! NO 403.html AVAILABLE!')
+                log('WARNING! NO 403 FILE AVAILABLE!')
         elif code == 401:
             if os.path.isfile(settings['erdir']+'/401.html'):
                 content=open(settings['erdir']+'/401.html').read()
                 self.wfile.write(content)
                 log('Sent 401')
             else:
-                self.wfile.write('<center><h1>Error 401</h1><h2>You are not authorized to access this file at this time, due perhaps to you not being logged in.</h2>Furthermore, no 401.html file was found in the local server\'s error directory</center>')
+                self.wfile.write('<center><h1>Error 401</h1><h2>You are not authorized to access this file at this time, due perhaps to you not being logged in.</h2>Furthermore, no 401 file was found in the local server\'s error directory</center>')
                 log('Sent 401')
-                log('WARNING! NO 401.html AVAILABLE!')
+                log('WARNING! NO 401 FILE AVAILABLE!')
         elif code == 402:
-            if os.path.isfile(settings['erdir']+'/402.html'):
+            if os.path.isfile(settings['erdir']+'/402'):
                 content=open(settings['erdir']+'/402.html').read()
                 self.wfile.write(content)
                 log('Sent 402')
             else:
-                self.wfile.write('<center><h1>Error 402</h1><h2>Payment is required to access this file at this time</h2>Furthermore, no 402.html file was found in the local server\'s error directory</center>')
+                self.wfile.write('<center><h1>Error 402</h1><h2>Payment is required to access this file at this time</h2>Furthermore, no 402 file was found in the local server\'s error directory</center>')
                 log('Sent 402')
-                log('WARNING! NO 402.html AVAILABLE!')
+                log('WARNING! NO 402 FILE AVAILABLE!')
         elif code == 403:
             if os.path.isfile(settings['erdir']+'/403.html'):
                 content=open(settings['erdir']+'/403.html').read()
                 self.wfile.write(content)
                 log('Sent 403')
             else:
-                self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403.html file was found in the local server\'s error directory</center>')
+                self.wfile.write('<center><h1>Error 403</h1><h2>You are forbidden to access this file on this server</h2>Furthermore, no 403 file was found in the local server\'s error directory</center>')
                 log('Sent 403')
-                log('WARNING! NO 403.html AVAILABLE!')
+                log('WARNING! NO 403 FILE AVAILABLE!')
                 
         elif code == 404:
             if os.path.isfile(settings['erdir']+'/404.html'):
@@ -200,6 +200,20 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 p=rw[x]
                 break
         return(p)
+
+    def getSub(self):
+        p=self.headers['host']
+        p=p.split('.')
+        if p[-1]!='localhost':
+            if len(p)==3:
+                return p[0]
+            else:
+                return('__DEFAULT__')
+        else:
+            if p[0]=='localhost':
+                return('__DEFAULT__')
+            else:
+                return(p[0])
 
     def psub(self, s):
         for x in pcodes:

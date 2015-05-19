@@ -8887,3 +8887,27 @@
 [2015-05-18 20:14:50.852000] 127.0.0.1 on port 50755 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
 
 
+[2015-05-19 11:45:46.386000] 127.0.0.1 on port 51578 to sub.localhost: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 11:45:48.122000] 127.0.0.1 on port 51590 to sub.localhost: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 14:09:21.750000] Server starts
+
+
+[2015-05-19 14:09:25.784000] 127.0.0.1 on port 49568 to sub.localhost: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 14:09:26.750000] 127.0.0.1 on port 49569 to sub.localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 14:09:26.795000] 127.0.0.1 on port 49570 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:10:46.663000] Server starts
+
+
+[2015-05-19 15:10:49.168000] Server stops
+
+
