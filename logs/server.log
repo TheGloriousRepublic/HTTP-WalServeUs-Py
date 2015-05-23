@@ -8911,3 +8911,282 @@
 [2015-05-19 15:10:49.168000] Server stops
 
 
+[2015-05-19 15:20:01.257000] 127.0.0.1 on port 50149 to sub.localhost: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:20:01.410000] 127.0.0.1 on port 50150 to sub.localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:20:01.423000] 127.0.0.1 on port 50151 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:20:26.759000] Server stops
+
+
+[2015-05-19 15:20:29.958000] Server starts
+
+
+[2015-05-19 15:22:04.405000] 206.174.2.135 on port 50432 to 206.174.2.135: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:22:04.865000] 206.174.2.135 on port 50433 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:22:04.891000] 206.174.2.135 on port 50434 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:22:04.938000] 206.174.2.135 on port 50435 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:22:05.027000] 206.174.2.135 on port 50436 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:22:47.795000] 127.0.0.1 on port 50442 to sub.localhost: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:22:47.917000] 127.0.0.1 on port 50443 to sub.localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:22:47.987000] 127.0.0.1 on port 50444 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:23:06.621000] 127.0.0.1 on port 50446 to 127.0.0.1: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:23:06.710000] 127.0.0.1 on port 50447 to 127.0.0.1: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:23:06.753000] 127.0.0.1 on port 50448 to 127.0.0.1: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:23:12.622000] 192.168.1.3 on port 50450 to 192.168.1.3: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:23:12.680000] 192.168.1.3 on port 50451 to 192.168.1.3: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:23:12.731000] 192.168.1.3 on port 50452 to 192.168.1.3: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:23:12.799000] 192.168.1.3 on port 50453 to 192.168.1.3: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:23:12.886000] 192.168.1.3 on port 50454 to 192.168.1.3: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:30.734000] 206.174.2.135 on port 50465 to 206.174.2.135: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:24:30.808000] 206.174.2.135 on port 50466 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:24:30.906000] 206.174.2.135 on port 50467 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:24:30.924000] 206.174.2.135 on port 50468 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:30.966000] 206.174.2.135 on port 50469 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:38.836000] 206.174.2.135 on port 50477 to 206.174.2.135: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:24:38.964000] 206.174.2.135 on port 50478 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:24:38.993000] 206.174.2.135 on port 50479 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:24:39.028000] 206.174.2.135 on port 50480 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:39.077000] 206.174.2.135 on port 50481 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:41.852000] 206.174.2.135 on port 50482 to 206.174.2.135: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-19 15:24:42.004000] 206.174.2.135 on port 50483 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:24:42.038000] 206.174.2.135 on port 50484 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:24:42.309000] 206.174.2.135 on port 50485 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:42.344000] 206.174.2.135 on port 50486 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:42.940000] 206.174.2.135 on port 50487 to 206.174.2.135: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:24:43.032000] 206.174.2.135 on port 50488 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:24:43.128000] 206.174.2.135 on port 50489 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:24:43.159000] 206.174.2.135 on port 50490 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:43.262000] 206.174.2.135 on port 50491 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:43.625000] 206.174.2.135 on port 50492 to 206.174.2.135: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-19 15:24:43.698000] 206.174.2.135 on port 50493 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:24:43.792000] 206.174.2.135 on port 50494 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:24:44.019000] 206.174.2.135 on port 50495 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:44.048000] 206.174.2.135 on port 50496 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:44.825000] 206.174.2.135 on port 50497 to 206.174.2.135: 'GET /members/erika/', interpreted as 'GET /members/erika.html'
+
+
+[2015-05-19 15:24:44.938000] 206.174.2.135 on port 50498 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:24:44.968000] 206.174.2.135 on port 50499 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:24:45.211000] 206.174.2.135 on port 50500 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:45.243000] 206.174.2.135 on port 50501 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:46.387000] 206.174.2.135 on port 50502 to 206.174.2.135: 'GET /members/', interpreted as 'GET /members/members.html'
+
+
+[2015-05-19 15:24:46.459000] 206.174.2.135 on port 50503 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:24:46.538000] 206.174.2.135 on port 50504 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:24:46.813000] 206.174.2.135 on port 50505 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:46.846000] 206.174.2.135 on port 50506 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:47.845000] 206.174.2.135 on port 50507 to 206.174.2.135: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-19 15:24:47.928000] 206.174.2.135 on port 50508 to 206.174.2.135: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-19 15:24:48.040000] 206.174.2.135 on port 50509 to 206.174.2.135: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-19 15:24:48.071000] 206.174.2.135 on port 50510 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-19 15:24:48.117000] 206.174.2.135 on port 50511 to 206.174.2.135: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-22 14:11:42.245000] Server starts
+
+
+[2015-05-22 14:23:26.369000] Server starts
+
+
+[2015-05-22 14:28:45.040000] 127.0.0.1 on port 49522 to localhost: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-22 14:28:45.329000] Sent 404
+
+
+[2015-05-22 14:28:45.521000] 127.0.0.1 on port 49523 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-22 14:29:01.401000] 127.0.0.1 on port 49527 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-22 14:41:19.275000] 127.0.0.1 on port 49729 to localhost: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-22 14:41:19.398000] Sent 404
+
+
+[2015-05-22 14:41:19.564000] 127.0.0.1 on port 49730 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-22 14:41:19.573000] 127.0.0.1 on port 49731 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-22 14:46:16.685000] 127.0.0.1 on port 49777 to localhost: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-22 14:46:16.693000] Sent 404
+
+
+[2015-05-22 14:46:16.816000] 127.0.0.1 on port 49778 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-22 14:46:17.118000] 127.0.0.1 on port 49780 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-22 14:48:03.794000] 127.0.0.1 on port 57884 to localhost: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-22 14:48:03.801000] Sent 404
+
+
+[2015-05-22 14:48:03.930000] 127.0.0.1 on port 57885 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-22 14:48:04.097000] 127.0.0.1 on port 57886 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-22 14:49:08.246000] 127.0.0.1 on port 57891 to localhost: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-22 14:49:08.254000] Sent 404
+
+
+[2015-05-22 14:49:08.390000] 127.0.0.1 on port 57892 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-22 14:49:08.534000] 127.0.0.1 on port 57893 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-22 14:49:43.719000] 127.0.0.1 on port 57896 to localhost: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-22 14:49:43.728000] Sent 404
+
+
+[2015-05-22 14:49:43.856000] 127.0.0.1 on port 57897 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-22 14:49:44.006000] 127.0.0.1 on port 57898 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-22 14:50:40.881000] 127.0.0.1 on port 57905 to localhost: 'GET /oogaboogabooga', interpreted as 'GET /oogaboogabooga'
+
+
+[2015-05-22 14:50:40.890000] Sent 404
+
+
+[2015-05-22 14:50:41.022000] 127.0.0.1 on port 57906 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-22 14:50:41.184000] 127.0.0.1 on port 57907 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-22 15:28:40.392000] Server stops
+
+
+[2015-05-22 16:10:04.089000] Server starts
+
+

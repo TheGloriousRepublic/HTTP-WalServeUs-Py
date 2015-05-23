@@ -148,6 +148,16 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
                 self.wfile.write('<center><h1>Error 404</h1><h2>File not found</h2>Furthermore, no 404.html file was found in the local server\'s error directory</center>')
                 log('Sent 404')
                 log('WARNING! NO 404.html AVAILABLE!')
+
+        elif code == 405:
+            if os.path.isfile(settings['erdir']+'/405.html'):
+                content=open(settings['erdir']+'/405.html').read()
+                self.wfile.write(content)
+                log('Sent 405')
+            else:
+                self.wfile.write('<center><h1>Error 405</h1><h2>Method Not Supported</h2>Furthermore, no 405.html file was found in the local server\'s error directory</center>')
+                log('Sent 404')
+                log('WARNING! NO 405.html AVAILABLE!')
             
     def gendat(self):
         global connected, visitors, individualvisitors
@@ -322,6 +332,6 @@ individualvisitors=len(connected) #Get number of unique connectors
 atexit.register(gracefulShutdown) #Record logs at shutdown
 
 if __name__ == '__main__':
-    s = BaseHTTPServer.HTTPServer(('', int(settings['port'])), webServer)
+    s = BaseHTTPServer.HTTPServer((settings['ip'], int(settings['port'])), webServer)
     #print(s)
     serve()
