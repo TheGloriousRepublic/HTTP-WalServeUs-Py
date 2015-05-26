@@ -9190,3 +9190,636 @@
 [2015-05-22 16:10:04.089000] Server starts
 
 
+[2015-05-26 12:58:38.305000] Server starts
+
+
+[2015-05-26 12:58:40.354000] Server stops
+
+
+[2015-05-26 12:58:46.630000] Server starts
+
+
+[2015-05-26 12:58:56.591000] 127.0.0.1 on port 60057 to localhost: 'GET /pfil', interpreted as 'GET C:/Users/Nathan/Desktop/Programming/WalrusOS/Purely-Functional-Imperative-Language/doc/Start-Here.'
+
+
+[2015-05-26 12:58:56.598000] Sent 404
+
+
+[2015-05-26 12:58:56.800000] 127.0.0.1 on port 60058 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-26 12:58:57.256000] 127.0.0.1 on port 60059 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-26 12:59:50.593000] Server stops
+
+
+[2015-05-26 12:59:57.970000] Server starts
+
+
+[2015-05-26 12:59:59.500000] 127.0.0.1 on port 60072 to localhost: 'GET /pfil', interpreted as 'GET C:/Users/Nathan/Desktop/Programming/WalrusOS/Purely-Functional-Imperative-Language/doc/Start-Here.'
+
+
+[2015-05-26 12:59:59.508000] Sent 404
+
+
+[2015-05-26 12:59:59.662000] 127.0.0.1 on port 60073 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-26 13:00:00.197000] 127.0.0.1 on port 60076 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-26 13:00:31.751000] Server stops
+
+
+[2015-05-26 13:00:35.779000] Server starts
+
+
+[2015-05-26 13:00:37.129000] 127.0.0.1 on port 60084 to localhost: 'GET /pfil', interpreted as 'GET C:/Users/Nathan/Desktop/Programming/WalrusOS/Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:00:37.136000] Sent 404
+
+
+[2015-05-26 13:00:37.291000] 127.0.0.1 on port 60085 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-26 13:00:37.774000] 127.0.0.1 on port 60087 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-26 13:03:07.526000] 127.0.0.1 on port 60096 to localhost: 'GET /pfil', interpreted as 'GET C:/Users/Nathan/Desktop/Programming/WalrusOS/Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:03:07.532000] Sent 404
+
+
+[2015-05-26 13:03:07.665000] 127.0.0.1 on port 60097 to localhost: 'GET /errorscript.js', interpreted as 'GET /errorscript.js'
+
+
+[2015-05-26 13:03:07.953000] 127.0.0.1 on port 60099 to localhost: 'GET /404walrus.jpg', interpreted as 'GET /404walrus.jpg'
+
+
+[2015-05-26 13:03:40.088000] Server starts
+
+
+[2015-05-26 13:03:41.963000] 127.0.0.1 on port 60105 to localhost: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:15:03.876000] 127.0.0.1 on port 60187 to localhost: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:15:04.027000] 127.0.0.1 on port 60188 to localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:15:04.055000] 127.0.0.1 on port 60189 to localhost: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:15:04.063000] 127.0.0.1 on port 60190 to localhost: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:15:04.078000] 127.0.0.1 on port 60191 to localhost: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:15:36.839000] 127.0.0.1 on port 60196 to localhost: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:15:36.978000] 127.0.0.1 on port 60197 to localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:15:36.985000] 127.0.0.1 on port 60198 to localhost: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:15:36.996000] 127.0.0.1 on port 60199 to localhost: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:15:37.013000] 127.0.0.1 on port 60200 to localhost: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:16:16.840000] Server stops
+
+
+[2015-05-26 13:16:25.215000] Server starts
+
+
+[2015-05-26 13:16:26.692000] 127.0.0.1 on port 60205 to localhost: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:16:27.145000] 127.0.0.1 on port 60206 to localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:16:27.156000] 127.0.0.1 on port 60207 to localhost: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:16:27.165000] 127.0.0.1 on port 60208 to localhost: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:16:27.179000] 127.0.0.1 on port 60209 to localhost: 'GET /pfil/script.js', interpreted as 'GET /pfil/script.js'
+
+
+[2015-05-26 13:16:27.187000] Sent 404
+
+
+[2015-05-26 13:16:27.278000] 127.0.0.1 on port 60210 to localhost: 'GET /pfil/script.js', interpreted as 'GET /pfil/script.js'
+
+
+[2015-05-26 13:16:27.285000] Sent 404
+
+
+[2015-05-26 13:17:20.866000] Server stops
+
+
+[2015-05-26 13:17:24.436000] Server starts
+
+
+[2015-05-26 13:17:26.303000] 127.0.0.1 on port 60218 to localhost: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:17:26.754000] 127.0.0.1 on port 60219 to localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:17:26.766000] 127.0.0.1 on port 60220 to localhost: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:17:26.775000] 127.0.0.1 on port 60221 to localhost: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:17:26.787000] 127.0.0.1 on port 60222 to localhost: 'GET /pfil/script.js', interpreted as 'GET ^/Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:17:26.798000] Sent 404
+
+
+[2015-05-26 13:17:58.754000] 127.0.0.1 on port 60225 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:17:58.905000] 127.0.0.1 on port 60226 to 127.0.0.1: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:17:58.914000] 127.0.0.1 on port 60227 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:17:58.929000] 127.0.0.1 on port 60228 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:17:58.940000] 127.0.0.1 on port 60229 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET ^/Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:17:58.947000] Sent 404
+
+
+[2015-05-26 13:18:08.226000] 127.0.0.1 on port 60239 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:18:08.408000] 127.0.0.1 on port 60240 to 127.0.0.1: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:18:08.417000] 127.0.0.1 on port 60241 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:18:08.451000] 127.0.0.1 on port 60242 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:18:08.471000] 127.0.0.1 on port 60243 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET ^/Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:18:08.480000] Sent 404
+
+
+[2015-05-26 13:18:20.026000] Server stops
+
+
+[2015-05-26 13:18:22.553000] Server starts
+
+
+[2015-05-26 13:18:24.787000] 127.0.0.1 on port 60248 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:18:25.253000] 127.0.0.1 on port 60249 to 127.0.0.1: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:18:25.291000] 127.0.0.1 on port 60250 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:18:25.350000] 127.0.0.1 on port 60251 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:18:25.365000] 127.0.0.1 on port 60252 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:18:58.094000] Server stops
+
+
+[2015-05-26 13:19:01.054000] Server starts
+
+
+[2015-05-26 13:19:02.914000] 127.0.0.1 on port 60256 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:19:03.396000] 127.0.0.1 on port 60257 to 127.0.0.1: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:19:03.403000] 127.0.0.1 on port 60258 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:19:03.459000] 127.0.0.1 on port 60259 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:19:03.491000] 127.0.0.1 on port 60260 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:19:20.067000] 127.0.0.1 on port 60263 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:19:20.210000] 127.0.0.1 on port 60264 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:19:20.225000] 127.0.0.1 on port 60265 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:19:20.234000] 127.0.0.1 on port 60266 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:19:20.242000] 127.0.0.1 on port 60267 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:19:46.772000] 127.0.0.1 on port 60273 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:19:46.917000] 127.0.0.1 on port 60274 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:19:46.930000] 127.0.0.1 on port 60275 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:19:46.944000] 127.0.0.1 on port 60276 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:19:46.953000] 127.0.0.1 on port 60277 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:21:17.007000] 127.0.0.1 on port 60307 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:21:17.170000] 127.0.0.1 on port 60308 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:21:17.178000] 127.0.0.1 on port 60309 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:21:17.188000] 127.0.0.1 on port 60310 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:21:17.197000] 127.0.0.1 on port 60311 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:23:25.466000] 127.0.0.1 on port 60329 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:23:25.621000] 127.0.0.1 on port 60330 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:23:25.631000] 127.0.0.1 on port 60331 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:23:25.639000] 127.0.0.1 on port 60332 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:23:25.650000] 127.0.0.1 on port 60333 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:23:58.984000] 127.0.0.1 on port 60337 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:23:59.140000] 127.0.0.1 on port 60338 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:23:59.148000] 127.0.0.1 on port 60339 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:23:59.159000] 127.0.0.1 on port 60340 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:23:59.171000] 127.0.0.1 on port 60341 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:24:41.224000] 127.0.0.1 on port 60348 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:24:41.375000] 127.0.0.1 on port 60349 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:24:41.383000] 127.0.0.1 on port 60350 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:24:41.392000] 127.0.0.1 on port 60351 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:24:41.401000] 127.0.0.1 on port 60352 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:26:13.437000] 127.0.0.1 on port 60375 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:26:13.588000] 127.0.0.1 on port 60376 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:26:13.602000] 127.0.0.1 on port 60377 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:26:13.616000] 127.0.0.1 on port 60378 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:26:13.627000] 127.0.0.1 on port 60379 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:26:14.767000] 127.0.0.1 on port 60380 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:26:14.901000] 127.0.0.1 on port 60381 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:26:14.910000] 127.0.0.1 on port 60382 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:26:14.920000] 127.0.0.1 on port 60383 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:26:14.931000] 127.0.0.1 on port 60384 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:26:35.892000] 127.0.0.1 on port 60390 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:26:36.041000] 127.0.0.1 on port 60391 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:26:36.049000] 127.0.0.1 on port 60392 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:26:36.061000] 127.0.0.1 on port 60393 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:26:36.072000] 127.0.0.1 on port 60394 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:28:41.502000] 127.0.0.1 on port 60428 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:28:41.654000] 127.0.0.1 on port 60429 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:28:41.664000] 127.0.0.1 on port 60430 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:28:41.679000] 127.0.0.1 on port 60431 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:28:41.690000] 127.0.0.1 on port 60432 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:29:02.211000] 127.0.0.1 on port 60434 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:29:02.361000] 127.0.0.1 on port 60435 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:29:02.371000] 127.0.0.1 on port 60436 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:29:02.380000] 127.0.0.1 on port 60437 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:29:02.391000] 127.0.0.1 on port 60438 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:30:37.810000] 127.0.0.1 on port 60495 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:30:37.961000] 127.0.0.1 on port 60496 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:30:37.975000] 127.0.0.1 on port 60497 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:30:37.996000] 127.0.0.1 on port 60498 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:30:38.008000] 127.0.0.1 on port 60499 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:30:39.164000] 127.0.0.1 on port 60500 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:30:39.314000] 127.0.0.1 on port 60501 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:30:39.324000] 127.0.0.1 on port 60502 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:30:39.341000] 127.0.0.1 on port 60503 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:30:39.352000] 127.0.0.1 on port 60504 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:31:01.946000] 127.0.0.1 on port 60509 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:31:02.101000] 127.0.0.1 on port 60510 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:31:02.117000] 127.0.0.1 on port 60511 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:31:02.129000] 127.0.0.1 on port 60512 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:31:02.140000] 127.0.0.1 on port 60513 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:34:47.991000] 127.0.0.1 on port 60537 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:34:48.165000] 127.0.0.1 on port 60538 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:34:48.175000] 127.0.0.1 on port 60539 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:34:48.184000] 127.0.0.1 on port 60540 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:34:48.195000] 127.0.0.1 on port 60541 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:35:04.468000] 127.0.0.1 on port 60546 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:35:04.612000] 127.0.0.1 on port 60547 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:35:04.621000] 127.0.0.1 on port 60548 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:35:04.633000] 127.0.0.1 on port 60549 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:35:04.644000] 127.0.0.1 on port 60550 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:35:25.946000] 127.0.0.1 on port 60555 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:35:26.110000] 127.0.0.1 on port 60556 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:35:26.117000] 127.0.0.1 on port 60557 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:35:26.138000] 127.0.0.1 on port 60558 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:35:26.150000] 127.0.0.1 on port 60559 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:35:33.465000] 127.0.0.1 on port 60562 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:35:33.603000] 127.0.0.1 on port 60563 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:35:33.613000] 127.0.0.1 on port 60564 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:35:33.636000] 127.0.0.1 on port 60565 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:35:33.648000] 127.0.0.1 on port 60566 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:36:26.206000] 127.0.0.1 on port 60577 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:36:26.885000] 127.0.0.1 on port 60578 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:36:26.926000] 127.0.0.1 on port 60579 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:36:26.977000] 127.0.0.1 on port 60580 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:36:26.991000] 127.0.0.1 on port 60581 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:38:59.679000] 127.0.0.1 on port 60594 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:38:59.822000] 127.0.0.1 on port 60595 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:38:59.831000] 127.0.0.1 on port 60596 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:38:59.840000] 127.0.0.1 on port 60597 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:38:59.850000] 127.0.0.1 on port 60598 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:39:22.845000] 127.0.0.1 on port 60600 to 127.0.0.1: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:39:23.041000] 127.0.0.1 on port 60601 to 127.0.0.1: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:39:23.049000] 127.0.0.1 on port 60602 to 127.0.0.1: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:39:23.058000] 127.0.0.1 on port 60603 to 127.0.0.1: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:39:23.069000] 127.0.0.1 on port 60604 to 127.0.0.1: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:39:33.774000] 127.0.0.1 on port 60609 to sub.localhost: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-26 13:39:33.860000] 127.0.0.1 on port 60610 to sub.localhost: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:39:33.867000] 127.0.0.1 on port 60611 to sub.localhost: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-26 13:39:33.964000] 127.0.0.1 on port 60612 to sub.localhost: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-26 13:39:33.995000] 127.0.0.1 on port 60613 to sub.localhost: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-26 13:41:08.803000] 66.58.171.133 on port 60792 to 66.58.171.133: 'GET /', interpreted as 'GET home.html'
+
+
+[2015-05-26 13:41:08.895000] 66.58.171.133 on port 60793 to 66.58.171.133: 'GET /stylesheet.css', interpreted as 'GET /stylesheet.css'
+
+
+[2015-05-26 13:41:08.911000] 66.58.171.133 on port 60794 to 66.58.171.133: 'GET /doxiegaming.png', interpreted as 'GET /doxiegaming.png'
+
+
+[2015-05-26 13:41:09.024000] 66.58.171.133 on port 60795 to 66.58.171.133: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-26 13:41:09.054000] 66.58.171.133 on port 60796 to 66.58.171.133: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-26 13:41:13.709000] Sent 400
+
+
+[2015-05-26 13:41:13.715000] 66.58.171.133 on port 60800 to 66.58.171.133: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:41:13.860000] 66.58.171.133 on port 60801 to 66.58.171.133: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:41:13.868000] 66.58.171.133 on port 60802 to 66.58.171.133: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:41:13.938000] 66.58.171.133 on port 60803 to 66.58.171.133: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:41:14.072000] 66.58.171.133 on port 60804 to 66.58.171.133: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:41:14.411000] 66.58.171.133 on port 60805 to 66.58.171.133: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-26 13:41:14.441000] 66.58.171.133 on port 60806 to 66.58.171.133: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-26 13:53:07.838000] 66.58.171.133 on port 61394 to 66.58.171.133: 'GET /pfil', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/Start-Here.html'
+
+
+[2015-05-26 13:53:08.023000] 66.58.171.133 on port 61395 to 66.58.171.133: 'GET /pfil/stylesheet.css', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/stylesheet.css'
+
+
+[2015-05-26 13:53:08.031000] 66.58.171.133 on port 61396 to 66.58.171.133: 'GET /help/jquery.min.js', interpreted as 'GET /help/jquery.min.js'
+
+
+[2015-05-26 13:53:08.120000] 66.58.171.133 on port 61397 to 66.58.171.133: 'GET /help/jquery-ui.min.js', interpreted as 'GET /help/jquery-ui.min.js'
+
+
+[2015-05-26 13:53:08.399000] 66.58.171.133 on port 61398 to 66.58.171.133: 'GET /pfil/script.js', interpreted as 'GET /Purely-Functional-Imperative-Language/doc/script.js'
+
+
+[2015-05-26 13:53:08.749000] 66.58.171.133 on port 61399 to 66.58.171.133: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-26 13:53:08.788000] 66.58.171.133 on port 61400 to 66.58.171.133: 'GET /favicon.ico', interpreted as 'GET /favicon.ico'
+
+
+[2015-05-26 14:14:07.211000] Sent 400
+
+
+[2015-05-26 14:22:56.727000] Sent 400
+
+
