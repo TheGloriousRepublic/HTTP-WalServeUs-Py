@@ -191,6 +191,8 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         pass
 
     def logCommand(self):
+        if bool(settings['displayheaders']):
+            print self.headers
         log(self.client_address[0]+' on port '+str(self.client_address[1])+' to '+self.headers.get('host')+': \''+self.command+' '+self.path+'\', interpreted as \''+self.command+' '+self.getPath()+'\'') #Log the time and client address/client port of a request, followed by the request submitted and what it was interpreted to.
 
     def logConnected(self):
