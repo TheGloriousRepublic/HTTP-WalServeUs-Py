@@ -1,0 +1,29 @@
+<!DOCTYPE htpl>
+<htpl>
+	<head> <!--Where all the header stuff happens. Like -->
+		<title>FizzBuzz</title> <!--Defines the window title-->
+		<link rel="library" type="text/htpl" href="stdio.htpl"> <!--Import the stdio library-->
+	</head>
+	
+	<body> <!--The actual code goes in here-->
+		<var name="i"> <!--Set the variable of the name _name_ to the contents of this block-->
+			<range end=100/> <!--Create a range list from 0 to 100-->
+		</var> <!--End the variable-->
+		
+		<forloop upvar="i" iterator=r>
+			<ifthen condition='i%3==0'>
+				<ifthen condition='i%5==0'>
+					<stdio:print>"FizzBuzz"</print>
+				</ifthen>
+				<ifthen condition='i%5!=0'>
+					<stdio:print>"Fizz"</print>
+				</ifthen>
+			</ifthen>
+			
+			<ifthen condition='i%3!=0'>
+				<ifthen condition='i%5==0'>
+					<stdio:print>
+			</ifthen>
+		</forloop>
+	</body>
+</htpl>

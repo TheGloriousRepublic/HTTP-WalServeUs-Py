@@ -1,5 +1,5 @@
 #This software is licensed under the Glorious Republic's Glorious Free Software License 1.0. Just in case you were wondering.
-import Tkinter, BaseHTTPServer, cgi, socket, os, sys, datetime, atexit, re, mimetypes, socket
+import Tkinter, BaseHTTPServer, CGIHTTPServer, socket, os, sys, datetime, atexit, re, mimetypes, socket
 
 from plugins import *
 
@@ -96,7 +96,7 @@ def log(dat): #Print to console and save to log
     open(settings['lgdir']+'/server.log', 'w+').write(b+o+'\n\n') #Write a concatenation of old log and new log to log
     print(o)
 
-class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
+class webServer(BaseHTTPServer.BaseHTTPRequestHandler, CGIHTTPServer.CGIHTTPRequestHandler): #Main handler class
     
     def send_error(self, code, message=None):
         self.send_response(code)#, message)
@@ -191,8 +191,8 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
         pass
 
     def logCommand(self):
-        if bool(settings['displayheaders']):
-            print self.headers
+        #if bool(settings['displayheaders']):
+            #print self.headers
         log(self.client_address[0]+' on port '+str(self.client_address[1])+' to '+self.headers.get('host')+': \''+self.command+' '+self.path+'\', interpreted as \''+self.command+' '+self.getPath()+'\'') #Log the time and client address/client port of a request, followed by the request submitted and what it was interpreted to.
 
     def logConnected(self):
@@ -288,7 +288,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler): #Main handler class
             log('File too large to record (>'+int(settings['rcmax'])+'b)')
 
     def do_OPTIONS(self):
-        self.sendHeaders()
+        self.sendHeader()
         op=dir(self)
         o=[]
         for method in dir:

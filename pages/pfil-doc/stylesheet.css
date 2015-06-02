@@ -1,0 +1,66 @@
+.code {
+	background-color:#D3D3D3;
+	border-radius:15px;
+	padding:5px 5px 5px 5px;
+	font-family:Courier New;
+}
+
+.code .red {
+	color:#FF0000;
+}
+
+.code .orange {
+	color:#FFA500;
+}
+.code .yellow {
+	color:#FFFF00;
+}
+
+.code .green {
+	color:#00FF00;
+}
+
+.code .blue {
+	color :#0000FF;
+}
+
+.cmd {
+	background-color:#000000;
+	color:#00FF00;
+	font-family:Courier New;
+}
+
+.ref {
+    position: relative;
+    vertical-align: baseline;
+   }
+
+.refnum {
+    position: relative;
+    left: 2px;
+    bottom: 1ex;
+    font-family: Verdana, sans-serif;
+    color: #005994;
+    font-size: .7em;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.refbody {
+    font-family: Verdana, sans-serif;
+    font-size: .7em;
+    line-height: 1.1;
+    display: block;
+    min-width: 20em;
+    position: absolute;
+    left: 25px;
+    bottom: 25px ;
+    border: 1px solid;
+	border-radius:5px;
+    padding: 5px;
+    background-color: #fff;
+    word-wrap: break-word;
+    z-index: 9999;
+    overflow: auto;
+}

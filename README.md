@@ -21,7 +21,7 @@ Hello, and welcome to the README!
 
 I think I'm getting good at this...
 
-So. I was browsing the internet when I came across an HTTP server in python. I downloaded it, played with it, and then got bored with it and it's ridiculously oversimplified structure. I erased the stuff in the file and rewrote it. And I made it good. Kind of. It now has rewriting, permissions, directories, et cetera. So, yeah.
+So. I was browsing the internet when I came across an HTTP server in python. I downloaded it, played with it, and then got bored with it and its ridiculously oversimplified structure. I erased the stuff in the file and rewrote it. And I made it good. Kind of. It now has rewriting, permissions, directories, et cetera. So, yeah.
 
 
 Technical:

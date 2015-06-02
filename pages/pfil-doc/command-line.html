@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PFIL Commands</title>
+		<link rel='stylesheet' type='text/css' href='/pfil/stylesheet.css'/>
+		<script src="/help/jquery.min.js"></script>
+		<script src="/help/jquery-ui.min.js"></script>
+		<script src="/pfil/script.js"></script>
+	</head>
+	
+	<body>	
+		<center><h1>The Purely Functional Imperative Language in the Command Line Interface</h1></center>
+		
+		<p>Like all compiled languages, the Purely Functional Imperative Language needs a compiler. And, as many compilers use the Command Line Interface, a syntax must be established.
+		This chapter is more of a set of guidelines on how to design this syntax than strict rules.</p>
+		
+		<p>The basic syntax for this is <span class="cmd">[compiler name] [filepath]</span>. For example, to compile foo.pfil with the Arbitrary Imaginary Compiler (aic),
+		you would use <span class="cmd">aic foo.pfil</span>. This would compile to a file named, for example, a.exe.</p>
+		
+		<p>If one wishes to control the output file, one uses the <span class="cmd">-o [outfilepath]</span> flag. If one were to use <span class="cmd">aic foo.pfil -o bar.exe</span>, it would
+		do the same as in the previous example, except the outfile would be named bar.exe.</p>
+		
+		<p>If one wishes to go through the steps of compiler optimization on their file without compiling it, one would use the <span class="cmd">-po</span> flag (preprocess only). This will
+		output a file with the same name as would happen if it did not use the -po flag, except this file will be a .pfil as opposed to a .exe, and the .pfil will be optimized.</p>
+		
+		<p>If one wishes to compile without proprocessing (which should only be done if the file was programmed in pure PFIL), one uses the <span class="cmd">-np</span> flag (no preprocessing).
+		This will compile the file without using the preprocessor. If one uses both <span class="cmd">-po</span> and <span class="cmd">-np</span>, an error results.</p>
+		
+		<p>Some flags will override the compiling behavior of the program. <span class="cmd">-h</span> brings up a syntax file, and <span class="cmd">-v</span> displays the version of the compiler.</p>
+		
+		<p>I must repeat that these are simply guidelines for command-line-based compilers, and should be taken with a grain of salt. Things not mentioned here may definitely be incorporated, though 
+		it is advised that all functionality described here be available in some form.</p>
+		
+		<table width="100%">
+			<tr>
+				<td><center><a href="/../pfil/">&lt;&lt;Introduction</a></center></td>
+				<td><center>Whatever comes next&gt;&gt;<center></td>
+			</tr>
+		</table>
+	</body>
+</html>

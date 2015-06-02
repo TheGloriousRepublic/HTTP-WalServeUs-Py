@@ -1,0 +1,64 @@
+#Primitives used in this file are:
+	#import()
+	#function()
+	#return()
+	#True()
+	#False()
+	#set() aka =()
+	#not() aka !()
+	#if()
+
+import(alias)
+
+not = function(a){ #NOT operator. Logical Negation. One input, True if False, False if True
+	if(a){
+		return(False()); #Remember, return exits the function.
+	}
+	return(True())
+}
+
+and = function(a, b){ #AND operator. Logical Conjunction. Two inputs, True if both are True
+	if(a){
+		if(b){
+			return(True());
+		}
+	}
+	return(False());
+}
+
+or = function(a, b){ #OR operator. Logical disjunction. Two inputs, True if either is True
+	if(a){
+		return(True());
+	}
+	if(b){
+		return(True());
+	}
+}
+
+xor = function(a, b){ #Exclusive-OR operator. Logical something-or-other. Two inputs, True if one or the other is True
+	if((a and !b) or (!a and b)){
+		return(True());
+	}
+	return(False());
+}
+
+nand = function(a, b){ #Negated AND
+	return(!(a and b));
+}
+
+nor = function(a, b){ #Negated OR
+	return(!(a or b));
+}
+
+xnor = function(a, b){
+	return(!(a xor b)) #Negated xor
+}
+
+! = alias(not)    #Alias for NOT
+& = alias(and);   #Alias for AND
+| = alias(or);    #Alias for OR
+^ = alias(xor);   #Alias for xor
+!& = alias(nand); #Alias for nand
+!| = alias(nor);  #Alias for nor
+!^ = alias(xnor); #Alias for xnor
+

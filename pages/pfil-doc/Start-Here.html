@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Purely Functional Imperative Language</title>
+		<link rel='stylesheet' type='text/css' href='/pfil/stylesheet.css'/>
+		<script src="/help/jquery.min.js"></script>
+		<script src="/help/jquery-ui.min.js"></script>
+		<script src="/pfil/script.js"></script>
+	</head>
+	<body>
+		<center><h1>Purely Functional Imperative Language</h1></center>
+		<p>PFIL is, as the name suggests, an imperative programming language that is constructed entirely of functions. Not purely functional in the <a href='https://en.wikipedia.org/wiki/Functional_programming'>traditional sense</a>, where there are no state changes, but purely functional in that <strong>everything</strong> is a function. There are no statements. Only functions. For example, let's look at an if-then construct (without preprocessing):<p>
+		
+		<div class='code'>
+		<span class='yellow'>if</span>(<span class='red'>not</span> <span class='yellow'>if</span>(<i>condition</i>){
+		<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;<span class='blue'>doStuff</span>();
+		<br/>
+		}){
+		<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;<span class='blue'>doOtherStuff</span>();
+		<br/>
+		}
+		</div>
+		
+		<p>Now, if-then functions are, as the phrase "if-then functions" implies, functions. It's pretty obvious, honestly. However, they need to take a group of functions and execute
+		them. Now how do they do that? The answer is that functions in this language can take <i>lambdas</i> (a special type that is essentially an executable block of code) as input
+		and execute them!</p>
+		
+		<p>PFIL's philosophy is largely similar to that of Python: batteries-included. Also, it should look cool, and whatever other Python-lovers say, curly brackets and semicolons look awesome in code. It is a fact of life.</p>
+		
+		<table width="100%">
+			<tr>
+				<td></td>
+				<td><center><a href="../pfil-doc/Technical.html">More Technical Docs&gt;&gt;</a><center></td>
+			</tr>
+		</table>
+	</body>
+</html>

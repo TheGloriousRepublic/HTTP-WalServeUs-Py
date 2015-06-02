@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PFIL Primitives</title>
+		<link rel='stylesheet' type='text/css' href='/pfil/stylesheet.css'/>
+		<script src="/help/jquery.min.js"></script>
+		<script src="/help/jquery-ui.min.js"></script>
+		<script src="/pfil/script.js"></script>
+	</head>
+	
+	<body>	
+		<center><h1>Primitives in the Purely Functional Imperative Language</h1></center>
+		
+		<p>Like all languages, PFIL is going to need some primitives.</p>
+		
+		<p>Builtins are the basic building blocks of a language. Without them, well, you don't have a language. In PFIL, we have to sorts of primitives: builtins and importables.</p>
+		
+		<p>Builtins are what make up the language; to call something a PFIL implementation, it must support all of the builtins. Builtins are the functions that can be used to implement almost anything that can be implemented.<span class='ref'><span class='refnum'>1</span><span class='refbody'>I say almost because things like sockets aren't builtins, but can't be implemented with builtins. Sockets are an example of importable primitives</span></span></p>
+		
+		<p>The builtins are as such:</p>
+		
+		<ol>
+			<li><span class='code'>import(module[, name])</span>: imports a module as name (that is, into the <em>name</em> namespace). If no name is given, defaults to that module's name</li>
+			<li><span class='code'>alias(stringid, function)</span>: creates an alias. From that point on, stringid works like a function with the same properties as function</li>
+			<li><span class='code'>
+		
+		<table width="100%">
+			<tr>
+				<td><center><a href="/../pfil-doc/Technical.html">&lt;&lt;Technical Introduction</a></center></td>
+				<td><center>Whatever comes next&gt;&gt;<center></td>
+			</tr>
+		</table>
+	</body>
+</html>

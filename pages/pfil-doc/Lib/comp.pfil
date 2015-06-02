@@ -1,0 +1,46 @@
+#Primitives used in this file are:
+	#not() aka !()
+	#set() aka =()
+	#True()
+	#False()
+	#function()
+	#return()
+	#gt() aka >()
+	#lt() aka <()
+	#import()
+	#alias
+
+import(bool) #Automatic libraries must explicitly import other automatic libraries to avoid infinite recursive importing
+
+eq = function(a, b){ #Equality tester
+	if(!(a>b) and !(a<b)){
+		return(True());
+	}
+	return(False());
+}
+alias('==',eq); #Alias for eq
+
+neq = function(a, b){ #Inequality tester
+	if(!(a==b)){
+		return(True());
+	}
+	return(False());
+}
+
+alias('!=', neq);
+
+lteq = function(a, b){ #Less than or equal to
+	if(a<b or a==b){
+		return(True());
+	}
+	return(False());
+}
+alias('<=', lteq);
+
+gteq = function(a, b){ #Less than or equal to
+	if(a<b or a==b){
+		return(True());
+	}
+	return(False());
+}
+alias('>=', gteq);
