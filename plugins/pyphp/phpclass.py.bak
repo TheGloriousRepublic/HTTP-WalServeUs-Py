@@ -1,7 +1,7 @@
-from . import varref
-from .prepr import prepr
-from . import phpfunction
-from . import errors
+import varref
+from prepr import prepr
+import phpfunction
+import errors
 
 class PHPClass:
 	def __init__(self, name, superclass, body, context, filename=None, line_num=0):
@@ -65,8 +65,8 @@ class PHPClass:
 		self.body[key] = value
 		
 	def __call__(self, *args):
-		print("Called %s with %r"%(self, args))
-		print(qqwweerr)
+		print "Called %s with %r"%(self, args)
+		print qqwweerr
 		
 	def __repr__(self):
 		return '<phpclass %r%s>'%(self.name, ' extends %r'%self.superclass.name if self.superclass else '')

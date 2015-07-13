@@ -58,7 +58,7 @@ def run(script, mode='main'):
             runtime[a[0]]=''.join(a[1:])
             
         elif c == 'print': #Print to console
-            print((''.join(a)))
+            print(''.join(a))
 
         elif c == '':
             pass

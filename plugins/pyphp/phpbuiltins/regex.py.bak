@@ -1,5 +1,5 @@
-from .builtin import builtin
-from . import constants
+from builtin import builtin
+import constants
 import pyphp.phparray as phparray
 #import re
 
@@ -12,7 +12,7 @@ if USING_PCRE:
     try:
         import pcre as re
         USING_PCRE = True
-    except ImportError as ie: 
+    except ImportError, ie: 
         USING_PCRE = False
         
 
@@ -71,11 +71,11 @@ def preg_replace(args, executer, local):
     if not USING_PCRE:
         warn(executer)
         if isinstance(pattern, phparray.PHPArray):
-            pattern = list(pattern.values())
+            pattern = pattern.values()
         else:
             pattern = [str(pattern)]
         if isinstance(replacement, phparray.PHPArray):
-            replacement = list(replacement.values())
+            replacement = replacement.values()
         else:
             replacement = [replacement] * len(pattern)
         rep_len = len(replacement)
@@ -91,4 +91,4 @@ def preg_replace(args, executer, local):
         if len(args) >= 4:
             executer.set_val(args[4], subs_made)
         return subject
-    raise Exception()
+    raise StandardError()

@@ -1,6 +1,5 @@
-from . import parser
+import parser
 import weakref
-import collections
 
 # Verbosity levels for this module
 VERBOSITY_NONE = 0
@@ -55,7 +54,7 @@ OPERATORS_ASSIGNMENT = ('=', '+=', '-=', '*=', '/=', '.=', '%=', '&=', '|=', '^=
 RIGHT_ASSOCIATIVE = True
 LEFT_ASSOCIATIVE  = False
 
-class CompileError(Exception):
+class CompileError(StandardError):
 	"An Error ocurring during the compilation phase"
 	pass
 
@@ -98,7 +97,7 @@ class Compiler(object):
 		self.indent = 0
 		
 		if VERBOSE >= VERBOSITY_TRACE_GRAMMAR:
-			from . import trace
+			import trace
 			trace.trace_obj_calls(self, ['!', 'cur_filename_line', 'cur_token', 'compile', 'compile_php_file', 'skip_comments_and_ws', 'skip_to_next'])
 		
 		#for i in dir(self):
@@ -121,7 +120,7 @@ class Compiler(object):
 			tok = parser.Token((parser.TOKEN_EOF,), None, -1)
 			
 		if can_verbose and VERBOSE >= VERBOSITY_SHOW_READ_TOKENS:
-			print("%s%s"%("  "*self.indent, tok))
+			print "%s%s"%("  "*self.indent, tok)
 		return tok
 	def skip_to_next(self):
 		"Advances to the next non-ws, non-comment token."
@@ -132,7 +131,7 @@ class Compiler(object):
 		tok = self.cur_token()
 		while self.i < len(self.tokens) and tok[0] in (parser.TOKEN_COMMENT, parser.TOKEN_WS):
 			if VERBOSE >= VERBOSITY_SHOW_SKIPPED_WS:
-				print("Skipping ws : %r"%tok)
+				print "Skipping ws : %r"%tok
 			self.i += 1
 			tok = self.cur_token()
 	def expect_token(self, *parts):
@@ -144,7 +143,7 @@ class Compiler(object):
 	def expect_sequence(self, *expected_tokens):
 		sequence=[]
 		for exp_tok in expected_tokens:
-			if isinstance(exp_tok, collections.Callable):
+			if callable(exp_tok):
 				sequence.append(exp_tok())
 			else:
 				sequence.append(self.cur_token())
@@ -194,7 +193,7 @@ class Compiler(object):
 		token = self.cur_token()
 		stmt = None
 		if VERBOSE >= VERBOSITY_SHOW_READ_TOKENS:
-			print("compiling stmt, %s"%token) 
+			print "compiling stmt, %s"%token 
 		if token[0] == parser.TOKEN_IDENTIFIER:
 			ident_lc_name = token[1].lower();
 			if ident_lc_name == KEYWORD_DEFINE:
@@ -239,7 +238,7 @@ class Compiler(object):
 			raise CompileError("File:%s, line:%s, Expected stmt instead of %s"%(token.filename, token.line_num, ' '.join([str(x) for x in token])))
 		
 		if VERBOSE >= VERBOSITY_SHOW_COMPILED_STATEMENTS:
-			print("@@ %s"%stmt.prepr())
+			print "@@ %s"%stmt.prepr()
 		return stmt
 	def compile_echo_stmt(self):         # echo_stmt          => ECHO expression_list
 		fn, ln = self.cur_filename_line()
@@ -547,7 +546,7 @@ class Compiler(object):
 			try:
 				follower = self.compile_primitive_follower()
 				args.append(follower)
-			except CompileError as ce:
+			except CompileError, ce:
 				break
 		return TreeNode("followed_primitive", args, args[0].filename, args[0].line_num) if len(args) > 1 else args[0]
 
@@ -583,11 +582,11 @@ class Compiler(object):
 			for i, interp in enumerate(interpolations):
 				if isinstance(interp, parser.TokenList):
 					if VERBOSE > VERBOSITY_NONE:
-						print("==================================================")
+						print "=================================================="
 					C = Compiler(interp)
 					interpolations[i] = C.compile_factor()
 					if VERBOSE > VERBOSITY_NONE:
-						print("==================================================")
+						print "=================================================="
 			self.skip_to_next()
 			return TreeNode("primitive", [tok], tok.filename, tok.line_num)
 		else:
@@ -881,32 +880,32 @@ def test(*args, **kw):
 		kw['code'] = args[0]
 	if 'filename' in kw:
 		filename = kw['filename']
-		print("parsing file : %r"%filename)
+		print "parsing file : %r"%filename
 		with file(filename) as finp:
-			print(finp.read())
-		print("----")
+			print finp.read()
+		print "----"
 		php_code = parser.parse_file(filename)
 	elif 'code' in kw:
 		code = kw['code']
-		print("parsing php code :\n%s"%code)
-		print("----")
+		print "parsing php code :\n%s"%code
+		print "----"
 		php_code = parser.parse_php(code)
-	print("----")
-	print("Parsed Code:\n", php_code)
+	print "----"
+	print "Parsed Code:\n", php_code
 	
 	compiled_code = compile_php(php_code)
-	print()
+	print
 	def print_node(node, depth=0):
-		print("  "*depth, end=' ') 
+		print "  "*depth, 
 		if isinstance(node, TreeNode):
-			print(node.name)
+			print node.name
 			for c in node.children:
 				print_node(c, depth+1)
 		else:
-			print(node)
+			print node
 			
-	print("Compiled Code:\n")
-	print(compiled_code.prepr())
+	print "Compiled Code:\n"
+	print compiled_code.prepr()
 	
 
 if __name__ == '__main__':

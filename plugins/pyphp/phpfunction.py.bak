@@ -1,7 +1,7 @@
-from . import errors
-from . import executer
-from .phpbuiltins import constants
-from .scope import scope
+import errors
+import executer
+from phpbuiltins import constants
+from scope import scope
 
 
 class PHPFunction():
@@ -58,16 +58,16 @@ class PHPFunction():
 			call_context[par[1]] = val
 			
 		if self.name == 'library':
-			print(('='*20 +'\n')*5)
-			print(self.body.prepr())
-			print(('='*20 +'\n')*5)
+			print ('='*20 +'\n')*5
+			print self.body.prepr()
+			print ('='*20 +'\n')*5
 		# print executer
 		# print self.body
 		# print call_context
 		
 		try:
 			return executer.visit(self.body, call_context)
-		except errors.ReturnError as rerr:
+		except errors.ReturnError, rerr:
 			return rerr.retval
 		
 		# raise errors.ExecuteError("Can't execute yet.")

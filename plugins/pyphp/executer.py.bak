@@ -1,18 +1,18 @@
-from . import parser
-from . import compiler
-from . import phpbuiltins
-from . import prepr
-from .phpbuiltins.primitives import primitives
-from . import phpbuiltins.constants as constants
-from . import phpclass
-from . import phpfunction
-from . import phparray
-from . import coerce
-from .varref import VarRef, VarDef
-from .errors import ExecuteError, ReturnError, StopExecutionError
-from . import trace
+import parser
+import compiler
+import phpbuiltins
+import prepr
+from phpbuiltins.primitives import primitives
+import phpbuiltins.constants as constants
+import phpclass
+import phpfunction
+import phparray
+import coerce
+from varref import VarRef, VarDef
+from errors import ExecuteError, ReturnError, StopExecutionError
+import trace
 import sys
-from .scope import scope
+from scope import scope
 
 
 # Verbosity levels for this module
@@ -56,7 +56,7 @@ class AbstractPhpExecuter(object):
 	def report_error(self, err_type, msg):
 		prefix, severity = self.error_prefixes.get(err_type, 'Error')
 		if (err_type & self.ERROR_REPORTING) != 0:
-			print("\n%s: %s"%(prefix, msg))
+			print "\n%s: %s"%(prefix, msg)
 		if severity > 0:
 			raise StopExecutionError("\n%s: %s"%(prefix, msg))
 			
@@ -80,25 +80,25 @@ class AbstractPhpExecuter(object):
 		
 	def execute(self):
 		if VERBOSE >= VERBOSITY_NOTIFY_RUNNING:
-			print("Running %r\n\n---\n"%self.code_tree)
+			print "Running %r\n\n---\n"%self.code_tree
 		try:
 			return self.visit(self.code_tree, self.globals)
-		except StopExecutionError as e:
+		except StopExecutionError, e:
 			if self.last_node:
-				print(self.last_node.prepr())
-				print(self.last_scope.prepr())
-		except Exception as e:
+				print self.last_node.prepr()
+				print self.last_scope.prepr()
+		except StandardError, e:
 			if self.last_node:
-				print("Error ocurred in %s (line %s)"%(self.last_node.filename, self.last_node.line_num))
-				print(self.last_node.prepr())
-				print(self.last_scope.prepr())
+				print "Error ocurred in %s (line %s)"%(self.last_node.filename, self.last_node.line_num)
+				print self.last_node.prepr()
+				print self.last_scope.prepr()
 			raise
 		
 	def visit(self, tree_node, local_dict):
 		last_context = self.last_node, self.last_scope
 		self.last_node, self.last_scope  = tree_node, local_dict
 		if VERBOSE >= VERBOSITY_SHOW_VISITED_NODES:
-			print("Visiting %s (line %s) : %s %s"%(tree_node.filename, tree_node.line_num, tree_node.name, prepr.prepr(local_dict)))
+			print "Visiting %s (line %s) : %s %s"%(tree_node.filename, tree_node.line_num, tree_node.name, prepr.prepr(local_dict))
 		fn = getattr(self, 'exec_%s'%tree_node.name, None)
 		if fn is not None:
 			retval = fn(tree_node, local_dict)
@@ -108,7 +108,7 @@ class AbstractPhpExecuter(object):
 		return retval
 	def visit_default(self, tree_node, local_dict=None):
 		if VERBOSE >= VERBOSITY_SHOW_DEBUG:
-			print(tree_node.prepr())
+			print tree_node.prepr()
 		raise ExecuteError("Cannot visit node %r, visitor method 'exec_%s' not found.\n"%(tree_node.name, tree_node.name))
 
 	def has_val(self, var_ref):
@@ -328,7 +328,7 @@ class PhpExecuter(AbstractPhpExecuter):
 		return factor
 
 	def exec_classdef(self, node, local):
-		print("%"*100)
+		print "%"*100
 		cls_name, scls_name, body = node.children
 		if scls_name and not scls_name[1] in local:
 			raise ExecuteError("Undefined superclass %s"%scls_name[1])
@@ -414,7 +414,7 @@ class PhpExecuter(AbstractPhpExecuter):
 	def exec_or_expression(self, node, local):
 		# print node.prepr()
 		for i, subnode in enumerate(node.children):
-			print(subnode)
+			print subnode
 			val = self.get_val(self.visit(subnode.children[0] if i else subnode, local))
 			if val:
 				return val
@@ -465,7 +465,7 @@ class PhpExecuter(AbstractPhpExecuter):
 			raise ExecuteError("Cannot index %r "%factor)
 	def apply_fncall_follower(self, factor, follower, local):
 		if VERBOSE >= VERBOSITY_SHOW_FN_CALLS:
-			print("Calling %s\n on %s"%(follower.prepr(), factor))
+			print "Calling %s\n on %s"%(follower.prepr(), factor)
 		
 		func_name=factor
 		factor = self.get_val(factor)
@@ -485,12 +485,12 @@ class PhpExecuter(AbstractPhpExecuter):
 		elif isinstance(factor, phpbuiltins.builtin.builtin):
 			args = [ self.visit(x, local) for x in follower.children[0].children]
 			if VERBOSE >= VERBOSITY_SHOW_FN_CALLS:
-				print("calling builtin %r with %r"%(factor, args))
+				print "calling builtin %r with %r"%(factor, args)
 			retval = factor(args, self, local)
 		else:
 			args = [ self.get_val(self.visit(x, local)) for x in follower.children[0].children]
 			if VERBOSE >= VERBOSITY_SHOW_FN_CALLS:
-				print("calling %r with %r"%(factor, args))
+				print "calling %r with %r"%(factor, args)
 			retval = factor(*args, filename=follower.filename, line_num=follower.line_num)
 		# print "Return value : ", retval
 		return retval
@@ -532,9 +532,9 @@ class PhpExecuter(AbstractPhpExecuter):
 		return value
 	
 	def coerce_numeric(self, x):
-		if type(x) in (int, int, float):
+		if type(x) in (int, long, float):
 			return x
-		elif type(x) in (str, str) :
+		elif type(x) in (str, unicode) :
 			m = parser.RE_float.match(x)
 			if m:
 				return float(m.group(0))
@@ -578,7 +578,7 @@ if __name__ == '__main__':
 				if key == 'show_globals' and int(val):
 					show_globals = True
 				else:
-					print("Unknown option %s"%arg)
+					print "Unknown option %s"%arg
 			else:
 				if len(phpargv) == 0:
 					phpfile = arg
@@ -595,6 +595,6 @@ if __name__ == '__main__':
 		executer = execute_php(parser.TEST_CODE)
 		
 	if show_globals:
-		print("[ended]\n-- globals --")
+		print "[ended]\n-- globals --"
 		for i in executer.globals.dict:
-			print("%-14s  ->  %r"%(i, executer.globals[i]))
+			print "%-14s  ->  %r"%(i, executer.globals[i])

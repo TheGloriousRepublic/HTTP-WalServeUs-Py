@@ -115,7 +115,7 @@ class PHPArray:
 		self.dict = dict(new_kv_pair)
 		for i, item in enumerate(items):
 			self.dict[i] = item
-		self.keys = list(range(len(items))) + [k for k,v in new_kv_pair]
+		self.keys = range(len(items)) + [k for k,v in new_kv_pair]
 	
 	def __repr__(self):
 		return 'phparray(%s)'%(', '.join([

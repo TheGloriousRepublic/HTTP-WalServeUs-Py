@@ -1,19 +1,19 @@
-from .builtin import builtin
+from builtin import builtin
 import pyphp.phparray as phparray
 import pyphp.coerce as coerce
 
 @builtin
 def str_replace(args, executer, local):
     import prepr
-    search, replace, subject = list(map(executer.get_val, args[:3]))
+    search, replace, subject = map(executer.get_val, args[:3])
     #print '\n='*90
     #print {'search':search,'replace':replace,'subject':subject}
     if isinstance(search, phparray.PHPArray):
-        search = list(search.values())
+        search = search.values()
     else:
         search = [search]
     if isinstance(replace, phparray.PHPArray):
-        replace = list(replace.values())
+        replace = replace.values()
     else:
         replace = [replace] * len(search)
     rep_len = len(replace)

@@ -1,4 +1,4 @@
-from .prepr import prepr
+from prepr import prepr
 	
 class scope(object):
 	"Represents a scope, a context in which variables and functions are defined and bound to."
@@ -32,7 +32,7 @@ class scope(object):
 		dstr=dchr*depth
 		return '%s%sscope :\n%s %s%s'%(
 			dstr, self.name + '-' if self.name else '',
-			dstr, ('\n%s '%dstr).join(['%s => %r'%(x,y) for x,y in list(self.dict.items())]),
+			dstr, ('\n%s '%dstr).join(['%s => %r'%(x,y) for x,y in self.dict.items()]),
 			'\n'+
 			'\n'.join([prepr(p, depth+1) for p in self.parents] if self.parents else [])
 		)

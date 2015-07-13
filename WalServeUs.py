@@ -1,5 +1,5 @@
 #This software is licensed under the Glorious Republic's Glorious Free Software License 1.0. Just in case you were wondering.
-import Tkinter, BaseHTTPServer, CGIHTTPServer, socket, os, sys, datetime, atexit, re, mimetypes, socket
+import tkinter, http.server, http.server, socket, os, sys, datetime, atexit, re, mimetypes, socket
 
 from plugins import *
 
@@ -96,7 +96,7 @@ def log(dat): #Print to console and save to log
     open(settings['lgdir']+'/server.log', 'w+').write(b+o+'\n\n') #Write a concatenation of old log and new log to log
     print(o)
 
-class webServer(BaseHTTPServer.BaseHTTPRequestHandler, CGIHTTPServer.CGIHTTPRequestHandler): #Main handler class
+class webServer(http.server.BaseHTTPRequestHandler):#, http.server.CGIHTTPRequestHandler): #Main handler class
     
     def send_error(self, code, message=None):
         self.send_response(code)#, message)
@@ -276,7 +276,7 @@ class webServer(BaseHTTPServer.BaseHTTPRequestHandler, CGIHTTPServer.CGIHTTPRequ
         self.logCommand()
         ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
         if ctype == 'multipart/form-data':
-            print(self.rfile)
+            print((self.rfile))
             query=cgi.parse_multipart(self.rfile, pdict)
         
         self.send_response(301, '')
@@ -334,6 +334,6 @@ individualvisitors=len(connected) #Get number of unique connectors
 atexit.register(gracefulShutdown) #Record logs at shutdown
 
 if __name__ == '__main__':
-    s = BaseHTTPServer.HTTPServer((settings['ip'], int(settings['port'])), webServer)
+    s = http.server.HTTPServer((settings['ip'], int(settings['port'])), webServer)
     #print(s)
     serve()

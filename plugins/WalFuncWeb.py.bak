@@ -29,7 +29,7 @@ def main(toparse, dat):
     return evalcom('#content}#')
 
 def throw(t,e):
-    print(('Error: '+t+': '+e))
+    print('Error: '+t+': '+e)
     while 1:
         pass
     

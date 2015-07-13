@@ -1,4 +1,4 @@
-from . import phpbuiltins.constants
+import phpbuiltins.constants
 
 VERBOSITY_NONE = 0
 VERBOSITY_SHOW_DEBUG = 1
@@ -27,7 +27,7 @@ class VarRef(object):
 		
 	def get_context_obj(self, auto_create=False):
 		if VERBOSE >= VERBOSITY_SHOW_DEBUG:
-			print("Getting context of %r"%self)
+			print "Getting context of %r"%self
 		if isinstance(self.context, VarRef):
 			# print "  -> context is chained to %r"%self.context
 			ctx_name, ctx = self.context.get_context_obj()
@@ -64,12 +64,12 @@ class VarRef(object):
 		context[self.name] = value
 		
 	def isset(self):
-		from . import prepr
+		import prepr
 		try:
 			#print "Fetching varref context..."
 			context_name, context = self.get_context_obj(False)
 			#print "  => ", context
-		except IndexError as ie:
+		except IndexError, ie:
 			#print "  => context not found!!!"
 			return False
 		#print "  => var %r in context ::"%self.name, self.name in context
@@ -94,7 +94,7 @@ class VarRef(object):
 	
 
 	def qualified_name(self):
-		from . import phpclass
+		import phpclass
 		name_parts = []
 		if self.particle == '[':
 			name_parts.append(']')

@@ -1,5 +1,4 @@
-from . import prepr
-import collections
+import prepr
 trace_stack=[]
 tcid = 0
 trace_temps = {
@@ -37,9 +36,9 @@ def trace(fn, show_tids = False):
 			'parent_tcid': tpid,
 			'tcid'   : cur_tcid
 		}
-		print(pre_tt % pdata)
+		print pre_tt % pdata
 		rv = fn(*a,**b)
-		print(post_tt % pdata)
+		print post_tt % pdata
 		trace_stack.pop()
 		return rv
 	return tfn
@@ -60,5 +59,5 @@ def trace_obj_calls(obj, filter_fn=None, show_tids=False):
 	
 	for x in dir(obj):
 		y = getattr(obj, x)
-		if x[0] != '_' and isinstance(y, collections.Callable) and filter_fn(x):
+		if x[0] != '_' and callable(y) and filter_fn(x):
 			setattr(obj, x, trace(y, show_tids))

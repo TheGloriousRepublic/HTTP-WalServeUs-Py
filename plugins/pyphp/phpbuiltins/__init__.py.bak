@@ -4,12 +4,12 @@ Declares a @builtin decorator class for tagging php built-in functions, as well 
 
 import pyphp.scope as scope
 
-from . import builtin
-from . import string
-from . import regex
-from . import constants
-from . import datetime
-from . import lang
+import builtin
+import string
+import regex
+import constants
+import datetime
+import lang
 
 def gen_builtins():
 	modules=[constants, datetime, lang, string, regex]

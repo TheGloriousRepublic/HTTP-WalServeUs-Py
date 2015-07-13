@@ -2,7 +2,7 @@
   Utility functions for implementing PHP's automatic type coercion.
 """
 
-from . import phparray
+import phparray
 
 def to_string(x):
 	if x is None:
@@ -20,9 +20,9 @@ def to_int(x):
 		xt = type(x)
 		if xt is int:
 			return x
-		elif xt in (int, float):
+		elif xt in (long, float):
 			return int(x)
-		elif xt in (str, str):
+		elif xt in (str, unicode):
 			ord_0, ord_9 = ord('0'), ord('9')
 			sign, val, base = 1, 0, 10
 			if x[0] in '-+':
@@ -47,7 +47,7 @@ def to_bool(x):
 		xt = type(x)
 		if xt is bool:
 			return x
-		elif xt in (str, str):
+		elif xt in (str, unicode):
 			return len(x) > 0 and x != '0'
 		elif isinstance(x, pyphp.phparrar.PHPArray):
 			return len(x) > 0
